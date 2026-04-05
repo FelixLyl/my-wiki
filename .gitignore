@@ -1,0 +1,23 @@
+# Obsidian 插件缓存（不同设备各自管理）
+.obsidian/plugins/
+.obsidian/cache
+.obsidian/workspace.json
+.obsidian/workspace-mobile.json
+
+# macOS 系统文件
+.DS_Store
+**/.DS_Store
+
+# 临时文件
+*.tmp
+*.swp
+
+# 敏感信息
+.env
+secrets/
+
+# 但保留 Obsidian 核心配置（主题、外观、快捷键）
+!.obsidian/app.json
+!.obsidian/appearance.json
+!.obsidian/hotkeys.json
+!.obsidian/community-plugins.json

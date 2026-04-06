@@ -2,11 +2,11 @@
 type: concept
 maturity: draft
 date: 2026-04-05
-updated: 2026-04-05
-tags: [claude-code, claude-md, llm-engineering, configuration]
-aliases: [CLAUDE.md, Claude配置文件]
-sources: ["raw/AI编程.pdf"]
-related: ["[[Claude-Agent-Teams]]", "[[Claude-Sub-Agents]]", "[[知识沉淀双轨机制]]"]
+updated: 2026-04-06
+tags: [claude-code, claude-md, llm-engineering, configuration, agent-behavior]
+aliases: [CLAUDE.md, Claude配置文件, claude.md行为规范]
+sources: ["raw/AI编程.pdf", "raw/ai-research-list-2026-04-06.md"]
+related: ["[[Claude-Agent-Teams]]", "[[Claude-Sub-Agents]]", "[[知识沉淀双轨机制]]", "[[OpenClaw-Skill生态]]"]
 ---
 
 # CLAUDE.md 配置方法论
@@ -46,6 +46,21 @@ CLAUDE.md 是放置在项目根目录的配置文件，用于向 Claude Code 声
 1. 将配置内容保存为项目根目录下的 `CLAUDE.md`
 2. 在 `.claude/settings.json` 中开启 Agent Teams 功能
 3. 用复杂任务验证：如"帮我开发一个用户积分系统，包括数据库设计和前后端接口"
+
+## Agent 行为规范（4 条黄金准则）
+
+来自调研素材中的高质量提示词实践，适合直接写入 CLAUDE.md：
+
+1. **拒绝假设**：遇到不确定时，先提问而不是猜测
+2. **追求最优**：不满足于"能用"，主动寻找最佳解法
+3. **追根溯源**：遇到 Bug 先找根因，不打补丁
+4. **极致简洁**：回复直击要点，杜绝冗余
+
+这 4 条规范写入 CLAUDE.md 即刻生效，直接影响 Agent 输出质量，成本为零。
+
+## 与 Skills 的关系
+
+[[OpenClaw-Skill生态]] 中的 Skills 是 CLAUDE.md "执行层"的具体实现形式。CLAUDE.md 声明"执行某类任务时优先调用对应 Skill"，Skills 则提供具体执行能力（如 prd、prd-to-issues、sql-optimization 等）。两者配合构成完整的 AI 工程师工作台。
 
 ## 设计哲学
 

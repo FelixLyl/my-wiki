@@ -2,11 +2,11 @@
 type: concept
 maturity: draft
 date: 2026-04-05
-updated: 2026-04-05
-tags: [claude-code, agent, multi-agent, llm-engineering]
-aliases: [Agent Teams, Claude多Agent协作]
-sources: ["raw/AI编程.pdf"]
-related: ["[[Claude-Sub-Agents]]", "[[CLAUDE-md配置方法论]]", "[[知识沉淀双轨机制]]"]
+updated: 2026-04-06
+tags: [claude-code, agent, multi-agent, llm-engineering, openclaw]
+aliases: [Agent Teams, Claude多Agent协作, 多龙虾协作]
+sources: ["raw/AI编程.pdf", "raw/ai-research-list-2026-04-06.md"]
+related: ["[[Claude-Sub-Agents]]", "[[CLAUDE-md配置方法论]]", "[[知识沉淀双轨机制]]", "[[OpenClaw-Skill生态]]"]
 ---
 
 # Claude Agent Teams
@@ -40,6 +40,14 @@ Claude Agent Teams 是一种在复杂任务中自动组建多 Agent 协作小组
 ## 与 Sub Agents 的区别
 
 Agent Teams 是**预先组建**的协作团队，适合已知需要多角色的任务。[[Claude-Sub-Agents]] 是**动态创建**的一次性 Agent，适合执行过程中遇到的隔离型子任务。两者可以嵌套使用。
+
+## OpenClaw 多龙虾实践
+
+在 OpenClaw 生态中，多 Agent 协作形态丰富，对应不同规模需求：
+
+- **实战团队**：多龙虾协作实战（参见《OpenClaw 24小时AI团队》），涵盖多 Agent 分工与任务调度
+- **智能路由**：`claw-router` 根据任务类型自动分配给最合适的 OpenClaw 实例，是多 Agent 调度层
+- **统一监控**：`control-center` 提供多龙虾仪表盘，查看各实例 Token 消耗与健康状态，在规模化后成为必需组件
 
 ## 配置方式
 

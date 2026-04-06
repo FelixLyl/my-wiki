@@ -26,7 +26,7 @@ LEDGER     = $META_DIR/compiled_ledger.json
 
 ---
 
-## 工作流 A：增量入库（触发词：「入库」「/wiki-compiler」）
+## 工作流 A：增量入库（触发词：「入库」「/wiki」）
 
 **核心原则：严禁重复处理，增量永远优于全量。**
 
@@ -38,6 +38,17 @@ git pull --rebase origin main
 ```
 
 若有冲突，停下来告知主人，不继续入库。
+
+**iCloud 素材回收（仅 Mac 本地）：**
+
+```bash
+ICLOUD_DIR=~/Library/Mobile\ Documents/iCloud~md~obsidian/Documents/my-wiki
+if [ -d "$ICLOUD_DIR" ]; then
+  rsync -av "$ICLOUD_DIR/raw/" ~/my-wiki/raw/
+fi
+```
+
+将手机端通过 Obsidian 投入到 iCloud `raw/` 的素材同步回本地项目。
 
 ### Step 1 — 幂等检查
 
@@ -86,6 +97,16 @@ git pull --rebase origin main
 ```
 
 若有冲突，停下来告知主人，不要继续执行后续阶段。
+
+**iCloud 素材回收（仅 Mac 本地）：**
+
+```bash
+ICLOUD_DIR=~/Library/Mobile\ Documents/iCloud~md~obsidian/Documents/my-wiki
+if [ -d "$ICLOUD_DIR" ]; then
+  rsync -av "$ICLOUD_DIR/raw/" ~/my-wiki/raw/
+fi
+```
+
 若 pull 成功，继续执行后续阶段。
 
 ### 第一阶段 — 夜间巡逻
@@ -144,6 +165,19 @@ git push origin main
 ```
 
 若 push 失败（冲突），先 `git pull --rebase`，再 push，并告知主人。
+
+### iCloud 同步（仅 Mac 本地，push 成功后执行）
+
+```bash
+ICLOUD_DIR=~/Library/Mobile\ Documents/iCloud~md~obsidian/Documents/my-wiki
+if [ -d "$ICLOUD_DIR" ]; then
+  rsync -av --delete --exclude='.git' --exclude='.meta' \
+    ~/my-wiki/ "$ICLOUD_DIR/"
+fi
+```
+
+将本地项目同步到 iCloud，供 iPhone Obsidian 查看。排除 `.git`、`.meta`。
+Docker/服务器环境无 iCloud 目录，自动跳过。
 
 ---
 

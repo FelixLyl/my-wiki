@@ -3,5 +3,6 @@
   "newFileLocation": "folder",
   "newFileFolderPath": "wiki/concepts",
   "attachmentFolderPath": "raw/media",
-  "showUnsupportedFiles": false
+  "showUnsupportedFiles": false,
+  "promptDelete": false
 }

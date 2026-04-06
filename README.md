@@ -62,7 +62,7 @@ my-wiki/
 │   ├── patterns/
 │   └── philosophies/
 ├── skills/
-│   └── wiki-compiler/
+│   └── wiki/
 │       └── SKILL.md      # AI 工作规范
 └── .meta/                # 系统元数据（不要手动改）
     ├── compiled_ledger.json

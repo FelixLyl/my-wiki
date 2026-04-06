@@ -1,11 +1,42 @@
 {
   "version": "1.0",
-  "last_updated": "2026-04-05",
+  "last_updated": "2026-04-06",
   "compiled_files": {
     "raw/AI编程.pdf": {
       "mtime": 1775417213,
       "compiled_at": "2026-04-05",
       "articles_touched": ["concepts/Claude-Agent-Teams.md", "concepts/Claude-Sub-Agents.md", "concepts/CLAUDE-md配置方法论.md", "concepts/知识沉淀双轨机制.md"]
+    },
+    "raw/karpathy-llm-wiki-pattern.md": {
+      "mtime": 1775462008,
+      "compiled_at": "2026-04-06",
+      "articles_touched": [
+        "concepts/个人知识库编译器模式.md",
+        "concepts/LLM知识库三层架构.md",
+        "patterns/Wiki-vs-RAG.md",
+        "people/Andrej-Karpathy.md",
+        "sources/karpathy-llm-wiki-pattern.md"
+      ]
+    },
+    "raw/zhangpelf-wiki-compiler-v2.md": {
+      "mtime": 1775461962,
+      "compiled_at": "2026-04-06",
+      "articles_touched": [
+        "concepts/个人知识库编译器模式.md",
+        "patterns/幂等防重模式.md",
+        "concepts/做梦机制.md",
+        "people/Andrej-Karpathy.md",
+        "sources/zhangpelf-wiki-compiler-v2.md"
+      ]
+    },
+    "raw/farzaa-personal-wiki-skill.md": {
+      "mtime": 1775462059,
+      "compiled_at": "2026-04-06",
+      "articles_touched": [
+        "concepts/个人知识库编译器模式.md",
+        "patterns/幂等防重模式.md",
+        "sources/farzaa-personal-wiki-skill.md"
+      ]
     }
   }
 }

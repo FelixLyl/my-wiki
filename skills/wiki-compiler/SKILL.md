@@ -30,6 +30,15 @@ LEDGER     = $META_DIR/compiled_ledger.json
 
 **核心原则：严禁重复处理，增量永远优于全量。**
 
+### Step 0 — 同步最新内容
+
+```bash
+cd ~/my-wiki
+git pull --rebase origin main
+```
+
+若有冲突，停下来告知主人，不继续入库。
+
 ### Step 1 — 幂等检查
 
 读取 `LEDGER`（compiled_ledger.json），比对 `RAW_DIR` 下各文件的路径 + 修改时间。
@@ -67,6 +76,16 @@ LEDGER     = $META_DIR/compiled_ledger.json
 ## 工作流 B：做梦机制（触发词：「做个梦」「/wiki-dream」）
 
 **核心原则：空闲时产生增量价值，绝不修改已有内容主体。**
+
+### 第零阶段 — 同步最新内容（必须第一步执行）
+
+```bash
+cd ~/my-wiki
+git pull --rebase origin main
+```
+
+若有冲突，停下来告知主人，不要继续执行后续阶段。
+若 pull 成功，继续执行后续阶段。
 
 ### 第一阶段 — 夜间巡逻
 

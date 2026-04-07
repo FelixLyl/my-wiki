@@ -1,4 +1,4 @@
-# Felix's Personal Wiki
+# Personal Wiki
 
 > 由 AI 全权维护的个人知识库。人负责投喂素材和提问，AI 负责其余一切。
 

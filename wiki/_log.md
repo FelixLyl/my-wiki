@@ -1,5 +1,14 @@
 # Wiki 操作日志
 
+## [2026-04-07] dream | 做梦机制 — 灵感碰撞 + 健康检查
+
+- git pull --rebase：成功，fast-forward，无冲突
+- 巡逻：raw/ 5 份素材全部已入账，无遗漏
+- 灵感碰撞文章：[[幂等防重模式]] × [[AI内容创作工作流]] × [[Andrej-Karpathy]]
+- 新建：insights/Insight-流水线即知识复利机-2026-04-07.md
+- 健康检查：孤儿页 3（含新建insight 2 + concepts/双链.md），死链 5 处（建议修复），超长文章 0，空stub 0
+- 更新：_index.md（+1 insights 条目）
+
 ## [2026-04-06] ingest | ai-research-list-2026-04-06.md — 触及 11 篇文章（8 新建，3 更新）
 
 - 新建：concepts/OpenClaw-Agent安全体系.md

@@ -5,8 +5,8 @@ date: 2026-04-05
 updated: 2026-04-06
 tags: [claude-code, claude-md, llm-engineering, configuration, agent-behavior]
 aliases: [CLAUDE.md, Claude配置文件, claude.md行为规范]
-sources: ["raw/AI编程.pdf", "raw/ai-research-list-2026-04-06.md"]
-related: ["[[Claude-Agent-Teams]]", "[[Claude-Sub-Agents]]", "[[知识沉淀双轨机制]]", "[[OpenClaw-Skill生态]]"]
+sources: ["raw/AI编程.pdf", "raw/ai-research-list-2026-04-06.md", "raw/articles/claude-code-source-study-github.md"]
+related: ["[[Claude-Agent-Teams]]", "[[Claude-Sub-Agents]]", "[[知识沉淀双轨机制]]", "[[OpenClaw-Skill生态]]", "[[Claude-Code源码架构]]"]
 ---
 
 # CLAUDE.md 配置方法论
@@ -62,6 +62,10 @@ CLAUDE.md 是放置在项目根目录的配置文件，用于向 Claude Code 声
 
 [[OpenClaw-Skill生态]] 中的 Skills 是 CLAUDE.md "执行层"的具体实现形式。CLAUDE.md 声明"执行某类任务时优先调用对应 Skill"，Skills 则提供具体执行能力（如 prd、prd-to-issues、sql-optimization 等）。两者配合构成完整的 AI 工程师工作台。
 
+## 源码级实现：System Prompt 工程
+
+Claude Code 源码分析（参见 [[Claude-Code源码架构]]）揭示了 CLAUDE.md 在产品内部的实际处理方式。System Prompt 采用分段构建策略：静态规范部分作为 Prompt Cache 的缓存前缀，动态注入的项目配置（即 CLAUDE.md 内容）按优先级排列。Settings 系统实现了 5+1 层配置合并，CLAUDE.md 是其中面向用户的声明层，最终与内置规则、MDM 策略等合并为完整的行为指令。
+
 ## 设计哲学
 
-CLAUDE.md 的本质是**让 AI 成为项目的智能研发主管**，而非单纯的代码生成工具。它通过声明式配置，将项目的工程规范、协作模式和知识沉淀策略内化为 AI 的行为准则。
+CLAUDE.md 的本质是让 AI 成为项目的智能研发主管，而非单纯的代码生成工具。它通过声明式配置，将项目的工程规范、协作模式和知识沉淀策略内化为 AI 的行为准则。

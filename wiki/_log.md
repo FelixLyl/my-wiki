@@ -49,3 +49,10 @@
 - 新建：concepts/Claude-Sub-Agents.md
 - 新建：concepts/CLAUDE-md配置方法论.md
 - 新建：concepts/知识沉淀双轨机制.md
+
+## 2026-04-07 ingest | claude-code-source-study-github.md — 触及 5 篇文章
+
+- 来源：https://github.com/luyao618/Claude-Code-Source-Study
+- 新建：`concepts/Claude-Code源码架构.md`、`sources/claude-code-source-study.md`
+- 更新：`concepts/Prompt-Caching降本.md`、`concepts/Agent记忆持久化.md`、`concepts/CLAUDE-md配置方法论.md`
+- 内容：25 篇 Claude Code 源码深度分析，覆盖 AI 核心/工具系统/Agent 编排/安全/终端 UI/记忆全栈

@@ -6,9 +6,9 @@
 
 | 指标 | 数量 |
 |------|------|
-| 总文章数 | 24 |
-| 已入库素材 | 5 |
-| 最后入库时间 | 2026-04-06 |
+| 总文章数 | 26 |
+| 已入库素材 | 6 |
+| 最后入库时间 | 2026-04-07 |
 
 ## 目录
 
@@ -27,6 +27,7 @@
 - [[OpenClaw-Skill生态]] — Skill 生成/社区来源/自治能力/187 个生产模板
 - [[内部系统Agent集成]] — Swagger 自动生成 Skill / CLI 化 / 浏览器登录态复用
 - [[AI内容创作工作流]] — 公众号全自动流水线 / YouTube 知识化 / GEO-SEO
+- [[Claude-Code源码架构]] — Claude Code 开源源码全栈拆解：AI 核心、工具系统、Agent 编排、安全、终端 UI、记忆
 
 ### 👤 人物 (people/)
 
@@ -46,6 +47,7 @@ _暂无_
 - [[zhangpelf-wiki-compiler-v2]] — zhangpelf V2：幂等防重、做梦机制、零幻觉健康检查、Map-Reduce 综述
 - [[farzaa-personal-wiki-skill]] — farzaa 个人 wiki：针对生活数据的变体，作家视角，五大工作流
 - [[ai-research-list-2026-04-06]] — AI 工具调研清单，82 条记录，覆盖安全/降本/Skills/集成/内容/工程/记忆 7 个方向
+- [[claude-code-source-study]] — luyao618 的 25 篇 Claude Code 源码深度分析，覆盖 AI 核心/工具/Agent/安全/UI/记忆全栈
 
 ### 🕰️ 阶段 (eras/)
 _暂无_

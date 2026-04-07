@@ -54,6 +54,17 @@
         "concepts/Claude-Agent-Teams.md",
         "concepts/知识沉淀双轨机制.md"
       ]
+    },
+    "raw/articles/claude-code-source-study-github.md": {
+      "mtime": 1775527880,
+      "compiled_at": "2026-04-07",
+      "articles_touched": [
+        "concepts/Claude-Code源码架构.md",
+        "sources/claude-code-source-study.md",
+        "concepts/Prompt-Caching降本.md",
+        "concepts/Agent记忆持久化.md",
+        "concepts/CLAUDE-md配置方法论.md"
+      ]
     }
   }
 }

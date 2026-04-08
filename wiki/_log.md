@@ -1,5 +1,10 @@
 # Wiki 操作日志
 
+## [2026-04-08] ingest | dotey-hermes-agent-2026-04-08.md — 触及2篇文章
+
+- 新建：concepts/Hermes-Agent.md
+- 更新：concepts/OpenClaw-Skill生态.md（新增竞品生态章节）
+
 ## [2026-04-08] dream | 做梦机制 — 灵感碰撞 + 健康检查
 
 - git pull --rebase：成功，同步 17 文件，含新增 raw/AI编程.md、wiki/concepts/Claude-Code源码架构.md 等

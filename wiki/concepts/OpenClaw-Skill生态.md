@@ -56,6 +56,10 @@ Skill 是 OpenClaw 的功能扩展单元，本质上是一段描述"如何完成
 
 一个设计探索：用 Skill 封装数据库访问逻辑，替代直接使用 MCP 连数据库。优势是 Skill 可以嵌入业务语义（如"查询近30天的活跃用户"），而非暴露原始 SQL 接口。适合在 Skills 库建设有一定基础后尝试。
 
+## 竞品生态
+
+[[Hermes-Agent]]（Nous Research，2026年2月开源）是社区认定的 OpenClaw 首个真正竞争对手，上线不到两个月 GitHub Stars 接近三万，值得持续关注。
+
 ## 生态导航
 
 `claw123.com`（龙虾导航）是 OpenClaw 生态的聚合导航站，定期浏览可发现新 Skills 和资源。

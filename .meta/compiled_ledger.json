@@ -1,6 +1,6 @@
 {
   "version": "1.0",
-  "last_updated": "2026-04-06",
+  "last_updated": "2026-04-08",
   "compiled_files": {
     "raw/AI编程.pdf": {
       "mtime": 1775417213,
@@ -64,6 +64,14 @@
         "concepts/Prompt-Caching降本.md",
         "concepts/Agent记忆持久化.md",
         "concepts/CLAUDE-md配置方法论.md"
+      ]
+    },
+    "raw/dotey-hermes-agent-2026-04-08.md": {
+      "mtime": 1775670299,
+      "compiled_at": "2026-04-08",
+      "articles_touched": [
+        "concepts/Hermes-Agent.md",
+        "concepts/OpenClaw-Skill生态.md"
       ]
     }
   }

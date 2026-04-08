@@ -1,5 +1,14 @@
 # Wiki 操作日志
 
+## [2026-04-08] dream | 做梦机制 — 灵感碰撞 + 健康检查
+
+- git pull --rebase：成功，同步 17 文件，含新增 raw/AI编程.md、wiki/concepts/Claude-Code源码架构.md 等
+- 巡逻：发现 1 份遗漏素材 `raw/AI编程.md`（终极版 CLAUDE.md 方法论文章，与 AI编程.pdf 不同），**未本次入库，待主人确认**
+- 灵感碰撞：[[Claude-Agent-Teams]] × [[Andrej-Karpathy]] × [[Wiki-vs-RAG]]
+- 新建：insights/Insight-分布式Agent与知识孤岛-2026-04-08.md
+- 健康检查：孤儿页 9（含sources/全部4篇+insights/全部3篇+concepts/双链.md），死链 5 处，超长文章 0，空stub 0
+- 更新：_index.md（+1 insights 条目，总文章数27）
+
 ## [2026-04-07] dream | 做梦机制 — 灵感碰撞 + 健康检查
 
 - git pull --rebase：成功，fast-forward，无冲突

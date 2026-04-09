@@ -1,5 +1,14 @@
 # Wiki 操作日志
 
+## [2026-04-09] dream | 做梦机制 — 灵感碰撞 + 健康检查
+
+- git pull --rebase：成功，Already up to date，无冲突
+- 巡逻：发现 1 份遗漏素材 `raw/AI编程.md`（终极版 CLAUDE.md 方法论，账本中无记录），**待主人确认是否入库**
+- 灵感碰撞：[[自学习复盘模式]] × [[Prompt-Caching降本]] × [[Andrej-Karpathy]]
+- 新建：insights/Insight-错误记忆的缓存友好编码-2026-04-09.md
+- 健康检查：孤儿页 10（含 sources/全部5篇 + insights/全部4篇 + concepts/双链.md），死链 2 处（[[farzaa Personal Wiki Skill]]、[[zhangpelf/wiki-compiler]]），超长文章 0，空stub 0
+- 更新：_index.md（+1 insights 条目，总文章数29）
+
 ## [2026-04-08] ingest | dotey-hermes-agent-2026-04-08.md — 触及2篇文章
 
 - 新建：concepts/Hermes-Agent.md

@@ -1,5 +1,15 @@
 # Wiki 操作日志
 
+## [2026-04-10] dream | 做梦机制 — 灵感碰撞 + 健康检查
+
+- git pull --rebase：stash → pull（already up to date）→ stash pop，无冲突
+- 巡逻：发现 1 份遗漏素材 `raw/AI编程.md`（终极版 CLAUDE.md 方法论，账本记录的是已删除的 .pdf 版本），**待主人确认是否入库**
+- 灵感碰撞：[[自学习复盘模式]] × [[Prompt-Caching降本]] × [[Hermes-Agent]]
+- 新建：insights/Insight-经验缓存化是Agent框架的护城河-2026-04-10.md
+- 健康检查：孤儿页 11（insights/全5篇 + sources/全5篇 + concepts/双链），死链 4 处（[[farzaa Personal Wiki Skill]]、[[zhangpelf/wiki-compiler]]、[[实体名]]、[[引用]]），超长文章 0，空stub 0
+- 修复：删除空文件 concepts/双链.md
+- 更新：_index.md（+1 insights 条目，总文章数 30→29）
+
 ## [2026-04-09] dream | 做梦机制 — 灵感碰撞 + 健康检查
 
 - git pull --rebase：成功，Already up to date，无冲突

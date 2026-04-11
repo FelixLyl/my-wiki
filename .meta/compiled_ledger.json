@@ -81,6 +81,22 @@
         "concepts/markdown-viewer-skills.md",
         "concepts/OpenClaw-Skill生态.md"
       ]
+    },
+    "raw/garrytan-gbrain.md": {
+      "mtime": 1775913176,
+      "compiled_at": "2026-04-11",
+      "articles_touched": [
+        "concepts/GBrain-世界知识脑.md",
+        "concepts/Agent记忆持久化.md"
+      ]
+    },
+    "raw/garrytan-gstack.md": {
+      "mtime": 1775913234,
+      "compiled_at": "2026-04-11",
+      "articles_touched": [
+        "concepts/GStack-虚拟工程团队.md",
+        "concepts/OpenClaw-Skill生态.md"
+      ]
     }
   }
 }

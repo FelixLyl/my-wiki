@@ -64,6 +64,10 @@ Skill 是 OpenClaw 的功能扩展单元，本质上是一段描述"如何完成
 
 [[markdown-viewer-skills]] 是一个专注图表/可视化的 Skills 库（MIT 开源），15 个 Skills 覆盖 PlantUML、Mermaid、Vega、Graphviz 等 7 种渲染引擎，遵循标准 Agent Skills 格式，可作为图表能力模块的参考实现。
 
+## 工程团队 Skills（gstack）
+
+[[GStack-虚拟工程团队]] 是 Garry Tan（YC CEO）开源的 Claude Code 工程配置，23 个专家角色覆盖 think→plan→build→review→test→ship 完整 sprint 流程。提供 4 个 OpenClaw 原生 Skill：`gstack-openclaw-office-hours`、`gstack-openclaw-ceo-review`、`gstack-openclaw-investigate`、`gstack-openclaw-retro`，可通过 clawhub 安装直接使用。
+
 ## 生态导航
 
 `claw123.com`（龙虾导航）是 OpenClaw 生态的聚合导航站，定期浏览可发现新 Skills 和资源。

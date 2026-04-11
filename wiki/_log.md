@@ -100,3 +100,6 @@
 - 备注：孤儿页中的 insights/ 和 sources/ 均属正常结构（sources 被 concepts 双链引用但不被反向链接；insights 是叶子节点），死链4处为历史遗留，建议后续统一清理
 
 ## [2026-04-11] ingest | markdown-viewer-skills.md — 触及 2 篇文章
+
+## [2026-04-11] ingest | garrytan-gbrain.md — 触及 2 篇文章
+## [2026-04-11] ingest | garrytan-gstack.md — 触及 2 篇文章

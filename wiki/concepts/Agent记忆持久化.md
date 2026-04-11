@@ -6,7 +6,7 @@ updated: 2026-04-06
 tags: [memory, persistence, openclaw, agent, long-term-memory, token-optimization]
 aliases: [长期记忆, lossless-claw, Agent记忆, 记忆持久化, 对话持久化]
 sources: ["raw/ai-research-list-2026-04-06.md", "raw/articles/claude-code-source-study-github.md"]
-related: ["[[知识沉淀双轨机制]]", "[[自学习复盘模式]]", "[[Prompt-Caching降本]]", "[[个人知识库编译器模式]]", "[[Claude-Code源码架构]]"]
+related: ["[[知识沉淀双轨机制]]", "[[自学习复盘模式]]", "[[Prompt-Caching降本]]", "[[个人知识库编译器模式]]", "[[Claude-Code源码架构]]", "[[GBrain-世界知识脑]]"]
 ---
 
 # Agent 记忆持久化
@@ -43,6 +43,10 @@ OpenClaw 记忆优化文档涵盖多种方案：
 ## Claude Code 的五层记忆架构
 
 Claude Code 源码（参见 [[Claude-Code源码架构]]）实现了五层记忆架构，支持跨会话持久化。这是目前可公开研究的最完整的 Agent 记忆实现之一，将记忆从短期上下文到长期持久化分层管理，每层有不同的生命周期和访问策略。这一实现为 lossless-claw 等方案提供了工程化参考。
+
+## GBrain：世界知识层
+
+[[GBrain-世界知识脑]]（Garry Tan）是记忆持久化的一个完整工程实现，在 OpenClaw memory 之上增加了"世界知识层"：存储人物/公司/会议/想法等结构化知识，通过 Postgres + pgvector 实现混合检索。两者定位互补——GBrain 管外部世界知识，OpenClaw memory 管 Agent 运行状态。
 
 ## 自动化记忆维护
 

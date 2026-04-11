@@ -52,15 +52,13 @@ my-wiki/
 ├── wiki/                 # 编译后的知识库（AI 维护）
 │   ├── _index.md         # 主索引
 │   ├── _log.md           # 操作日志
-│   ├── concepts/
-│   ├── people/
-│   ├── projects/
-│   ├── insights/
-│   ├── sources/
-│   ├── eras/
-│   ├── decisions/
-│   ├── patterns/
-│   └── philosophies/
+│   ├── Agent工程/        # Agent 架构、多Agent协作、Claude Code
+│   ├── 知识管理/         # Wiki、记忆持久化、GBrain、做梦机制
+│   ├── 工具与生态/       # Skills库、GStack、降本、内部系统集成
+│   ├── 安全/             # Agent 安全体系
+│   ├── 人物/             # 相关人物
+│   ├── 洞见/             # 跨领域碰撞产生的洞见
+│   └── 来源/             # 原始素材摘要
 ├── skills/
 │   └── wiki/
 │       └── SKILL.md      # AI 工作规范

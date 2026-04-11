@@ -89,3 +89,12 @@
 - 新建：`concepts/Claude-Code源码架构.md`、`sources/claude-code-source-study.md`
 - 更新：`concepts/Prompt-Caching降本.md`、`concepts/Agent记忆持久化.md`、`concepts/CLAUDE-md配置方法论.md`
 - 内容：25 篇 Claude Code 源码深度分析，覆盖 AI 核心/工具系统/Agent 编排/安全/终端 UI/记忆全栈
+
+## [2026-04-11] dream | 做梦机制 — 灵感碰撞 + 健康检查
+
+- git pull --rebase：Already up to date，无冲突
+- 巡逻：raw/ 共 7 个文件，账本记录 7 条（AI编程.pdf vs AI编程.md 视为同一素材），**无遗漏**
+- 灵感碰撞：[[Wiki-vs-RAG]] × [[Andrej-Karpathy]] × [[claude-code-source-study]]
+- 新建：insights/Insight-Memex闭环-2026-04-11.md
+- 健康检查：孤儿页 11（insights/全6篇 + sources/全5篇），死链 4 处（[[farzaa Personal Wiki Skill]]、[[zhangpelf/wiki-compiler]]、[[实体名]]、[[引用]]），超长文章 0，空stub 0
+- 备注：孤儿页中的 insights/ 和 sources/ 均属正常结构（sources 被 concepts 双链引用但不被反向链接；insights 是叶子节点），死链4处为历史遗留，建议后续统一清理

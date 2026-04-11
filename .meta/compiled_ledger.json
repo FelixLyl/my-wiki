@@ -5,15 +5,15 @@
     "raw/AI编程.pdf": {
       "mtime": 1775417213,
       "compiled_at": "2026-04-05",
-      "articles_touched": ["概念/Claude-Agent-Teams.md", "概念/Claude-Sub-Agents.md", "概念/CLAUDE-md配置方法论.md", "概念/知识沉淀双轨机制.md"]
+      "articles_touched": ["Agent工程/Claude-Agent-Teams.md", "Agent工程/Claude-Sub-Agents.md", "Agent工程/CLAUDE-md配置方法论.md", "知识管理/知识沉淀双轨机制.md"]
     },
     "raw/karpathy-llm-wiki-pattern.md": {
       "mtime": 1775462008,
       "compiled_at": "2026-04-06",
       "articles_touched": [
-        "概念/个人知识库编译器模式.md",
-        "概念/LLM知识库三层架构.md",
-        "模式/Wiki-vs-RAG.md",
+        "知识管理/个人知识库编译器模式.md",
+        "知识管理/LLM知识库三层架构.md",
+        "知识管理/Wiki-vs-RAG.md",
         "人物/Andrej-Karpathy.md",
         "来源/karpathy-llm-wiki-pattern.md"
       ]
@@ -22,9 +22,9 @@
       "mtime": 1775461962,
       "compiled_at": "2026-04-06",
       "articles_touched": [
-        "概念/个人知识库编译器模式.md",
-        "模式/幂等防重模式.md",
-        "概念/做梦机制.md",
+        "知识管理/个人知识库编译器模式.md",
+        "知识管理/幂等防重模式.md",
+        "知识管理/做梦机制.md",
         "人物/Andrej-Karpathy.md",
         "来源/zhangpelf-wiki-compiler-v2.md"
       ]
@@ -33,8 +33,8 @@
       "mtime": 1775462059,
       "compiled_at": "2026-04-06",
       "articles_touched": [
-        "概念/个人知识库编译器模式.md",
-        "模式/幂等防重模式.md",
+        "知识管理/个人知识库编译器模式.md",
+        "知识管理/幂等防重模式.md",
         "来源/farzaa-personal-wiki-skill.md"
       ]
     },
@@ -42,60 +42,60 @@
       "mtime": 1775470070,
       "compiled_at": "2026-04-06",
       "articles_touched": [
-        "概念/OpenClaw-Agent安全体系.md",
-        "概念/Prompt-Caching降本.md",
-        "概念/Agent记忆持久化.md",
-        "概念/OpenClaw-Skill生态.md",
-        "概念/内部系统Agent集成.md",
-        "概念/AI内容创作工作流.md",
-        "模式/自学习复盘模式.md",
+        "安全/OpenClaw-Agent安全体系.md",
+        "工具与生态/Prompt-Caching降本.md",
+        "知识管理/Agent记忆持久化.md",
+        "工具与生态/OpenClaw-Skill生态.md",
+        "工具与生态/内部系统Agent集成.md",
+        "Agent工程/AI内容创作工作流.md",
+        "知识管理/自学习复盘模式.md",
         "来源/ai-research-list-2026-04-06.md",
-        "概念/CLAUDE-md配置方法论.md",
-        "概念/Claude-Agent-Teams.md",
-        "概念/知识沉淀双轨机制.md"
+        "Agent工程/CLAUDE-md配置方法论.md",
+        "Agent工程/Claude-Agent-Teams.md",
+        "知识管理/知识沉淀双轨机制.md"
       ]
     },
     "raw/articles/claude-code-source-study-github.md": {
       "mtime": 1775527880,
       "compiled_at": "2026-04-07",
       "articles_touched": [
-        "概念/Claude-Code源码架构.md",
+        "Agent工程/Claude-Code源码架构.md",
         "来源/claude-code-source-study.md",
-        "概念/Prompt-Caching降本.md",
-        "概念/Agent记忆持久化.md",
-        "概念/CLAUDE-md配置方法论.md"
+        "工具与生态/Prompt-Caching降本.md",
+        "知识管理/Agent记忆持久化.md",
+        "Agent工程/CLAUDE-md配置方法论.md"
       ]
     },
     "raw/dotey-hermes-agent-2026-04-08.md": {
       "mtime": 1775670299,
       "compiled_at": "2026-04-08",
       "articles_touched": [
-        "概念/Hermes-Agent.md",
-        "概念/OpenClaw-Skill生态.md"
+        "Agent工程/Hermes-Agent.md",
+        "工具与生态/OpenClaw-Skill生态.md"
       ]
     },
     "raw/markdown-viewer-skills.md": {
       "mtime": 1775912923,
       "compiled_at": "2026-04-11",
       "articles_touched": [
-        "概念/markdown-viewer-skills.md",
-        "概念/OpenClaw-Skill生态.md"
+        "工具与生态/markdown-viewer-skills.md",
+        "工具与生态/OpenClaw-Skill生态.md"
       ]
     },
     "raw/garrytan-gbrain.md": {
       "mtime": 1775913176,
       "compiled_at": "2026-04-11",
       "articles_touched": [
-        "概念/GBrain-世界知识脑.md",
-        "概念/Agent记忆持久化.md"
+        "知识管理/GBrain-世界知识脑.md",
+        "知识管理/Agent记忆持久化.md"
       ]
     },
     "raw/garrytan-gstack.md": {
       "mtime": 1775913234,
       "compiled_at": "2026-04-11",
       "articles_touched": [
-        "概念/GStack-虚拟工程团队.md",
-        "概念/OpenClaw-Skill生态.md"
+        "工具与生态/GStack-虚拟工程团队.md",
+        "工具与生态/OpenClaw-Skill生态.md"
       ]
     }
   }

@@ -21,12 +21,12 @@
 
 ## [2026-04-08] ingest | dotey-hermes-agent-2026-04-08.md — 触及2篇文章
 
-- 新建：概念/Hermes-Agent.md
-- 更新：概念/OpenClaw-Skill生态.md（新增竞品生态章节）
+- 新建：Agent工程/Hermes-Agent.md
+- 更新：工具与生态/OpenClaw-Skill生态.md（新增竞品生态章节）
 
 ## [2026-04-08] dream | 做梦机制 — 灵感碰撞 + 健康检查
 
-- git pull --rebase：成功，同步 17 文件，含新增 raw/AI编程.md、wiki/概念/Claude-Code源码架构.md 等
+- git pull --rebase：成功，同步 17 文件，含新增 raw/AI编程.md、wiki/Agent工程/Claude-Code源码架构.md 等
 - 巡逻：发现 1 份遗漏素材 `raw/AI编程.md`（终极版 CLAUDE.md 方法论文章，与 AI编程.pdf 不同），**未本次入库，待主人确认**
 - 灵感碰撞：[[Claude-Agent-Teams]] × [[Andrej-Karpathy]] × [[Wiki-vs-RAG]]
 - 新建：洞见/Insight-分布式Agent与知识孤岛-2026-04-08.md
@@ -44,30 +44,30 @@
 
 ## [2026-04-06] ingest | ai-research-list-2026-04-06.md — 触及 11 篇文章（8 新建，3 更新）
 
-- 新建：概念/OpenClaw-Agent安全体系.md
-- 新建：概念/Prompt-Caching降本.md
-- 新建：概念/Agent记忆持久化.md
-- 新建：概念/OpenClaw-Skill生态.md
-- 新建：概念/内部系统Agent集成.md
-- 新建：概念/AI内容创作工作流.md
-- 新建：模式/自学习复盘模式.md
+- 新建：安全/OpenClaw-Agent安全体系.md
+- 新建：工具与生态/Prompt-Caching降本.md
+- 新建：知识管理/Agent记忆持久化.md
+- 新建：工具与生态/OpenClaw-Skill生态.md
+- 新建：工具与生态/内部系统Agent集成.md
+- 新建：Agent工程/AI内容创作工作流.md
+- 新建：知识管理/自学习复盘模式.md
 - 新建：来源/ai-research-list-2026-04-06.md
-- 更新：概念/CLAUDE-md配置方法论.md（补充 Agent 行为规范 4 条黄金准则，添加 Skills 关系）
-- 更新：概念/Claude-Agent-Teams.md（补充 OpenClaw 多龙虾实践：claw-router/control-center）
-- 更新：概念/知识沉淀双轨机制.md（补充自动复盘机制和长期记忆关联）
+- 更新：Agent工程/CLAUDE-md配置方法论.md（补充 Agent 行为规范 4 条黄金准则，添加 Skills 关系）
+- 更新：Agent工程/Claude-Agent-Teams.md（补充 OpenClaw 多龙虾实践：claw-router/control-center）
+- 更新：知识管理/知识沉淀双轨机制.md（补充自动复盘机制和长期记忆关联）
 
 ## [2026-04-06] ingest | zhangpelf-wiki-compiler-v2.md + karpathy-llm-wiki-pattern.md + farzaa-personal-wiki-skill.md — 触及 10 篇文章（9 新建，1 更新）
 
-- 新建：概念/个人知识库编译器模式.md
-- 新建：概念/LLM知识库三层架构.md
-- 新建：概念/做梦机制.md
-- 新建：模式/Wiki-vs-RAG.md
-- 新建：模式/幂等防重模式.md
+- 新建：知识管理/个人知识库编译器模式.md
+- 新建：知识管理/LLM知识库三层架构.md
+- 新建：知识管理/做梦机制.md
+- 新建：知识管理/Wiki-vs-RAG.md
+- 新建：知识管理/幂等防重模式.md
 - 新建：人物/Andrej-Karpathy.md
 - 新建：来源/karpathy-llm-wiki-pattern.md
 - 新建：来源/zhangpelf-wiki-compiler-v2.md
 - 新建：来源/farzaa-personal-wiki-skill.md
-- 更新：概念/知识沉淀双轨机制.md（补充知识库编译器视角关联）
+- 更新：知识管理/知识沉淀双轨机制.md（补充知识库编译器视角关联）
 
 ## [2026-04-06] dream | 做梦机制 — 灵感碰撞 + 健康检查
 
@@ -78,16 +78,16 @@
 
 ## [2026-04-05] ingest | AI编程.pdf — 触及 4 篇文章
 
-- 新建：概念/Claude-Agent-Teams.md
-- 新建：概念/Claude-Sub-Agents.md
-- 新建：概念/CLAUDE-md配置方法论.md
-- 新建：概念/知识沉淀双轨机制.md
+- 新建：Agent工程/Claude-Agent-Teams.md
+- 新建：Agent工程/Claude-Sub-Agents.md
+- 新建：Agent工程/CLAUDE-md配置方法论.md
+- 新建：知识管理/知识沉淀双轨机制.md
 
 ## 2026-04-07 ingest | claude-code-source-study-github.md — 触及 5 篇文章
 
 - 来源：https://github.com/luyao618/Claude-Code-Source-Study
-- 新建：`概念/Claude-Code源码架构.md`、`来源/claude-code-source-study.md`
-- 更新：`概念/Prompt-Caching降本.md`、`概念/Agent记忆持久化.md`、`概念/CLAUDE-md配置方法论.md`
+- 新建：`Agent工程/Claude-Code源码架构.md`、`来源/claude-code-source-study.md`
+- 更新：`工具与生态/Prompt-Caching降本.md`、`知识管理/Agent记忆持久化.md`、`Agent工程/CLAUDE-md配置方法论.md`
 - 内容：25 篇 Claude Code 源码深度分析，覆盖 AI 核心/工具系统/Agent 编排/安全/终端 UI/记忆全栈
 
 ## [2026-04-11] dream | 做梦机制 — 灵感碰撞 + 健康检查

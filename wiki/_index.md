@@ -14,7 +14,7 @@
 
 ## 目录
 
-### 📚 概念 (concepts/)
+### 📚 概念 (概念/)
 
 - [[Claude-Agent-Teams]] — Claude 多 Agent 协作团队模式，混合模型策略，多龙虾实践
 - [[Claude-Sub-Agents]] — 动态创建的隔离型子 Agent，处理耗时/脏活任务
@@ -35,14 +35,14 @@
 - [[GBrain-世界知识脑]] — Garry Tan 开源的 AI Agent 世界知识持久化系统，Postgres+pgvector 混合检索，brain-agent loop 每天复利积累
 - [[GStack-虚拟工程团队]] — Garry Tan 的 Claude Code 虚拟工程配置，23 个专家角色 + 8 工具技能，think→plan→build→review→test→ship 完整 sprint 流程
 
-### 👤 人物 (people/)
+### 👤 人物 (人物/)
 
 - [[Andrej-Karpathy]] — 深度学习研究者，LLM 个人知识库模式的提出者
 
 ### 🚀 项目 (projects/)
 _暂无_
 
-### 💡 洞见 (insights/)
+### 💡 洞见 (洞见/)
 
 - [[Insight-AI系统的三层记忆架构-2026-04-06]] — AI 的上下文隔离、记忆分层与声明式配置，映射人类三层记忆架构
 - [[Insight-流水线即知识复利机-2026-04-07]] — 内容创作流水线双轨输出：发布轨 + 入库轨，幂等防重保证知识不重复积累
@@ -50,7 +50,7 @@ _暂无_
 - [[Insight-错误记忆的缓存友好编码-2026-04-09]] — 错误知识卡片应采用"仅追加、永不修改"策略，使 Agent 记忆既能复利积累，又能最大化 Prompt Cache 命中率
 - [[Insight-经验缓存化是Agent框架的护城河-2026-04-10]] — 自学习经验层（L1/L2）天然缓存友好，构成 Agent 框架对抗开源竞品的真正壁垒
 
-### 📖 原始来源摘要 (sources/)
+### 📖 原始来源摘要 (来源/)
 
 - [[karpathy-llm-wiki-pattern]] — Karpathy Gist：Wiki vs RAG 核心论述，三层架构与三个工作流
 - [[zhangpelf-wiki-compiler-v2]] — zhangpelf V2：幂等防重、做梦机制、零幻觉健康检查、Map-Reduce 综述
@@ -64,7 +64,7 @@ _暂无_
 ### 🔀 决策 (decisions/)
 _暂无_
 
-### 🔄 模式 (patterns/)
+### 🔄 模式 (模式/)
 
 - [[Wiki-vs-RAG]] — 知识存储模式对比：RAG 无积累，Wiki 复利增长
 - [[幂等防重模式]] — 只处理新增/修改文件，增量永远优于全量

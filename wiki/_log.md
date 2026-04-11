@@ -98,3 +98,5 @@
 - 新建：insights/Insight-Memex闭环-2026-04-11.md
 - 健康检查：孤儿页 11（insights/全6篇 + sources/全5篇），死链 4 处（[[farzaa Personal Wiki Skill]]、[[zhangpelf/wiki-compiler]]、[[实体名]]、[[引用]]），超长文章 0，空stub 0
 - 备注：孤儿页中的 insights/ 和 sources/ 均属正常结构（sources 被 concepts 双链引用但不被反向链接；insights 是叶子节点），死链4处为历史遗留，建议后续统一清理
+
+## [2026-04-11] ingest | markdown-viewer-skills.md — 触及 2 篇文章

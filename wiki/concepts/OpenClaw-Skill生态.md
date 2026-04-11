@@ -6,7 +6,7 @@ updated: 2026-04-06
 tags: [skills, openclaw, ecosystem, automation, skill-builder, clawhub]
 aliases: [Skills库, OpenClaw Skills, Skill生态, 技能生态, clawhub]
 sources: ["raw/ai-research-list-2026-04-06.md"]
-related: ["[[CLAUDE-md配置方法论]]", "[[OpenClaw-Agent安全体系]]", "[[内部系统Agent集成]]", "[[自学习复盘模式]]"]
+related: ["[[CLAUDE-md配置方法论]]", "[[OpenClaw-Agent安全体系]]", "[[内部系统Agent集成]]", "[[自学习复盘模式]]", "[[markdown-viewer-skills]]"]
 ---
 
 # OpenClaw Skill 生态
@@ -59,6 +59,10 @@ Skill 是 OpenClaw 的功能扩展单元，本质上是一段描述"如何完成
 ## 竞品生态
 
 [[Hermes-Agent]]（Nous Research，2026年2月开源）是社区认定的 OpenClaw 首个真正竞争对手，上线不到两个月 GitHub Stars 接近三万，值得持续关注。
+
+## 图表可视化 Skills
+
+[[markdown-viewer-skills]] 是一个专注图表/可视化的 Skills 库（MIT 开源），15 个 Skills 覆盖 PlantUML、Mermaid、Vega、Graphviz 等 7 种渲染引擎，遵循标准 Agent Skills 格式，可作为图表能力模块的参考实现。
 
 ## 生态导航
 

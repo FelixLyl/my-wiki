@@ -1,14 +1,14 @@
 # Wiki 主索引
 
-> 由 AI 自动维护。每次入库后更新。最后更新：2026-04-10
+> 由 AI 自动维护。每次入库后更新。最后更新：2026-04-11
 
 ## 统计
 
 | 指标 | 数量 |
 |------|------|
-| 总文章数 | 29 |
-| 已入库素材 | 7 |
-| 最后入库时间 | 2026-04-08 |
+| 总文章数 | 30 |
+| 已入库素材 | 8 |
+| 最后入库时间 | 2026-04-11 |
 | 待入库素材 | 1（raw/AI编程.md，待主人确认） |
 | 最后做梦时间 | 2026-04-10 |
 
@@ -31,6 +31,7 @@
 - [[AI内容创作工作流]] — 公众号全自动流水线 / YouTube 知识化 / GEO-SEO
 - [[Claude-Code源码架构]] — Claude Code 开源源码全栈拆解：AI 核心、工具系统、Agent 编排、安全、终端 UI、记忆
 - [[Hermes-Agent]] — Nous Research 开源 AI 智能体框架，OpenClaw 首个真正竞争对手，~3万 Stars
+- [[markdown-viewer-skills]] — 面向 AI Agent 的图表/可视化 Skills 库，15 个 Skills，7 种渲染引擎（PlantUML/Mermaid/Vega/Graphviz 等）
 
 ### 👤 人物 (people/)
 

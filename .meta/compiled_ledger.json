@@ -1,6 +1,6 @@
 {
   "version": "1.0",
-  "last_updated": "2026-04-08",
+  "last_updated": "2026-04-11",
   "compiled_files": {
     "raw/AI编程.pdf": {
       "mtime": 1775417213,
@@ -71,6 +71,14 @@
       "compiled_at": "2026-04-08",
       "articles_touched": [
         "concepts/Hermes-Agent.md",
+        "concepts/OpenClaw-Skill生态.md"
+      ]
+    },
+    "raw/markdown-viewer-skills.md": {
+      "mtime": 1775912923,
+      "compiled_at": "2026-04-11",
+      "articles_touched": [
+        "concepts/markdown-viewer-skills.md",
         "concepts/OpenClaw-Skill生态.md"
       ]
     }

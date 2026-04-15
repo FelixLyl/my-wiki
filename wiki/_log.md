@@ -1,5 +1,15 @@
 # Wiki 操作日志
 
+## [2026-04-15] dream | 做梦机制 — 灵感碰撞 + 健康检查
+
+- git pull --rebase：Already up to date，无冲突
+- 巡逻：发现 1 份遗漏素材 `raw/AI编程.md`（终极版 CLAUDE.md 方法论，账本记录的是已删除的 .pdf 版本），**待主人确认是否入库**
+- 灵感碰撞：[[CLAUDE-md配置方法论]] × [[Wiki-vs-RAG]] × [[Prompt-Caching降本]]
+- 新建：洞见/Insight-反重复发现原则-2026-04-15.md — 三者共享"反重复发现"底层逻辑，知识固化是认知经济学的核心优化
+- 健康检查：孤儿页 14（洞见/全10篇 + 来源/全4篇），死链 6 处（4个模板占位符 + 2处旧引用格式），超长文章 0，空stub 0
+- 死链说明：[[zhangpelf/wiki-compiler]]、[[farzaa Personal Wiki Skill]]、[[实体名]]、[[引用]] 均为模板占位符，非真实文章，建议后续清理
+- 更新：_index.md（+1 insights 条目，总文章数36→37）
+
 ## [2026-04-10] dream | 做梦机制 — 灵感碰撞 + 健康检查
 
 - git pull --rebase：stash → pull（already up to date）→ stash pop，无冲突

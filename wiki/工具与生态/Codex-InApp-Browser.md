@@ -5,8 +5,8 @@ date: 2026-04-18
 updated: 2026-04-18
 tags: [codex, openai, in-app-browser, comment-mode, agent-ux, dom-capture, browser-automation]
 aliases: [Codex 内嵌浏览器, Codex Comment Mode, 点评模式]
-sources: ["raw/codex-inapp-browser-2026-04-18.md"]
-related: ["[[Claude-Code源码架构]]", "[[内部系统Agent集成]]", "[[Superpowers]]", "[[Code-Simplifier]]"]
+sources: ["raw/codex-inapp-browser-2026-04-18.md", "raw/codex-for-almost-everything-2026-04-18.md"]
+related: ["[[Codex-全能助手]]", "[[Claude-Code源码架构]]", "[[内部系统Agent集成]]", "[[Superpowers]]", "[[Code-Simplifier]]"]
 ---
 
 # Codex In-App Browser（内嵌浏览器 + Comment Mode）
@@ -38,8 +38,13 @@ OpenAI Codex 于 2026-04-18 推出内嵌浏览器功能，配合 Comment Mode，
 
 两者互补：前者解决"能进门"，后者解决"看得准"。
 
+## 官方路线图
+
+2026-04-18 官方博客确认：当前内嵌浏览器聚焦 localhost Web 应用；未来规划扩展至全浏览器控制（所有操作场景）。参见 [[Codex-全能助手]] 了解完整更新。
+
 ## 相关工具
 
+- [[Codex-全能助手]] — Codex 2026 重大更新全貌，内嵌浏览器为其中一项
 - [[Claude-Code源码架构]] — Claude Code 的 MCP 协议和工具系统，类似方向的 Anthropic 实现
 - [[Code-Simplifier]] — Anthropic 的 Claude Code 插件，代码简化流；与 Codex 功能形成竞品关系
 - [[Superpowers]] — AI Coding Agent 方法论；point-and-click Agent 指令是其"减少 Prompt 认知负担"主张的实例

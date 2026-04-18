@@ -185,3 +185,10 @@
 - 新建：工具与生态/Codex-InApp-Browser.md（Codex 内嵌浏览器 + Comment Mode，截图+DOM捕获+精准上下文注入）
 - 新建：来源/codex-inapp-browser-2026-04-18.md（source 摘要页）
 - 更新：工具与生态/内部系统Agent集成.md（追加浏览器方案两个维度，双链 Codex-InApp-Browser）
+
+## [2026-04-18] ingest | codex-for-almost-everything-2026-04-18.md — 触及4篇文章
+
+- 新建：工具与生态/Codex-全能助手.md（Codex 2026 重大更新全貌：Computer Use/内嵌浏览器/图像生成/90+插件/自动化/记忆/主动建议）
+- 新建：来源/codex-for-almost-everything-2026-04-18.md（source 摘要页）
+- 更新：工具与生态/Codex-InApp-Browser.md（补充官方路线图，关联 Codex-全能助手）
+- 更新：知识管理/Agent记忆持久化.md（追加 Codex Memory 预览版作为新实现案例）

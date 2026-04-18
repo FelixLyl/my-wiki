@@ -175,6 +175,16 @@
         "来源/codex-inapp-browser-2026-04-18.md",
         "工具与生态/内部系统Agent集成.md"
       ]
+    },
+    "raw/codex-for-almost-everything-2026-04-18.md": {
+      "mtime": 1776540711,
+      "compiled_at": "2026-04-18",
+      "articles_touched": [
+        "工具与生态/Codex-全能助手.md",
+        "来源/codex-for-almost-everything-2026-04-18.md",
+        "工具与生态/Codex-InApp-Browser.md",
+        "知识管理/Agent记忆持久化.md"
+      ]
     }
   }
 }

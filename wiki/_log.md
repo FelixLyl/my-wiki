@@ -179,3 +179,9 @@
 - 新建：洞见/Insight-Agent系统的三类熵增防线-2026-04-18.md（主题：权限熵/流程熵/内容熵三类防熵机制的统一框架）
 - 健康检查（40篇文章）：孤儿页 17（12洞见 + 4来源 + 新Insight，均属正常叶子节点），死链 6 处（历史遗留同上次），超长文章 0，空stub 0
 - 死链说明：[[zhangpelf/wiki-compiler]]×2、[[farzaa Personal Wiki Skill]]×2、[[分布式Agent与知识孤岛]]×1、[[实体名]]×1、[[引用]]×1，均为历史遗留/模板占位符
+
+## [2026-04-18] ingest | codex-inapp-browser-2026-04-18.md — 触及3篇文章
+
+- 新建：工具与生态/Codex-InApp-Browser.md（Codex 内嵌浏览器 + Comment Mode，截图+DOM捕获+精准上下文注入）
+- 新建：来源/codex-inapp-browser-2026-04-18.md（source 摘要页）
+- 更新：工具与生态/内部系统Agent集成.md（追加浏览器方案两个维度，双链 Codex-InApp-Browser）

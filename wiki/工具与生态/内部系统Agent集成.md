@@ -56,6 +56,12 @@ related: ["[[OpenClaw-Skill生态]]", "[[OpenClaw-Agent安全体系]]", "[[CLAUD
 
 [[n8n]] 是连接 AI Agent 与内部/外部系统的工作流自动化平台（400+ 集成，原生 LangChain），适合做 AI Agent 工具调用的编排中间层。搭配 [[Coolify]] 可私有化自托管，数据不出境。两者构成「AI Agent 集成基础设施」的低成本自托管方案。
 
+## 浏览器方案的两个维度
+
+上述浏览器方案解决的是"能进门"（登录态复用）问题。2026-04-18，OpenAI Codex 推出的内嵌浏览器 + Comment Mode 解决了另一个维度——"看得准"（UI 感知精度）：点击页面元素 → 自动截图 + DOM 捕获 → 精准上下文注入，消除欠规格 Prompt。参见 [[Codex-InApp-Browser]]。
+
+两者互补：bb-browser 解决鉴权，Codex 内嵌浏览器解决 UI 感知精度。
+
 ## 安全注意事项
 
 内部系统集成涉及鉴权信息（Cookie、Token），应结合 [[OpenClaw-Agent安全体系]] 中的密钥管理方案，避免鉴权信息硬编码在 Skill 文件中。

@@ -5,7 +5,12 @@
     "raw/AI编程.pdf": {
       "mtime": 1775417213,
       "compiled_at": "2026-04-05",
-      "articles_touched": ["Agent工程/Claude-Agent-Teams.md", "Agent工程/Claude-Sub-Agents.md", "Agent工程/CLAUDE-md配置方法论.md", "知识管理/知识沉淀双轨机制.md"]
+      "articles_touched": [
+        "Agent工程/Claude-Agent-Teams.md",
+        "Agent工程/Claude-Sub-Agents.md",
+        "Agent工程/CLAUDE-md配置方法论.md",
+        "知识管理/知识沉淀双轨机制.md"
+      ]
     },
     "raw/karpathy-llm-wiki-pattern.md": {
       "mtime": 1775462008,
@@ -160,6 +165,15 @@
       "compiled_at": "2026-04-18",
       "articles_touched": [
         "Agent工程/Code-Simplifier.md"
+      ]
+    },
+    "raw/codex-inapp-browser-2026-04-18.md": {
+      "mtime": 1776540183,
+      "compiled_at": "2026-04-18",
+      "articles_touched": [
+        "工具与生态/Codex-InApp-Browser.md",
+        "来源/codex-inapp-browser-2026-04-18.md",
+        "工具与生态/内部系统Agent集成.md"
       ]
     }
   }

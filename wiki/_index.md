@@ -6,8 +6,8 @@
 
 | 指标 | 数量 |
 |------|------|
-| 总文章数 | 42 |
-| 已入库素材 | 14 |
+| 总文章数 | 43 |
+| 已入库素材 | 15 |
 | 最后入库时间 | 2026-04-18 |
 | 待入库素材 | 1（raw/AI编程.md，待主人确认） |
 | 最后做梦时间 | 2026-04-15 |
@@ -34,6 +34,7 @@
 - [[做梦机制]] — 空闲时产生增量价值：夜间巡逻 + 灵感碰撞 + 健康检查
 - [[Agent记忆持久化]] — lossless-claw 树状摘要，解决 Agent 跨会话失忆问题
 - [[GBrain-世界知识脑]] — Garry Tan 开源的 AI Agent 世界知识持久化系统，Postgres+pgvector 混合检索，brain-agent loop 每天复利积累
+- [[Claude-Mem]] — Claude Code 专属跨 Session 记忆系统，生命周期 Hooks 自动捕获工具观测值，SQLite+Chroma 混合搜索，渐进式披露，原生支持 OpenClaw
 - [[Wiki-vs-RAG]] — 知识存储模式对比：RAG 无积累，Wiki 复利增长
 - [[幂等防重模式]] — 只处理新增/修改文件，增量永远优于全量
 - [[自学习复盘模式]] — self-improving-agent 自动记录错误知识卡片，self-evolving-skill 代码自修复

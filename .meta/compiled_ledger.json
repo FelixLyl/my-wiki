@@ -130,6 +130,14 @@
         "Agent工程/Superpowers.md",
         "Agent工程/Claude-Sub-Agents.md"
       ]
+    },
+    "raw/claude-mem-2026-04-18.md": {
+      "mtime": 1776537655,
+      "compiled_at": "2026-04-18",
+      "articles_touched": [
+        "知识管理/Claude-Mem.md",
+        "知识管理/Agent记忆持久化.md"
+      ]
     }
   }
 }

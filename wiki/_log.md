@@ -1,5 +1,10 @@
 # Wiki 操作日志
 
+## [2026-04-18] ingest | claude-mem-2026-04-18.md — 触及 2 篇文章
+
+- 新建：知识管理/Claude-Mem.md — Claude Code 跨 Session 记忆系统，生命周期 Hooks + 渐进式披露
+- 更新：知识管理/Agent记忆持久化.md — 新增"Claude Code 专属记忆层"段落，关联 Claude-Mem
+
 ## [2026-04-18] ingest | superpowers-obra-2026-04-18.md — 触及 2 篇文章
 
 - 新建：Agent工程/Superpowers.md — AI Coding Agent 软件工程方法论，7 步自动流水线，Subagent-Driven Development

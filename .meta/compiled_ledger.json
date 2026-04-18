@@ -122,6 +122,14 @@
         "Agent工程/The-Agency-Agents.md",
         "工具与生态/OpenClaw-Skill生态.md"
       ]
+    },
+    "raw/superpowers-obra-2026-04-18.md": {
+      "mtime": 1776537449,
+      "compiled_at": "2026-04-18",
+      "articles_touched": [
+        "Agent工程/Superpowers.md",
+        "Agent工程/Claude-Sub-Agents.md"
+      ]
     }
   }
 }

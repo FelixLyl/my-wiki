@@ -1,5 +1,10 @@
 # Wiki 操作日志
 
+## [2026-04-18] ingest | superpowers-obra-2026-04-18.md — 触及 2 篇文章
+
+- 新建：Agent工程/Superpowers.md — AI Coding Agent 软件工程方法论，7 步自动流水线，Subagent-Driven Development
+- 更新：Agent工程/Claude-Sub-Agents.md — 新增"工程场景系统化应用"段落，关联 Superpowers
+
 ## [2026-04-18] ingest | agency-agents-2026-04-18.md — 触及 2 篇文章
 
 - 新建：Agent工程/The-Agency-Agents.md — 全业务领域 AI Agent 人设库，原生支持 OpenClaw

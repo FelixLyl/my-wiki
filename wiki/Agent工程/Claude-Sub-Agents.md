@@ -6,7 +6,7 @@ updated: 2026-04-05
 tags: [claude-code, agent, sub-agent, llm-engineering]
 aliases: [Sub Agents, 动态Sub Agent]
 sources: ["raw/AI编程.pdf"]
-related: ["[[Claude-Agent-Teams]]", "[[CLAUDE-md配置方法论]]"]
+related: ["[[Claude-Agent-Teams]]", "[[CLAUDE-md配置方法论]]", "[[Superpowers]]"]
 ---
 
 # Claude Sub Agents
@@ -44,3 +44,7 @@ Team Lead (Opus)
 └── 核心成员 B (Sonnet)
     └── Sub Agent: 数据库迁移脚本
 ```
+
+## 工程场景的系统化应用
+
+[[Superpowers]] 是 Sub Agents 在工程流水线中的高密度实践案例：每个计划任务（2-5 分钟粒度）都派发一个全新子 Agent，主 Agent 负责两阶段 Review（规格合规 + 代码质量），Claude 可以自主连续工作数小时。这是"每任务一个 fresh context"的结构化落地。

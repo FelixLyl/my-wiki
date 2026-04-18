@@ -6,7 +6,7 @@ updated: 2026-04-11
 tags: [engineering-team, claude-code, skills, ai-coding, garry-tan, gstack, openclaw, product-methodology]
 aliases: [GStack, gstack, 虚拟工程团队, Garry-Tan-Stack]
 sources: ["raw/garrytan-gstack.md"]
-related: ["[[OpenClaw-Skill生态]]", "[[Claude-Sub-Agents]]", "[[Claude-Agent-Teams]]", "[[GBrain-世界知识脑]]", "[[OpenClaw-Agent安全体系]]"]
+related: ["[[OpenClaw-Skill生态]]", "[[Claude-Sub-Agents]]", "[[Claude-Agent-Teams]]", "[[GBrain-世界知识脑]]", "[[OpenClaw-Agent安全体系]]", "[[Claude-Code-Game-Studios]]"]
 ---
 
 # GStack：虚拟工程团队
@@ -99,3 +99,7 @@ git add .claude/ CLAUDE.md && git commit -m "require gstack"
 ```
 
 支持 8 个 AI Coding Agent：Claude Code / OpenAI Codex CLI / OpenCode / Cursor / Factory Droid / Slate / Kiro / OpenClaw。MIT 免费永久，无付费层。
+
+## 同类实现：[[Claude-Code-Game-Studios]]
+
+Donchitos 的 Claude Code Game Studios 是同一模式在游戏开发领域的垂直实现：49 个 Agent、72 个 Slash Command、12 个 Hooks、39 个文档模板，三层工作室层级（Directors → Leads → Specialists），并支持 Godot/Unity/Unreal 三套引擎专家集合。规模更大、自动化程度更高，但领域更窄。

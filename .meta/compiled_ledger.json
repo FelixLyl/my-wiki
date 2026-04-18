@@ -105,6 +105,15 @@
         "工具与生态/HyperFrames.md",
         "工具与生态/OpenClaw-Skill生态.md"
       ]
+    },
+    "raw/claude-code-game-studios-2026-04-18.md": {
+      "mtime": 1776536596,
+      "compiled_at": "2026-04-18",
+      "articles_touched": [
+        "Agent工程/Claude-Code-Game-Studios.md",
+        "工具与生态/GStack-虚拟工程团队.md",
+        "Agent工程/Claude-Agent-Teams.md"
+      ]
     }
   }
 }

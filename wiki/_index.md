@@ -6,8 +6,8 @@
 
 | 指标 | 数量 |
 |------|------|
-| 总文章数 | 39 |
-| 已入库素材 | 11 |
+| 总文章数 | 40 |
+| 已入库素材 | 12 |
 | 最后入库时间 | 2026-04-18 |
 | 待入库素材 | 1（raw/AI编程.md，待主人确认） |
 | 最后做梦时间 | 2026-04-15 |
@@ -17,6 +17,7 @@
 ### 🤖 Agent工程 (Agent工程/)
 
 - [[Claude-Agent-Teams]] — Claude 多 Agent 协作团队模式，混合模型策略，多龙虾实践
+- [[Claude-Code-Game-Studios]] — 49 Agent + 72 Skills 的游戏工作室配置，三层层级（Directors/Leads/Specialists），含 Godot/Unity/Unreal 引擎支持
 - [[Claude-Sub-Agents]] — 动态创建的隔离型子 Agent，处理耗时/脏活任务
 - [[CLAUDE-md配置方法论]] — 项目根目录配置文件，植入 AI 的三层思维逻辑；含 Agent 行为规范 4 条黄金准则
 - [[Claude-Code源码架构]] — Claude Code 开源源码全栈拆解：AI 核心、工具系统、Agent 编排、安全、终端 UI、记忆

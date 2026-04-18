@@ -1,5 +1,11 @@
 # Wiki 操作日志
 
+## [2026-04-18] ingest | claude-code-game-studios-2026-04-18.md — 触及 3 篇文章
+
+- 新建：Agent工程/Claude-Code-Game-Studios.md — 49 Agent 游戏工作室配置，GStack 垂直领域实现
+- 更新：工具与生态/GStack-虚拟工程团队.md — 新增同类实现段落，关联 CCGS
+- 更新：Agent工程/Claude-Agent-Teams.md — 新增垂直领域落地案例段落，关联 GStack + CCGS
+
 ## [2026-04-18] ingest | hyperframes-heygen-2026-04-18.md — 触及 2 篇文章
 
 - 新建：工具与生态/HyperFrames.md — HeyGen 开源 HTML-to-Video 框架，AI Agent 原生视频渲染

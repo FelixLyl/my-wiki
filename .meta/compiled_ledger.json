@@ -114,6 +114,14 @@
         "工具与生态/GStack-虚拟工程团队.md",
         "Agent工程/Claude-Agent-Teams.md"
       ]
+    },
+    "raw/agency-agents-2026-04-18.md": {
+      "mtime": 1776537153,
+      "compiled_at": "2026-04-18",
+      "articles_touched": [
+        "Agent工程/The-Agency-Agents.md",
+        "工具与生态/OpenClaw-Skill生态.md"
+      ]
     }
   }
 }

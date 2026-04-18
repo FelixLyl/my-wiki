@@ -1,5 +1,10 @@
 # Wiki 操作日志
 
+## [2026-04-18] ingest | agency-agents-2026-04-18.md — 触及 2 篇文章
+
+- 新建：Agent工程/The-Agency-Agents.md — 全业务领域 AI Agent 人设库，原生支持 OpenClaw
+- 更新：工具与生态/OpenClaw-Skill生态.md — 新增"全业务领域 Agent 人设库"段落，关联 The Agency
+
 ## [2026-04-18] ingest | claude-code-game-studios-2026-04-18.md — 触及 3 篇文章
 
 - 新建：Agent工程/Claude-Code-Game-Studios.md — 49 Agent 游戏工作室配置，GStack 垂直领域实现

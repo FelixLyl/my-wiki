@@ -1,6 +1,6 @@
 {
   "version": "1.0",
-  "last_updated": "2026-04-11",
+  "last_updated": "2026-04-18",
   "compiled_files": {
     "raw/AI编程.pdf": {
       "mtime": 1775417213,
@@ -95,6 +95,14 @@
       "compiled_at": "2026-04-11",
       "articles_touched": [
         "工具与生态/GStack-虚拟工程团队.md",
+        "工具与生态/OpenClaw-Skill生态.md"
+      ]
+    },
+    "raw/hyperframes-heygen-2026-04-18.md": {
+      "mtime": 1776535641,
+      "compiled_at": "2026-04-18",
+      "articles_touched": [
+        "工具与生态/HyperFrames.md",
         "工具与生态/OpenClaw-Skill生态.md"
       ]
     }

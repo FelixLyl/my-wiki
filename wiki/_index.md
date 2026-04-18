@@ -1,14 +1,14 @@
 # Wiki 主索引
 
-> 由 AI 自动维护。每次入库后更新。最后更新：2026-04-16
+> 由 AI 自动维护。每次入库后更新。最后更新：2026-04-18
 
 ## 统计
 
 | 指标 | 数量 |
 |------|------|
-| 总文章数 | 38 |
-| 已入库素材 | 10 |
-| 最后入库时间 | 2026-04-11 |
+| 总文章数 | 39 |
+| 已入库素材 | 11 |
+| 最后入库时间 | 2026-04-18 |
 | 待入库素材 | 1（raw/AI编程.md，待主人确认） |
 | 最后做梦时间 | 2026-04-15 |
 
@@ -37,7 +37,8 @@
 
 ### 🛠️ 工具与生态 (工具与生态/)
 
-- [[OpenClaw-Skill生态]] — Skill 生成/社区来源/自治能力/187 个生产模板
+- [[OpenClaw-Skill生态]] — Skill 生成/社区来源/自治能力/187 个生产模板；含视频制作 Skills（HyperFrames）
+- [[HyperFrames]] — HeyGen 开源的 HTML-to-Video 框架，AI Agent 原生，HTML+GSAP 写合成，无头 Chrome 渲染 MP4
 - [[GStack-虚拟工程团队]] — Garry Tan 的 Claude Code 虚拟工程配置，23 个专家角色 + 8 工具技能，think→plan→build→review→test→ship 完整 sprint 流程
 - [[markdown-viewer-skills]] — 面向 AI Agent 的图表/可视化 Skills 库，15 个 Skills，7 种渲染引擎（PlantUML/Mermaid/Vega/Graphviz 等）
 - [[内部系统Agent集成]] — Swagger 自动生成 Skill / CLI 化 / 浏览器登录态复用

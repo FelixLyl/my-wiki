@@ -64,6 +64,10 @@ Skill 是 OpenClaw 的功能扩展单元，本质上是一段描述"如何完成
 
 [[markdown-viewer-skills]] 是一个专注图表/可视化的 Skills 库（MIT 开源），15 个 Skills 覆盖 PlantUML、Mermaid、Vega、Graphviz 等 7 种渲染引擎，遵循标准 Agent Skills 格式，可作为图表能力模块的参考实现。
 
+## 视频制作 Skills
+
+[[HyperFrames]]（HeyGen 开源，Apache 2.0）是"HTML-to-Video"框架，以 Skills 包形式发布。安装后 Agent 可用 HTML+GSAP 描述视频，由框架渲染为 MP4。5 个 Skill 覆盖合成编写、CLI 操作、组件注册和网页转视频：`hyperframes`、`hyperframes-cli`、`hyperframes-registry`、`website-to-hyperframes`、`gsap`。代表了"把 AI 原生语言（HTML）变成视频格式"的方向，与图表/幻灯片 Skills 一起构成 Agent 多媒体输出能力栈。
+
 ## 工程团队 Skills（gstack）
 
 [[GStack-虚拟工程团队]] 是 Garry Tan（YC CEO）开源的 Claude Code 工程配置，23 个专家角色覆盖 think→plan→build→review→test→ship 完整 sprint 流程。提供 4 个 OpenClaw 原生 Skill：`gstack-openclaw-office-hours`、`gstack-openclaw-ceo-review`、`gstack-openclaw-investigate`、`gstack-openclaw-retro`，可通过 clawhub 安装直接使用。

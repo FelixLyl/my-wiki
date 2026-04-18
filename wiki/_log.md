@@ -1,5 +1,11 @@
 # Wiki 操作日志
 
+## [2026-04-18] ingest | hyperframes-heygen-2026-04-18.md — 触及 2 篇文章
+
+- 新建：工具与生态/HyperFrames.md — HeyGen 开源 HTML-to-Video 框架，AI Agent 原生视频渲染
+- 更新：工具与生态/OpenClaw-Skill生态.md — 新增"视频制作 Skills"段落，关联 HyperFrames
+- 素材来源：网络搜集（GitHub README + 官方文档 + 分析文章），开源日期 2026-04-17
+
 ## [2026-04-15] dream | 做梦机制 — 灵感碰撞 + 健康检查
 
 - git pull --rebase：Already up to date，无冲突

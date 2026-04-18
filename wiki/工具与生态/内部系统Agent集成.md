@@ -6,7 +6,7 @@ updated: 2026-04-06
 tags: [internal-systems, agent, swagger, cli, browser-automation, authentication, integration]
 aliases: [内部系统集成, Swagger Agent, CLI集成, 鉴权方案, bb-browser]
 sources: ["raw/ai-research-list-2026-04-06.md"]
-related: ["[[OpenClaw-Skill生态]]", "[[OpenClaw-Agent安全体系]]", "[[CLAUDE-md配置方法论]]"]
+related: ["[[OpenClaw-Skill生态]]", "[[OpenClaw-Agent安全体系]]", "[[CLAUDE-md配置方法论]]", "[[n8n]]", "[[Coolify]]"]
 ---
 
 # 内部系统 Agent 集成
@@ -51,6 +51,10 @@ related: ["[[OpenClaw-Skill生态]]", "[[OpenClaw-Agent安全体系]]", "[[CLAUD
 | Electron 桌面应用 | OpenCLI / CLI-Anything |
 | 有反爬的公开平台 | bb-browser / Agent-Reach |
 | 强验证码系统 | ai-web-automation |
+
+## 工作流自动化中间层
+
+[[n8n]] 是连接 AI Agent 与内部/外部系统的工作流自动化平台（400+ 集成，原生 LangChain），适合做 AI Agent 工具调用的编排中间层。搭配 [[Coolify]] 可私有化自托管，数据不出境。两者构成「AI Agent 集成基础设施」的低成本自托管方案。
 
 ## 安全注意事项
 

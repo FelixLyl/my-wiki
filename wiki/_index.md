@@ -6,8 +6,8 @@
 
 | 指标 | 数量 |
 |------|------|
-| 总文章数 | 43 |
-| 已入库素材 | 15 |
+| 总文章数 | 46 |
+| 已入库素材 | 18 |
 | 最后入库时间 | 2026-04-18 |
 | 待入库素材 | 1（raw/AI编程.md，待主人确认） |
 | 最后做梦时间 | 2026-04-15 |
@@ -20,6 +20,7 @@
 - [[Claude-Code-Game-Studios]] — 49 Agent + 72 Skills 的游戏工作室配置，三层层级（Directors/Leads/Specialists），含 Godot/Unity/Unreal 引擎支持
 - [[The-Agency-Agents]] — 全业务领域 AI 专家 Agent 人设库（工程/设计/营销/销售），原生支持 OpenClaw，含飞书集成专家和中国市场专家
 - [[Superpowers]] — obra 开源的 AI Coding Agent 软件工程方法论，Skills 自动触发，Subagent-Driven Development，TDD 强制执行，已上架 Anthropic 官方市场
+- [[Code-Simplifier]] — Anthropic 官方 Claude Code 插件，自动简化最近修改的代码，聚焦可读性
 - [[Claude-Sub-Agents]] — 动态创建的隔离型子 Agent，处理耗时/脏活任务
 - [[CLAUDE-md配置方法论]] — 项目根目录配置文件，植入 AI 的三层思维逻辑；含 Agent 行为规范 4 条黄金准则
 - [[Claude-Code源码架构]] — Claude Code 开源源码全栈拆解：AI 核心、工具系统、Agent 编排、安全、终端 UI、记忆
@@ -42,6 +43,9 @@
 ### 🛠️ 工具与生态 (工具与生态/)
 
 - [[OpenClaw-Skill生态]] — Skill 生成/社区来源/自治能力/187 个生产模板；含视频制作 Skills（HyperFrames）
+- [[Coolify]] — 开源自托管 Heroku/Vercel 替代品，SSH 管理多服务器，AI 基础设施私有化部署底座
+- [[n8n]] — 面向技术团队的工作流自动化（400+ 集成，原生 LangChain），AI Agent 集成中间层，Fair-code
+- [[HyperFrames]] — HeyGen 开源的 HTML-to-Video 框架，AI Agent 原生视频渲染 MP4
 - [[HyperFrames]] — HeyGen 开源的 HTML-to-Video 框架，AI Agent 原生，HTML+GSAP 写合成，无头 Chrome 渲染 MP4
 - [[GStack-虚拟工程团队]] — Garry Tan 的 Claude Code 虚拟工程配置，23 个专家角色 + 8 工具技能，think→plan→build→review→test→ship 完整 sprint 流程
 - [[markdown-viewer-skills]] — 面向 AI Agent 的图表/可视化 Skills 库，15 个 Skills，7 种渲染引擎（PlantUML/Mermaid/Vega/Graphviz 等）

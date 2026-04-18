@@ -1,5 +1,13 @@
 # Wiki 操作日志
 
+## [2026-04-18] ingest | coolify + n8n + code-simplifier（批量）— 触及 5 篇文章
+
+- 新建：工具与生态/Coolify.md — 开源自托管部署平台，AI 基础设施私有化底座
+- 新建：工具与生态/n8n.md — 工作流自动化，400+ 集成，原生 LangChain，AI Agent 集成中间层
+- 新建：Agent工程/Code-Simplifier.md — Anthropic 官方 Claude Code 插件，代码简化/可读性提升
+- 更新：工具与生态/内部系统Agent集成.md — 新增"工作流自动化中间层"段落，关联 n8n + Coolify
+- 跳过：agency-agents（已入库）
+
 ## [2026-04-18] ingest | claude-mem-2026-04-18.md — 触及 2 篇文章
 
 - 新建：知识管理/Claude-Mem.md — Claude Code 跨 Session 记忆系统，生命周期 Hooks + 渐进式披露

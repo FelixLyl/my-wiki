@@ -138,6 +138,29 @@
         "知识管理/Claude-Mem.md",
         "知识管理/Agent记忆持久化.md"
       ]
+    },
+    "raw/coolify-2026-04-18.md": {
+      "mtime": 1776539042,
+      "compiled_at": "2026-04-18",
+      "articles_touched": [
+        "工具与生态/Coolify.md",
+        "工具与生态/内部系统Agent集成.md"
+      ]
+    },
+    "raw/n8n-2026-04-18.md": {
+      "mtime": 1776539064,
+      "compiled_at": "2026-04-18",
+      "articles_touched": [
+        "工具与生态/n8n.md",
+        "工具与生态/内部系统Agent集成.md"
+      ]
+    },
+    "raw/code-simplifier-plugin-2026-04-18.md": {
+      "mtime": 1776539082,
+      "compiled_at": "2026-04-18",
+      "articles_touched": [
+        "Agent工程/Code-Simplifier.md"
+      ]
     }
   }
 }

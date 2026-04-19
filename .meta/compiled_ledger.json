@@ -185,6 +185,12 @@
         "工具与生态/Codex-InApp-Browser.md",
         "知识管理/Agent记忆持久化.md"
       ]
+    },
+    "raw/AI编程.md": {
+      "mtime": 1775610009.74476,
+      "compiled_at": "2026-04-19",
+      "note": "文件由 AI编程.pdf 重命名而来，内容与已入库文章重叠（Agent工程/Claude-Agent-Teams.md 等），做梦巡逻标记为已知，暂不重复入库",
+      "articles_touched": []
     }
   }
 }

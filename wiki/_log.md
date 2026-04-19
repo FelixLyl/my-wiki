@@ -219,3 +219,5 @@
 - 新建：来源/repo-analyzer-2026-04-19.md（source 摘要页）
 - 更新：工具与生态/OpenClaw-Skill生态.md（高价值单体 Skills 列表追加 repo-analyzer）
 - 更新：Agent工程/Claude-Code源码架构.md（学习路径建议：先用 repo-analyzer 生成架构报告作地图）
+
+## [2026-04-19] ingest | superpowers-prompts-2026-04-19.md — 触及1篇文章（Agent工程/Superpowers.md 新增实操提示词占位节；微信原文待补充）

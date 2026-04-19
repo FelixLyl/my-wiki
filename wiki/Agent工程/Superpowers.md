@@ -2,10 +2,10 @@
 type: project
 maturity: draft
 date: 2026-04-18
-updated: 2026-04-18
-tags: [claude-code, methodology, tdd, sub-agent, skills, automatic, workflow, engineering]
+updated: 2026-04-19
+tags: [claude-code, methodology, tdd, sub-agent, skills, automatic, workflow, engineering, prompt-templates]
 aliases: [superpowers, obra/superpowers, Subagent-Driven-Development]
-sources: ["raw/superpowers-obra-2026-04-18.md"]
+sources: ["raw/superpowers-obra-2026-04-18.md", "raw/superpowers-prompts-2026-04-19.md"]
 related: ["[[Claude-Sub-Agents]]", "[[Claude-Agent-Teams]]", "[[GStack-虚拟工程团队]]", "[[Claude-Code-Game-Studios]]", "[[CLAUDE-md配置方法论]]"]
 ---
 
@@ -85,9 +85,16 @@ gemini extensions install https://github.com/obra/superpowers
 
 还支持：Cursor、GitHub Copilot、OpenAI Codex CLI/App、OpenCode。
 
+## 实操提示词模板（社区整理）
+
+「硬核科技屋」整理了 8 条常用提示词供直接复制使用（来源：https://mp.weixin.qq.com/s/F1g7QRySeAB9cbRwzvN9mw）。原文内容待补充——这代表 Superpowers 的社区使用层正在形成提示词标准化沉淀，从方法论落地到可复用的提示词模板。
+
+> 待补充：获取原文后整理 8 条具体提示词内容。
+
 ## 来源
 
 - GitHub: https://github.com/obra/superpowers
 - 作者：Jesse Vincent，Prime Radiant（https://primeradiant.com）
 - 发布文章：https://blog.fsck.com/2025/10/09/superpowers/
+- 实操手册：https://mp.weixin.qq.com/s/F1g7QRySeAB9cbRwzvN9mw（硬核科技屋）
 - License: MIT

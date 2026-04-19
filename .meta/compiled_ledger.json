@@ -201,6 +201,14 @@
         "工具与生态/OpenClaw-Skill生态.md",
         "Agent工程/Claude-Code源码架构.md"
       ]
+    },
+    "raw/superpowers-prompts-2026-04-19.md": {
+      "mtime": 1776585182,
+      "compiled_at": "2026-04-19",
+      "note": "微信文章内容无法直接抓取，仅标题已知。已建占位节并更新 Superpowers.md，待原文内容获取后补充 8 条提示词",
+      "articles_touched": [
+        "Agent工程/Superpowers.md"
+      ]
     }
   }
 }

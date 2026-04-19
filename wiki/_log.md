@@ -212,3 +212,10 @@
 - 死链：8个（含模板占位符 `[[实体名]]` `[[引用]]`，和短名称/外部链接不匹配问题）
 - 超长文章：0篇
 - 空 stub：0篇
+
+## [2026-04-19] ingest | repo-analyzer-2026-04-19.md — 触及4篇文章
+
+- 新建：工具与生态/repo-analyzer.md（8阶段工作流+并发sub-agent+Mermaid，Why>What 设计哲学，三种深度模式）
+- 新建：来源/repo-analyzer-2026-04-19.md（source 摘要页）
+- 更新：工具与生态/OpenClaw-Skill生态.md（高价值单体 Skills 列表追加 repo-analyzer）
+- 更新：Agent工程/Claude-Code源码架构.md（学习路径建议：先用 repo-analyzer 生成架构报告作地图）

@@ -41,6 +41,7 @@ Skill 是 OpenClaw 的功能扩展单元，本质上是一段描述"如何完成
 - **scoutqa-test**：自动化测试相关
 - **frontend-slides**：生成单文件 HTML 幻灯片，12 种视觉风格，零依赖
 - **geo-seo-claude**：GEO-first SEO 审计，针对 ChatGPT/Claude/Perplexity 优化
+- **[[repo-analyzer]]**（yzddmr6，MIT）：一句话对开源仓库生成深度架构报告；8 阶段工作流 + 并发 sub-agent + Mermaid 图；兼容 Claude Code / Codex / OpenClaw；三种深度模式（Quick/Standard/Deep）
 
 ## Skill 自治能力
 

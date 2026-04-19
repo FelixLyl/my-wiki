@@ -1,6 +1,6 @@
 {
   "version": "1.0",
-  "last_updated": "2026-04-18",
+  "last_updated": "2026-04-19",
   "compiled_files": {
     "raw/AI编程.pdf": {
       "mtime": 1775417213,
@@ -191,6 +191,16 @@
       "compiled_at": "2026-04-19",
       "note": "文件由 AI编程.pdf 重命名而来，内容与已入库文章重叠（Agent工程/Claude-Agent-Teams.md 等），做梦巡逻标记为已知，暂不重复入库",
       "articles_touched": []
+    },
+    "raw/repo-analyzer-2026-04-19.md": {
+      "mtime": 1776565669,
+      "compiled_at": "2026-04-19",
+      "articles_touched": [
+        "工具与生态/repo-analyzer.md",
+        "来源/repo-analyzer-2026-04-19.md",
+        "工具与生态/OpenClaw-Skill生态.md",
+        "Agent工程/Claude-Code源码架构.md"
+      ]
     }
   }
 }

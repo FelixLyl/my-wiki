@@ -234,3 +234,6 @@
 ## [2026-04-22] ingest | addyosmani-agent-skills-2026-04-22.md — 触及2篇文章
 - 新建：wiki/Agent工程/Agent-Skills-addyosmani.md
 - 更新：wiki/Agent工程/Superpowers.md（补充对比引用）
+
+## [2026-04-22] ingest | autoresearch-smallnest-2026-04-22.md — 触及1篇文章
+- 新建：wiki/Agent工程/autoresearch.md

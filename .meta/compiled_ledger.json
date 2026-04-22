@@ -1,6 +1,6 @@
 {
   "version": "1.0",
-  "last_updated": "2026-04-19",
+  "last_updated": "2026-04-22",
   "compiled_files": {
     "raw/AI编程.pdf": {
       "mtime": 1775417213,
@@ -209,6 +209,10 @@
       "articles_touched": [
         "Agent工程/Superpowers.md"
       ]
+    },
+    "raw/addyosmani-agent-skills-2026-04-22.md": {
+      "mtime": 1776871010.860672,
+      "compiled_at": "2026-04-22T15:13:00+08:00"
     }
   }
 }

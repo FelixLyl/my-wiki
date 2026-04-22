@@ -1,14 +1,14 @@
 # Wiki 主索引
 
-> 由 AI 自动维护。每次入库后更新。最后更新：2026-04-20
+> 由 AI 自动维护。每次入库后更新。最后更新：2026-04-22
 
 ## 统计
 
 | 指标 | 数量 |
 |------|------|
-| 总文章数 | 56 |
-| 已入库素材 | 23 |
-| 最后入库时间 | 2026-04-19 |
+| 总文章数 | 57 |
+| 已入库素材 | 24 |
+| 最后入库时间 | 2026-04-22 |
 | 待入库素材 | 0 |
 | 最后做梦时间 | 2026-04-20 |
 
@@ -20,6 +20,7 @@
 - [[Claude-Code-Game-Studios]] — 49 Agent + 72 Skills 的游戏工作室配置，三层层级（Directors/Leads/Specialists），含 Godot/Unity/Unreal 引擎支持
 - [[The-Agency-Agents]] — 全业务领域 AI 专家 Agent 人设库（工程/设计/营销/销售），原生支持 OpenClaw，含飞书集成专家和中国市场专家
 - [[Superpowers]] — obra 开源的 AI Coding Agent 软件工程方法论，Skills 自动触发，Subagent-Driven Development，TDD 强制执行，已上架 Anthropic 官方市场
+- [[Agent-Skills-addyosmani]] — Addy Osmani（Google Chrome 工程总监）出品，生产级 AI Coding Agent 工程 Skills，20 个 Skills 覆盖完整开发生命周期，内嵌 Google SWE Book 实践
 - [[Code-Simplifier]] — Anthropic 官方 Claude Code 插件，自动简化最近修改的代码，聚焦可读性
 - [[Claude-Sub-Agents]] — 动态创建的隔离型子 Agent，处理耗时/脏活任务
 - [[CLAUDE-md配置方法论]] — 项目根目录配置文件，植入 AI 的三层思维逻辑；含 Agent 行为规范 4 条黄金准则

@@ -230,3 +230,7 @@
 
 ## [2026-04-22] dream | 灵感碰撞 — 随机挑选: 人物/Andrej-Karpathy × 工具与生态/Coolify × 知识管理/做梦机制 — 新建 Insight-自主系统的三层自维护性-2026-04-22.md
 ## [2026-04-22] dream | 健康检查 — 共58篇文章，孤儿页0篇，死链8条（2条外部项目引用、2条洞见日期后缀不匹配、3条文档内说明性占位、1条管道链接转义），超长文章0篇，空stub 0篇
+
+## [2026-04-22] ingest | addyosmani-agent-skills-2026-04-22.md — 触及2篇文章
+- 新建：wiki/Agent工程/Agent-Skills-addyosmani.md
+- 更新：wiki/Agent工程/Superpowers.md（补充对比引用）

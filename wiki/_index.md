@@ -6,8 +6,8 @@
 
 | 指标 | 数量 |
 |------|------|
-| 总文章数 | 58 |
-| 已入库素材 | 25 |
+| 总文章数 | 60 |
+| 已入库素材 | 27 |
 | 最后入库时间 | 2026-04-22 |
 | 待入库素材 | 0 |
 | 最后做梦时间 | 2026-04-20 |
@@ -54,6 +54,8 @@
 - [[repo-analyzer]] — 一句话生成开源项目深度架构报告；8 阶段工作流 + 并发 sub-agent + Mermaid 图；兼容 Claude Code / Codex / OpenClaw
 - [[GStack-虚拟工程团队]] — Garry Tan 的 Claude Code 虚拟工程配置，23 个专家角色 + 8 工具技能，think→plan→build→review→test→ship 完整 sprint 流程
 - [[markdown-viewer-skills]] — 面向 AI Agent 的图表/可视化 Skills 库，15 个 Skills，7 种渲染引擎（PlantUML/Mermaid/Vega/Graphviz 等）
+- [[autoskills]] — `npx autoskills` 一行命令，自动扫描项目技术栈并安装最匹配 Skills，支持 Claude Code CLAUDE.md 自动生成，70+ 技术栈
+- [[skills-manage]] — Tauri 桌面应用，统一管理 27 个 AI 工具平台 Skills（含 OpenClaw 龙虾系列），中央库+符号链接，支持 Marketplace/GitHub 导入
 - [[内部系统Agent集成]] — Swagger 自动生成 Skill / CLI 化 / 浏览器登录态复用
 - [[Prompt-Caching降本]] — Prompt Caching 降低高达 90% 重复 Token 成本
 

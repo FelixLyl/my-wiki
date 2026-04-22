@@ -237,3 +237,8 @@
 
 ## [2026-04-22] ingest | autoresearch-smallnest-2026-04-22.md — 触及1篇文章
 - 新建：wiki/Agent工程/autoresearch.md
+
+## [2026-04-22] ingest | autoskills-midudev + skills-manage-iamzhihuix — 触及3篇文章
+- 新建：wiki/工具与生态/autoskills.md
+- 新建：wiki/工具与生态/skills-manage.md
+- 更新：wiki/工具与生态/OpenClaw-Skill生态.md（补充 Skill 安装与管理工具章节）

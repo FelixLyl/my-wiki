@@ -6,7 +6,7 @@ updated: 2026-04-06
 tags: [skills, openclaw, ecosystem, automation, skill-builder, clawhub]
 aliases: [Skills库, OpenClaw Skills, Skill生态, 技能生态, clawhub]
 sources: ["raw/ai-research-list-2026-04-06.md"]
-related: ["[[CLAUDE-md配置方法论]]", "[[OpenClaw-Agent安全体系]]", "[[内部系统Agent集成]]", "[[自学习复盘模式]]", "[[markdown-viewer-skills]]"]
+related: ["[[CLAUDE-md配置方法论]]", "[[OpenClaw-Agent安全体系]]", "[[内部系统Agent集成]]", "[[自学习复盘模式]]", "[[markdown-viewer-skills]]", "[[autoskills]]", "[[skills-manage]]"]
 ---
 
 # OpenClaw Skill 生态
@@ -76,6 +76,16 @@ Skill 是 OpenClaw 的功能扩展单元，本质上是一段描述"如何完成
 ## 工程团队 Skills（gstack）
 
 [[GStack-虚拟工程团队]] 是 Garry Tan（YC CEO）开源的 Claude Code 工程配置，23 个专家角色覆盖 think→plan→build→review→test→ship 完整 sprint 流程。提供 4 个 OpenClaw 原生 Skill：`gstack-openclaw-office-hours`、`gstack-openclaw-ceo-review`、`gstack-openclaw-investigate`、`gstack-openclaw-retro`，可通过 clawhub 安装直接使用。
+
+## Skill 安装与管理工具
+
+随着 Skills 生态成熟，专门的安装和管理工具开始出现：
+
+- **[[autoskills]]**（midudev，CC BY-NC 4.0）：`npx autoskills` 一行命令，自动扫描项目技术栈（package.json/Gradle/配置文件），从 [skills.sh](https://skills.sh) 安装最匹配的 Skills，并为 Claude Code 自动生成 `CLAUDE.md`。支持 70+ 技术栈检测。
+
+- **[[skills-manage]]**（iamzhihuix，Apache 2.0）：Tauri 桌面应用，统一管理 27 个 AI 工具平台的 Skills（含 OpenClaw/QClaw/EasyClaw/AutoClaw 等龙虾系列）。以 `~/.agents/skills/` 为中央库，通过符号链接同步到各平台。支持 Marketplace 浏览、GitHub 导入、Collections 批量安装、AI 解释生成。OpenClaw 被单独列为 Lobster 品类，与其他 5 款龙虾系列工具并列。
+
+两者互补：autoskills 用于项目初始化快速配置，skills-manage 用于长期跨平台统一维护。
 
 ## 生态导航
 

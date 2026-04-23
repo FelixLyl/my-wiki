@@ -6,10 +6,10 @@
 
 | 指标 | 数量 |
 |------|------|
-| 总文章数 | 63 |
-| 已入库素材 | 27 |
-| 最后入库时间 | 2026-04-22 |
-| 待入库素材 | 1 (raw/articles/claude-code-source-study-github.md 已修改) |
+| 总文章数 | 65 |
+| 已入库素材 | 29 |
+| 最后入库时间 | 2026-04-23 |
+| 待入库素材 | 0 |
 | 最后做梦时间 | 2026-04-23 |
 
 ## 目录
@@ -24,7 +24,8 @@
 - [[autoresearch]] — GitHub Issue 驱动的全自动化开发工具，多 Agent 轮转交叉审核，双轨质量门禁（Build/Test + LLM 评分≥85），全自动 Issue→PR→合并→关闭闭环
 - [[Code-Simplifier]] — Anthropic 官方 Claude Code 插件，自动简化最近修改的代码，聚焦可读性
 - [[Claude-Sub-Agents]] — 动态创建的隔离型子 Agent，处理耗时/脏活任务
-- [[CLAUDE-md配置方法论]] — 项目根目录配置文件，植入 AI 的三层思维逻辑；含 Agent 行为规范 4 条黄金准则
+- [[CLAUDE-md配置方法论]] — 项目根目录配置文件，植入 AI 的三层思维逻辑；含 Agent 行为规范 4 条黄金准则 + Karpathy 四条编码准则
+- [[Karpathy-LLM编码准则]] — Karpathy 观察 LLM 编码三大缺陷提炼的四条准则：Think Before Coding / Simplicity First / Surgical Changes / Goal-Driven Execution
 - [[Claude-Code源码架构]] — Claude Code 开源源码全栈拆解：AI 核心、工具系统、Agent 编排、安全、终端 UI、记忆
 - [[Hermes-Agent]] — Nous Research 开源 AI 智能体框架，OpenClaw 首个真正竞争对手，~3万 Stars
 - [[AI内容创作工作流]] — 公众号全自动流水线 / YouTube 知识化 / GEO-SEO
@@ -65,7 +66,7 @@
 
 ### 👤 人物 (人物/)
 
-- [[Andrej-Karpathy]] — 深度学习研究者，LLM 个人知识库模式的提出者
+- [[Andrej-Karpathy]] — 深度学习研究者，LLM 个人知识库模式与 LLM 编码缺陷观察的提出者
 
 ### 💡 洞见 (洞见/)
 
@@ -84,6 +85,10 @@
 - [[Insight-Agent系统的三类熵增防线-2026-04-18]] — Agent 系统熵增防线洞见
 - [[Insight-意图翻译损耗-2026-04-19]] — 意图翻译损耗洞见
 - [[Insight-Agent安全的三层纵深防御-2026-04-20]] — Claude Code内核安全 × OpenClaw运行时安全 × GStack专家Agent安全，三层互补形成完整纵深防御体系，揭示跨Agent调用链信任传递为共同盲区
+
+### 💭 价值观与方法论 (philosophies/)
+
+- [[AI与商业角色转变]] — AI 效率红利流向由商业链路角色决定；工具使用不等于角色升级（stub，待补充）
 
 ### 📖 来源 (来源/)
 

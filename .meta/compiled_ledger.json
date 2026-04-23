@@ -1,6 +1,6 @@
 {
   "version": "1.0",
-  "last_updated": "2026-04-22",
+  "last_updated": "2026-04-23",
   "compiled_files": {
     "raw/AI编程.pdf": {
       "mtime": 1775417213,
@@ -225,6 +225,22 @@
     "raw/skills-manage-iamzhihuix-2026-04-22.md": {
       "mtime": 1776872860.3725197,
       "compiled_at": "2026-04-22T15:46:00+08:00"
+    },
+    "raw/karpathy-skills-forrestchang-2026-04-23.md": {
+      "mtime": 1776964936.6955526,
+      "compiled_at": "2026-04-23T17:30:00+08:00",
+      "articles_touched": [
+        "Agent工程/Karpathy-LLM编码准则.md",
+        "人物/Andrej-Karpathy.md",
+        "Agent工程/CLAUDE-md配置方法论.md"
+      ]
+    },
+    "raw/hytidellegend-ai-worker-2026-04-23.md": {
+      "mtime": 1776964951.3724954,
+      "compiled_at": "2026-04-23T17:30:00+08:00",
+      "articles_touched": [
+        "philosophies/AI与商业角色转变.md"
+      ]
     }
   }
 }

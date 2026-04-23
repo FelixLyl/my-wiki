@@ -245,3 +245,11 @@
 
 ## [2026-04-23] dream | 灵感碰撞 — 随机挑选: 工具与生态/GStack-虚拟工程团队 × 人物/Andrej-Karpathy × 安全/OpenClaw-Agent安全体系 — 新建 Insight-知识编译器即安全的最后一公里-2026-04-23.md
 ## [2026-04-23] dream | 健康检查 — 共63篇文章，孤儿页7篇(均为来源页+1Agent工程页，属正常)，死链8条(2占位符+2外部项目引用+4文件名/路径不匹配)，超长文章0篇，空stub 0篇
+
+## 2026-04-23 ingest | karpathy-skills-forrestchang-2026-04-23.md — 触及3篇文章
+- 新建：Agent工程/Karpathy-LLM编码准则.md
+- 更新：人物/Andrej-Karpathy.md（+LLM编码缺陷观察章节）
+- 更新：Agent工程/CLAUDE-md配置方法论.md（+Karpathy四条准则引用）
+
+## 2026-04-23 ingest | hytidellegend-ai-worker-2026-04-23.md — 触及1篇文章（stub）
+- 新建：philosophies/AI与商业角色转变.md（maturity: stub，原帖全文待补充）

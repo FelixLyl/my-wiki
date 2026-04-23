@@ -5,8 +5,8 @@ date: 2026-04-05
 updated: 2026-04-06
 tags: [claude-code, claude-md, llm-engineering, configuration, agent-behavior]
 aliases: [CLAUDE.md, Claude配置文件, claude.md行为规范]
-sources: ["raw/AI编程.pdf", "raw/ai-research-list-2026-04-06.md", "raw/articles/claude-code-source-study-github.md"]
-related: ["[[Claude-Agent-Teams]]", "[[Claude-Sub-Agents]]", "[[知识沉淀双轨机制]]", "[[OpenClaw-Skill生态]]", "[[Claude-Code源码架构]]"]
+sources: ["raw/AI编程.pdf", "raw/ai-research-list-2026-04-06.md", "raw/articles/claude-code-source-study-github.md", "raw/karpathy-skills-forrestchang-2026-04-23.md"]
+related: ["[[Claude-Agent-Teams]]", "[[Claude-Sub-Agents]]", "[[知识沉淀双轨机制]]", "[[OpenClaw-Skill生态]]", "[[Claude-Code源码架构]]", "[[Karpathy-LLM编码准则]]"]
 ---
 
 # CLAUDE.md 配置方法论
@@ -57,6 +57,17 @@ CLAUDE.md 是放置在项目根目录的配置文件，用于向 Claude Code 声
 4. **极致简洁**：回复直击要点，杜绝冗余
 
 这 4 条规范写入 CLAUDE.md 即刻生效，直接影响 Agent 输出质量，成本为零。
+
+## Karpathy 四条编码准则
+
+[[Karpathy-LLM编码准则]] 是对上述黄金准则的深化，由 Andrej Karpathy 对 LLM 编码缺陷的直接观察提炼而来，聚焦于：
+
+- **Think Before Coding** — 假设显性化，不确定性先问
+- **Simplicity First** — 最小代码，禁止推测性功能
+- **Surgical Changes** — 只改请求范围内的代码，不顺手"改进"
+- **Goal-Driven Execution** — 把指令转化为可验证目标，让 LLM 自主循环直到达成
+
+与上述黄金准则的区别在于颗粒度：Karpathy 准则有具体的"测试标准"（如"资深工程师会说这太复杂吗？"），可直接作为 CLAUDE.md 内容使用。
 
 ## 与 Skills 的关系
 

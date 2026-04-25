@@ -1,6 +1,6 @@
 {
   "version": "1.0",
-  "last_updated": "2026-04-23",
+  "last_updated": "2026-04-25",
   "compiled_files": {
     "raw/AI编程.pdf": {
       "mtime": 1775417213,
@@ -241,6 +241,11 @@
       "articles_touched": [
         "philosophies/AI与商业角色转变.md"
       ]
+    },
+    "raw/openspec-superpowers-gstack-2026-04-25.md": {
+      "mtime": 1777091357.871932,
+      "hash": "d5269cc5170a2afa8709336fc5410edf",
+      "compiled_at": "2026-04-25"
     }
   }
 }

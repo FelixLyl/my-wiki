@@ -5,8 +5,8 @@ date: 2026-04-11
 updated: 2026-04-11
 tags: [engineering-team, claude-code, skills, ai-coding, garry-tan, gstack, openclaw, product-methodology]
 aliases: [GStack, gstack, 虚拟工程团队, Garry-Tan-Stack]
-sources: ["raw/garrytan-gstack.md"]
-related: ["[[OpenClaw-Skill生态]]", "[[Claude-Sub-Agents]]", "[[Claude-Agent-Teams]]", "[[GBrain-世界知识脑]]", "[[OpenClaw-Agent安全体系]]", "[[Claude-Code-Game-Studios]]"]
+sources: ["raw/garrytan-gstack.md", "raw/openspec-superpowers-gstack-2026-04-25.md"]
+related: ["[[OpenClaw-Skill生态]]", "[[Claude-Sub-Agents]]", "[[Claude-Agent-Teams]]", "[[GBrain-世界知识脑]]", "[[OpenClaw-Agent安全体系]]", "[[Claude-Code-Game-Studios]]", "[[OpenSpec]]", "[[Superpowers]]"]
 ---
 
 # GStack：虚拟工程团队
@@ -99,6 +99,23 @@ git add .claude/ CLAUDE.md && git commit -m "require gstack"
 ```
 
 支持 8 个 AI Coding Agent：Claude Code / OpenAI Codex CLI / OpenCode / Cursor / Factory Droid / Slate / Kiro / OpenClaw。MIT 免费永久，无付费层。
+
+## 在三件套中的位置
+
+笨小葱的文章将 gstack 与 [[OpenSpec]]、[[Superpowers]] 并称为 AI 增强开发三件套，gstack 负责"谁来做"——角色分工与 sprint 流程，另两者分别管规格（OpenSpec）和执行纪律（Superpowers）。
+
+典型组合链：
+```
+OpenSpec /opsx:propose   → 锁定需求、生成 tasks
+GStack /office-hours     → 产品层 review，产出 design doc
+GStack /plan-eng-review  → 工程层 review，生成测试矩阵
+Superpowers brainstorming → 每任务边界案例
+Superpowers subagent-dev → 子 Agent 逐任务执行
+GStack /review + /qa     → 评审 + 真实浏览器测试
+GStack /ship             → 同步、CI、PR 一键交付
+```
+
+三者互补而不重叠：gstack 不强制 TDD（那是 Superpowers），不管规格变更追踪（那是 OpenSpec），专注于**流程结构化和专家视角切换**。
 
 ## 同类实现：[[Claude-Code-Game-Studios]]
 

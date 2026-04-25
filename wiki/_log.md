@@ -270,3 +270,4 @@
   - 超长文章：0
   - 空Stub：0
 - **git push**：已同步到 GitHub
+## [2026-04-25] ingest | openspec-superpowers-gstack-2026-04-25.md — 新建 OpenSpec 1篇，更新 Superpowers + GStack-虚拟工程团队 2篇，触及3篇文章

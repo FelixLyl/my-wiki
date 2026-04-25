@@ -6,9 +6,9 @@
 
 | 指标 | 数量 |
 |------|------|
-| 总文章数 | 67 |
-| 已入库素材 | 29 |
-| 最后入库时间 | 2026-04-23 |
+| 总文章数 | 68 |
+| 已入库素材 | 30 |
+| 最后入库时间 | 2026-04-25 |
 | 待入库素材 | 0 |
 | 最后做梦时间 | 2026-04-25 |
 
@@ -19,6 +19,7 @@
 - [[Claude-Agent-Teams]] — Claude 多 Agent 协作团队模式，混合模型策略，多龙虾实践
 - [[Claude-Code-Game-Studios]] — 49 Agent + 72 Skills 的游戏工作室配置，三层层级（Directors/Leads/Specialists），含 Godot/Unity/Unreal 引擎支持
 - [[The-Agency-Agents]] — 全业务领域 AI 专家 Agent 人设库（工程/设计/营销/销售），原生支持 OpenClaw，含飞书集成专家和中国市场专家
+- [[OpenSpec]] — Spec-Driven Development 框架，编码前先锁定变更工件（proposal+specs+design+tasks），让 AI coding assistant 不偏离需求，支持 20+ 工具
 - [[Superpowers]] — obra 开源的 AI Coding Agent 软件工程方法论，Skills 自动触发，Subagent-Driven Development，TDD 强制执行，已上架 Anthropic 官方市场
 - [[Agent-Skills-addyosmani]] — Addy Osmani（Google Chrome 工程总监）出品，生产级 AI Coding Agent 工程 Skills，20 个 Skills 覆盖完整开发生命周期，内嵌 Google SWE Book 实践
 - [[autoresearch]] — GitHub Issue 驱动的全自动化开发工具，多 Agent 轮转交叉审核，双轨质量门禁（Build/Test + LLM 评分≥85），全自动 Issue→PR→合并→关闭闭环

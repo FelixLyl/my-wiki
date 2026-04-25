@@ -6,8 +6,8 @@
 
 | 指标 | 数量 |
 |------|------|
-| 总文章数 | 68 |
-| 已入库素材 | 30 |
+| 总文章数 | 69 |
+| 已入库素材 | 31 |
 | 最后入库时间 | 2026-04-25 |
 | 待入库素材 | 0 |
 | 最后做梦时间 | 2026-04-25 |
@@ -59,6 +59,7 @@
 - [[autoskills]] — `npx autoskills` 一行命令，自动扫描项目技术栈并安装最匹配 Skills，支持 Claude Code CLAUDE.md 自动生成，70+ 技术栈
 - [[skills-manage]] — Tauri 桌面应用，统一管理 27 个 AI 工具平台 Skills（含 OpenClaw 龙虾系列），中央库+符号链接，支持 Marketplace/GitHub 导入
 - [[内部系统Agent集成]] — Swagger 自动生成 Skill / CLI 化 / 浏览器登录态复用
+- [[LLM-Wiki-Desktop]] — nashsu/llm_wiki：Karpathy 模式的完整桌面应用实现，两步 CoT Ingest + 4信号知识图谱 + Louvain 社区检测 + 向量搜索 + Deep Research + Chrome Clipper
 - [[Prompt-Caching降本]] — Prompt Caching 降低高达 90% 重复 Token 成本
 
 ### 🔒 安全 (安全/)

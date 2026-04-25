@@ -19,7 +19,7 @@ Karpathy 在一篇 Gist 中系统阐述了用 LLM 构建个人知识库的模式
 
 "I rarely touch the wiki directly. It's the domain of the LLM." — Andrej Karpathy
 
-他指出 [[Wiki-vs-RAG]] 的根本差异在于积累：RAG 每次查询都从头重新发现知识，wiki 则是复利增长的持久化产物。这一理念被 [[zhangpelf/wiki-compiler]] 等项目 1:1 实现，也影响了 [[farzaa Personal Wiki Skill]] 等变体。
+他指出 [[Wiki-vs-RAG]] 的根本差异在于积累：RAG 每次查询都从头重新发现知识，wiki 则是复利增长的持久化产物。这一理念被 [[个人知识库编译器模式|zhangpelf/wiki-compiler]] 等项目 1:1 实现，也影响了 [[来源/farzaa-personal-wiki-skill|farzaa Personal Wiki Skill]] 等变体。
 
 ## 历史渊源的主张
 

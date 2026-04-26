@@ -272,3 +272,5 @@
 - **git push**：已同步到 GitHub
 ## [2026-04-25] ingest | openspec-superpowers-gstack-2026-04-25.md — 新建 OpenSpec 1篇，更新 Superpowers + GStack-虚拟工程团队 2篇，触及3篇文章
 ## [2026-04-25] ingest | nashsu-llm-wiki-desktop-2026-04-25.md — 新建 LLM-Wiki-Desktop 1篇，更新 个人知识库编译器模式+Wiki-vs-RAG+LLM知识库三层架构 3篇，触及4篇文章
+
+## [2026-04-26] ingest | graphify-claude-code-kg-2026-04-26.md — 触及 2 篇文章（新建 Graphify-代码知识图谱，更新 Claude-Code源码架构）

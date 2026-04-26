@@ -1,6 +1,6 @@
 {
   "version": "1.0",
-  "last_updated": "2026-04-25",
+  "last_updated": "2026-04-26",
   "compiled_files": {
     "raw/AI编程.pdf": {
       "mtime": 1775417213,
@@ -251,6 +251,10 @@
       "mtime": 1777098314.1623213,
       "hash": "68c9eea82fcb27d5f7b83fd2335e8883",
       "compiled_at": "2026-04-25"
+    },
+    "raw/graphify-claude-code-kg-2026-04-26.md": {
+      "mtime": 1777206142.2105677,
+      "size": 2855
     }
   }
 }

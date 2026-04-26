@@ -6,7 +6,7 @@ updated: 2026-04-07
 tags: [claude-code, agent-architecture, source-code, bun, typescript, ink, ai-engineering]
 aliases: [Claude Code Architecture, Claude Code 源码, Claude Code 架构]
 sources: ["raw/articles/claude-code-source-study-github.md"]
-related: ["[[CLAUDE-md配置方法论]]", "[[Prompt-Caching降本]]", "[[Agent记忆持久化]]", "[[Claude-Agent-Teams]]", "[[Claude-Sub-Agents]]", "[[Graphify-代码知识图谱]]"]
+related: ["[[CLAUDE-md配置方法论]]", "[[Prompt-Caching降本]]", "[[Agent记忆持久化]]", "[[Claude-Agent-Teams]]", "[[Claude-Sub-Agents]]", "[[Graphify-代码知识图谱]]", "[[Claude-Code-Powerup教程]]"]
 ---
 
 # Claude Code 源码架构

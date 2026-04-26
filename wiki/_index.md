@@ -6,8 +6,8 @@
 
 | 指标 | 数量 |
 |------|------|
-| 总文章数 | 67 |
-| 已入库素材 | 32 |
+| 总文章数 | 69 |
+| 已入库素材 | 34 |
 | 最后入库时间 | 2026-04-26 |
 | 待入库素材 | 0 |
 | 最后做梦时间 | 2026-04-25 |
@@ -28,6 +28,7 @@
 - [[CLAUDE-md配置方法论]] — 项目根目录配置文件，植入 AI 的三层思维逻辑；含 Agent 行为规范 4 条黄金准则 + Karpathy 四条编码准则
 - [[Karpathy-LLM编码准则]] — Karpathy 观察 LLM 编码三大缺陷提炼的四条准则：Think Before Coding / Simplicity First / Surgical Changes / Goal-Driven Execution
 - [[Claude-Code源码架构]] — Claude Code 开源源码全栈拆解：AI 核心、工具系统、Agent 编排、安全、终端 UI、记忆
+- [[Claude-Code-Powerup教程]] — Claude Code v2.1.90 内置 /powerup 交互式教程，10 课覆盖 @引用/模式切换/撤销/后台/CLAUDE.md/MCP/Skills+Hooks/子代理/远程控制/模型调节
 - [[Hermes-Agent]] — Nous Research 开源 AI 智能体框架，OpenClaw 首个真正竞争对手，~3万 Stars
 - [[AI内容创作工作流]] — 公众号全自动流水线 / YouTube 知识化 / GEO-SEO
 

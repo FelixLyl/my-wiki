@@ -1,5 +1,14 @@
 # Wiki 操作日志
 
+## [2026-04-26] ingest | AI增强开发三件套(笨小葱) + Claude Code Powerup教程(小林coding) — 触及 6 篇文章
+
+- 新建：Agent工程/Claude-Code-Powerup教程.md — Claude Code v2.1.90 /powerup 交互式教程全解，10 课
+- 更新：Agent工程/OpenSpec.md — 补充双文件夹模型、职责边界、Token 降本/返工率数据
+- 更新：Agent工程/Superpowers.md — 补充笨小葱实战验证（5天、6k行生产级）、Harness Engineering 经验
+- 更新：工具与生态/GStack-虚拟工程团队.md — 补充"不做决策只帮干活"定位
+- 更新：Agent工程/CLAUDE-md配置方法论.md — 补充多 Skill 裁决配置实例、任务分流建议
+- 更新：Agent工程/Claude-Code源码架构.md — 关联 Powerup 教程
+
 ## [2026-04-24] dream | 灵感碰撞 × 健康检查 — 新建 1 篇洞见文章
 
 - 新建：洞见/Insight-人格即防熵锚点-2026-04-24.md — Karpathy持续约束论 × The Agency人格驱动 × Agent三类熵增防线，提出行为熵第四维防线

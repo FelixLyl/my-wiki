@@ -2,11 +2,11 @@
 type: concept
 maturity: draft
 date: 2026-04-05
-updated: 2026-04-06
+updated: 2026-04-26
 tags: [claude-code, claude-md, llm-engineering, configuration, agent-behavior]
 aliases: [CLAUDE.md, Claude配置文件, claude.md行为规范]
-sources: ["raw/AI编程.pdf", "raw/ai-research-list-2026-04-06.md", "raw/articles/claude-code-source-study-github.md", "raw/karpathy-skills-forrestchang-2026-04-23.md"]
-related: ["[[Claude-Agent-Teams]]", "[[Claude-Sub-Agents]]", "[[知识沉淀双轨机制]]", "[[OpenClaw-Skill生态]]", "[[Claude-Code源码架构]]", "[[Karpathy-LLM编码准则]]"]
+sources: ["raw/AI编程.pdf", "raw/ai-research-list-2026-04-06.md", "raw/articles/claude-code-source-study-github.md", "raw/karpathy-skills-forrestchang-2026-04-23.md", "raw/AI 增强开发的三件套：OpenSpec + Superpowers + gstack.md"]
+related: ["[[Claude-Agent-Teams]]", "[[Claude-Sub-Agents]]", "[[知识沉淀双轨机制]]", "[[OpenClaw-Skill生态]]", "[[Claude-Code源码架构]]", "[[Karpathy-LLM编码准则]]", "[[OpenSpec]]", "[[Superpowers]]", "[[GStack-虚拟工程团队]]"]
 ---
 
 # CLAUDE.md 配置方法论
@@ -76,6 +76,19 @@ CLAUDE.md 是放置在项目根目录的配置文件，用于向 Claude Code 声
 ## 源码级实现：System Prompt 工程
 
 Claude Code 源码分析（参见 [[Claude-Code源码架构]]）揭示了 CLAUDE.md 在产品内部的实际处理方式。System Prompt 采用分段构建策略：静态规范部分作为 Prompt Cache 的缓存前缀，动态注入的项目配置（即 CLAUDE.md 内容）按优先级排列。Settings 系统实现了 5+1 层配置合并，CLAUDE.md 是其中面向用户的声明层，最终与内置规则、MDM 策略等合并为完整的行为指令。
+
+## 多 Skill 裁决配置实例
+
+笨小葱在三件套实战中提出：要让 [[OpenSpec]] + [[Superpowers]] + [[GStack-虚拟工程团队]] 真正协同运行，CLAUDE.md 需要写明**裁决规则**，告诉 Claude 遇到什么情况该走哪个 Skill。核心原则包括：
+
+1. **规范先行**：任何需求变更必须先过 OpenSpec（/opsx:propose），产出 proposal + design + tasks 三件套
+2. **流程归 Superpowers**：brainstorm、plan、debug、TDD、verify、code review 走 Superpowers
+3. **执行归 gstack**：浏览器、QA、ship、deploy、canary 走 gstack
+4. **独立 reviewer 通道**：verification 和 code-review 分两个 pass，不在同一上下文合并
+5. **证据优先**：没有测试/截图/QA 报告不算完成
+6. **最短路径优先**：能用一个 skill 解决的，不升级为完整闭环
+
+任务分流建议：只读任务直接处理；轻量任务跳过完整流程直接实现；中任务走 OpenSpec → 简短 brainstorming → 实现 → 验证；大任务走完整闭环含 worktrees + TDD + code-review + /ship + /canary。
 
 ## 设计哲学
 

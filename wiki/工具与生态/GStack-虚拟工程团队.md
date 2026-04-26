@@ -2,10 +2,10 @@
 type: concept
 maturity: draft
 date: 2026-04-11
-updated: 2026-04-11
+updated: 2026-04-26
 tags: [engineering-team, claude-code, skills, ai-coding, garry-tan, gstack, openclaw, product-methodology]
 aliases: [GStack, gstack, 虚拟工程团队, Garry-Tan-Stack]
-sources: ["raw/garrytan-gstack.md", "raw/openspec-superpowers-gstack-2026-04-25.md"]
+sources: ["raw/garrytan-gstack.md", "raw/openspec-superpowers-gstack-2026-04-25.md", "raw/AI 增强开发的三件套：OpenSpec + Superpowers + gstack.md"]
 related: ["[[OpenClaw-Skill生态]]", "[[Claude-Sub-Agents]]", "[[Claude-Agent-Teams]]", "[[GBrain-世界知识脑]]", "[[OpenClaw-Agent安全体系]]", "[[Claude-Code-Game-Studios]]", "[[OpenSpec]]", "[[Superpowers]]"]
 ---
 
@@ -114,6 +114,8 @@ Superpowers subagent-dev → 子 Agent 逐任务执行
 GStack /review + /qa     → 评审 + 真实浏览器测试
 GStack /ship             → 同步、CI、PR 一键交付
 ```
+
+笨小葱的定位概括：**gstack 不做决策，只帮你干活**。没有 gstack，Superpowers 写完了代码没法验证"页面渲染对不对"——这是绝大多数"我以为修好了"的根源。
 
 三者互补而不重叠：gstack 不强制 TDD（那是 Superpowers），不管规格变更追踪（那是 OpenSpec），专注于**流程结构化和专家视角切换**。
 

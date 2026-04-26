@@ -2,10 +2,10 @@
 type: project
 maturity: draft
 date: 2026-04-25
-updated: 2026-04-25
+updated: 2026-04-26
 tags: [spec-driven-development, ai-coding, openspec, workflow, claude-code, cursor, requirements]
 aliases: [openspec, OpenSpec SDD, Spec-Driven Development]
-sources: ["raw/openspec-superpowers-gstack-2026-04-25.md"]
+sources: ["raw/openspec-superpowers-gstack-2026-04-25.md", "raw/AI 增强开发的三件套：OpenSpec + Superpowers + gstack.md"]
 related: ["[[Superpowers]]", "[[GStack-虚拟工程团队]]", "[[CLAUDE-md配置方法论]]", "[[AI增强开发三件套]]"]
 ---
 
@@ -53,6 +53,28 @@ update any artifact anytime，不设刚性阶段门控，支持随时迭代。
 | Spec Kit（GitHub） | 严格规格管理 | 较重，强制 phase gates，Python 环境 |
 | Kiro（AWS） | IDE 内置 SDD | 锁定 AWS IDE，仅限 Claude 模型 |
 | nothing | 裸 Prompt | 结果不可预测，变更无法追溯 |
+
+## 双文件夹模型
+
+```
+openspec/
+  specs/     # 当前系统的事实来源（规范文件）
+  changes/   # 每次变更的完整提案
+```
+
+每份变更包含三个文件：
+- `proposal.md` — 为什么要做（背景、目标、成功标准）
+- `design.md` — 技术方案（架构决策、接口设计、数据流）
+- `tasks.md` — 实施清单（可执行的具体任务）
+
+三个文件是 AI 和人之间的"契约"。AI 在动手写代码前，先在这三份文档里对齐。实测对比：使用 OpenSpec 后相同需求下的 Token 消耗降低 30%-50%，返工率下降 60% 以上。
+
+## 职责边界
+
+- OpenSpec **只产出规范文档，不写代码**
+- [[Superpowers]] **只按 tasks.md 执行编码流程**，不修改 OpenSpec 规范
+- [[GStack-虚拟工程团队]] **只做验证和交付动作**，不参与需求分析或架构决策
+- 三者之间通过**文件和命令**传递信息，不通过共享内存或隐式状态
 
 ## 安装与使用
 

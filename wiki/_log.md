@@ -274,3 +274,4 @@
 ## [2026-04-25] ingest | nashsu-llm-wiki-desktop-2026-04-25.md — 新建 LLM-Wiki-Desktop 1篇，更新 个人知识库编译器模式+Wiki-vs-RAG+LLM知识库三层架构 3篇，触及4篇文章
 
 ## [2026-04-26] ingest | graphify-claude-code-kg-2026-04-26.md — 触及 2 篇文章（新建 Graphify-代码知识图谱，更新 Claude-Code源码架构）
+## [2026-04-26] delete | 删除不靠谱洞见 3 篇：Memex闭环、三层自维护性、握有缰绳者（历史名人联结牵强/强行框架化/自我引证）

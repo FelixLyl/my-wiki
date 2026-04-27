@@ -1,5 +1,11 @@
 # Wiki 操作日志
 
+## [2026-04-27] dream | 灵感碰撞 × 健康检查 — 新建 1 篇洞见文章
+
+- 素材巡逻：raw/ 目录发现 1 个账本记录不完整（graphify-claude-code-kg-2026-04-26.md 已有对应 wiki 文章，仅补全 ledger 标记）
+- 新建：洞见/Insight-Agent工具链的信任边界悖论-2026-04-27.md — OpenClaw安全体系 × markdown-viewer-skills × 错误记忆缓存友好编码，提出信任边界三种扩散路径
+- 健康检查：总文章 70 篇，孤儿页 27 个（主要为洞见/来源类，属正常），死链 9 条（含 wikilink 占位符等），超长文章 0，空 stub 0
+
 ## [2026-04-26] ingest | AI增强开发三件套(笨小葱) + Claude Code Powerup教程(小林coding) — 触及 6 篇文章
 
 - 新建：Agent工程/Claude-Code-Powerup教程.md — Claude Code v2.1.90 /powerup 交互式教程全解，10 课

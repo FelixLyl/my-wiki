@@ -254,7 +254,11 @@
     },
     "raw/graphify-claude-code-kg-2026-04-26.md": {
       "mtime": 1777206142.2105677,
-      "size": 2855
+      "size": 2855,
+      "compiled_at": "2026-04-26",
+      "articles_touched": [
+        "工具与生态/Graphify-代码知识图谱.md"
+      ]
     },
     "raw/AI 增强开发的三件套：OpenSpec + Superpowers + gstack.md": {
       "mtime": 1777212486,

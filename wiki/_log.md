@@ -310,3 +310,16 @@
   - 超长文章：0
   - 空Stub：0
 - **git push**：已同步到 GitHub
+
+## [2026-04-30] dream | 做梦机制第20次运行
+- **git pull**：已是最新，无冲突
+- **素材巡逻**：发现1份遗漏未处理素材：「面试官："你 Claude Code 用得这么 6？"…/powerup教程.md」（小林coding，2026-04-26入库），账本记录与实际文件名不符导致漏检；内容覆盖 Claude Code /powerup 10课详解；建议下次手动入库
+- **灵感碰撞**：随机选取「做梦机制」×「来源/karpathy-llm-wiki-pattern」×「OpenClaw-Agent安全体系」，新建 Insight：《受约束的自主性是复利系统的共同底层》
+  - 核心洞见：三系统共享同一设计底层——不可逆/破坏性操作硬约束，可逆/追加性操作完全放权
+  - 原则总结：Read & Append freely. Modify & Delete carefully. Destroy never unilaterally.
+- **健康检查**：
+  - 孤儿页 27 个（洞见/来源目录为主，结构性孤儿，不影响知识库完整性）
+  - 死链 10 处（含文档示例占位符、路径格式问题、文件名与链接名不匹配，建议主人审查是否批量修复）
+  - 超长文章：0
+  - 空Stub：0
+- **git push**：已同步到 GitHub

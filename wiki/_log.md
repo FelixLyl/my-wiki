@@ -1,5 +1,13 @@
 # Wiki 操作日志
 
+## [2026-05-08] dream | 灵感碰撞 × 健康检查 — 新建 1 篇洞见文章
+
+- git pull --rebase：无冲突，Already up to date
+- 遗漏素材巡逻：raw/ 33 个文件均已入账，无遗漏
+- 灵感碰撞：Andrej-Karpathy × GBrain × Hermes-Agent → 新建「记忆不是功能而是复利基础」
+- 健康检查：死链 11 处 | 孤儿页 31 篇（主要为洞见/来源目录，结构性问题） | 无超长文章 | 无空 stub
+- git push：成功推送到 GitHub（commit c42ce8f）
+
 ## [2026-05-06] dream | 灵感碰撞 × 健康检查 — 新建 1 篇洞见文章
 
 - git pull --rebase：无冲突，已是最新（Already up to date）

@@ -420,3 +420,10 @@
     - 真正需要关注：`OpenSpec` -> `[[AI增强开发三件套]]`；`个人知识库编译器模式` -> `[[实体名]]`（模板占位符）；`做梦机制` -> `[[引用]]`（模板占位符）；多处 insights/ 跨目录引用路径不一致
     - `LLM-Wiki-Desktop` 引用 `[[wikilink]]`/`[[wikilinks]]` 属技术术语，非真死链
 - **git push**：已同步到 GitHub
+
+## [2026-05-09] dream | 做梦机制第N次运行
+- git pull --rebase：已是最新，无冲突
+- raw/ 遗漏素材：无（33个素材全部已入账）
+- 灵感碰撞：GBrain-世界知识脑 × autoskills × CLAUDE-md配置方法论 → 新建 [[Insight-配置即知识基因-2026-05-09]]
+- 健康检查：孤儿页11篇（均为近期新增Insight或来源页，待_index引用后消解）；死链13条（_log外）；超长文章1篇（_log本身422行，无需拆分）；空stub 0篇（_log误报）
+- git push：成功

@@ -279,4 +279,12 @@
       ]
     }
   }
+,
+  "raw/shao-meng-prompt-caching-2026-05-11.md": {
+    "mtime": 1778515236,
+    "compiled_at": "2026-05-11",
+    "articles_touched": [
+      "工具与生态/Prompt-Caching降本.md"
+    ]
+  }
 }

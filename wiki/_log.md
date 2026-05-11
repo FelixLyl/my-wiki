@@ -446,3 +446,5 @@
   - 孤儿页面：32篇（大量为洞见/insights 类文章，已在 _index 补充引用后将消解部分）
   - 死链：11条（LLM-Wiki-Desktop 中 wikilink/wikilinks 为占位示例链接；insights/知识资本化 引用旧洞见名；其余为命名变更遗留，不影响阅读）
 - git push：待执行
+
+## [2026-05-11] ingest | shao-meng-prompt-caching-2026-05-11.md — 触及1篇文章（工具与生态/Prompt-Caching降本.md）

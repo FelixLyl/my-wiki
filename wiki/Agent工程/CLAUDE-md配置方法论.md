@@ -6,7 +6,7 @@ updated: 2026-04-26
 tags: [claude-code, claude-md, llm-engineering, configuration, agent-behavior]
 aliases: [CLAUDE.md, Claude配置文件, claude.md行为规范]
 sources: ["raw/AI编程.pdf", "raw/ai-research-list-2026-04-06.md", "raw/articles/claude-code-source-study-github.md", "raw/karpathy-skills-forrestchang-2026-04-23.md", "raw/AI 增强开发的三件套：OpenSpec + Superpowers + gstack.md"]
-related: ["[[Claude-Agent-Teams]]", "[[Claude-Sub-Agents]]", "[[知识沉淀双轨机制]]", "[[OpenClaw-Skill生态]]", "[[Claude-Code源码架构]]", "[[Karpathy-LLM编码准则]]", "[[OpenSpec]]", "[[Superpowers]]", "[[GStack-虚拟工程团队]]"]
+related: ["[[Claude-Agent团队协作]]", "[[Claude子Agent机制]]", "[[知识沉淀双轨机制]]", "[[OpenClaw-Skill生态]]", "[[Claude-Code源码架构]]", "[[Karpathy-LLM编码准则]]", "[[OpenSpec规范]]", "[[超能力技能集]]", "[[GStack-虚拟工程团队]]"]
 ---
 
 # CLAUDE.md 配置方法论
@@ -21,8 +21,8 @@ CLAUDE.md 是放置在项目根目录的配置文件，用于向 Claude Code 声
 
 | 复杂度 | 模式 | 说明 |
 |--------|------|------|
-| 复杂/全栈任务 | 自动组建 [[Claude-Agent-Teams]] | 多模块、多维度审查 |
-| 耗时/隔离任务 | 动态创建 [[Claude-Sub-Agents]] | 上下文隔离、脏活累活 |
+| 复杂/全栈任务 | 自动组建 [[Claude-Agent团队协作]] | 多模块、多维度审查 |
+| 耗时/隔离任务 | 动态创建 [[Claude子Agent机制]] | 上下文隔离、脏活累活 |
 | 简单任务 | 直接执行 | 单文件修改、简单问答 |
 
 ### 执行层 — 技能与规范
@@ -79,7 +79,7 @@ Claude Code 源码分析（参见 [[Claude-Code源码架构]]）揭示了 CLAUDE
 
 ## 多 Skill 裁决配置实例
 
-笨小葱在三件套实战中提出：要让 [[OpenSpec]] + [[Superpowers]] + [[GStack-虚拟工程团队]] 真正协同运行，CLAUDE.md 需要写明**裁决规则**，告诉 Claude 遇到什么情况该走哪个 Skill。核心原则包括：
+笨小葱在三件套实战中提出：要让 [[OpenSpec规范]] + [[超能力技能集]] + [[GStack-虚拟工程团队]] 真正协同运行，CLAUDE.md 需要写明**裁决规则**，告诉 Claude 遇到什么情况该走哪个 Skill。核心原则包括：
 
 1. **规范先行**：任何需求变更必须先过 OpenSpec（/opsx:propose），产出 proposal + design + tasks 三件套
 2. **流程归 Superpowers**：brainstorm、plan、debug、TDD、verify、code review 走 Superpowers

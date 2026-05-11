@@ -49,8 +49,8 @@
 ## [2026-04-26] ingest | AI增强开发三件套(笨小葱) + Claude Code Powerup教程(小林coding) — 触及 6 篇文章
 
 - 新建：Agent工程/Claude-Code-Powerup教程.md — Claude Code v2.1.90 /powerup 交互式教程全解，10 课
-- 更新：Agent工程/OpenSpec.md — 补充双文件夹模型、职责边界、Token 降本/返工率数据
-- 更新：Agent工程/Superpowers.md — 补充笨小葱实战验证（5天、6k行生产级）、Harness Engineering 经验
+- 更新：Agent工程/OpenSpec规范.md — 补充双文件夹模型、职责边界、Token 降本/返工率数据
+- 更新：Agent工程/超能力技能集.md — 补充笨小葱实战验证（5天、6k行生产级）、Harness Engineering 经验
 - 更新：工具与生态/GStack-虚拟工程团队.md — 补充"不做决策只帮干活"定位
 - 更新：Agent工程/CLAUDE-md配置方法论.md — 补充多 Skill 裁决配置实例、任务分流建议
 - 更新：Agent工程/Claude-Code源码架构.md — 关联 Powerup 教程
@@ -65,30 +65,30 @@
 
 - 新建：工具与生态/Coolify.md — 开源自托管部署平台，AI 基础设施私有化底座
 - 新建：工具与生态/n8n.md — 工作流自动化，400+ 集成，原生 LangChain，AI Agent 集成中间层
-- 新建：Agent工程/Code-Simplifier.md — Anthropic 官方 Claude Code 插件，代码简化/可读性提升
+- 新建：Agent工程/代码简化工具.md — Anthropic 官方 Claude Code 插件，代码简化/可读性提升
 - 更新：工具与生态/内部系统Agent集成.md — 新增"工作流自动化中间层"段落，关联 n8n + Coolify
 - 跳过：agency-agents（已入库）
 
 ## [2026-04-18] ingest | claude-mem-2026-04-18.md — 触及 2 篇文章
 
-- 新建：知识管理/Claude-Mem.md — Claude Code 跨 Session 记忆系统，生命周期 Hooks + 渐进式披露
+- 新建：知识管理/Claude记忆机制.md — Claude Code 跨 Session 记忆系统，生命周期 Hooks + 渐进式披露
 - 更新：知识管理/Agent记忆持久化.md — 新增"Claude Code 专属记忆层"段落，关联 Claude-Mem
 
 ## [2026-04-18] ingest | superpowers-obra-2026-04-18.md — 触及 2 篇文章
 
-- 新建：Agent工程/Superpowers.md — AI Coding Agent 软件工程方法论，7 步自动流水线，Subagent-Driven Development
-- 更新：Agent工程/Claude-Sub-Agents.md — 新增"工程场景系统化应用"段落，关联 Superpowers
+- 新建：Agent工程/超能力技能集.md — AI Coding Agent 软件工程方法论，7 步自动流水线，Subagent-Driven Development
+- 更新：Agent工程/Claude子Agent机制.md — 新增"工程场景系统化应用"段落，关联 Superpowers
 
 ## [2026-04-18] ingest | agency-agents-2026-04-18.md — 触及 2 篇文章
 
-- 新建：Agent工程/The-Agency-Agents.md — 全业务领域 AI Agent 人设库，原生支持 OpenClaw
+- 新建：Agent工程/The-Agency多Agent框架.md — 全业务领域 AI Agent 人设库，原生支持 OpenClaw
 - 更新：工具与生态/OpenClaw-Skill生态.md — 新增"全业务领域 Agent 人设库"段落，关联 The Agency
 
 ## [2026-04-18] ingest | claude-code-game-studios-2026-04-18.md — 触及 3 篇文章
 
-- 新建：Agent工程/Claude-Code-Game-Studios.md — 49 Agent 游戏工作室配置，GStack 垂直领域实现
+- 新建：Agent工程/Claude-Code游戏工作室实践.md — 49 Agent 游戏工作室配置，GStack 垂直领域实现
 - 更新：工具与生态/GStack-虚拟工程团队.md — 新增同类实现段落，关联 CCGS
-- 更新：Agent工程/Claude-Agent-Teams.md — 新增垂直领域落地案例段落，关联 GStack + CCGS
+- 更新：Agent工程/Claude-Agent团队协作.md — 新增垂直领域落地案例段落，关联 GStack + CCGS
 
 ## [2026-04-18] ingest | hyperframes-heygen-2026-04-18.md — 触及 2 篇文章
 
@@ -100,7 +100,7 @@
 
 - git pull --rebase：Already up to date，无冲突
 - 巡逻：发现 1 份遗漏素材 `raw/AI编程.md`（终极版 CLAUDE.md 方法论，账本记录的是已删除的 .pdf 版本），**待主人确认是否入库**
-- 灵感碰撞：[[CLAUDE-md配置方法论]] × [[Wiki-vs-RAG]] × [[Prompt-Caching降本]]
+- 灵感碰撞：[[CLAUDE-md配置方法论]] × [[Wiki与RAG的对比]] × [[Prompt-Caching降本]]
 - 新建：洞见/Insight-反重复发现原则-2026-04-15.md — 三者共享"反重复发现"底层逻辑，知识固化是认知经济学的核心优化
 - 健康检查：孤儿页 14（洞见/全10篇 + 来源/全4篇），死链 6 处（4个模板占位符 + 2处旧引用格式），超长文章 0，空stub 0
 - 死链说明：[[zhangpelf/wiki-compiler]]、[[farzaa Personal Wiki Skill]]、[[实体名]]、[[引用]] 均为模板占位符，非真实文章，建议后续清理
@@ -134,7 +134,7 @@
 
 - git pull --rebase：成功，同步 17 文件，含新增 raw/AI编程.md、wiki/Agent工程/Claude-Code源码架构.md 等
 - 巡逻：发现 1 份遗漏素材 `raw/AI编程.md`（终极版 CLAUDE.md 方法论文章，与 AI编程.pdf 不同），**未本次入库，待主人确认**
-- 灵感碰撞：[[Claude-Agent-Teams]] × [[Andrej-Karpathy]] × [[Wiki-vs-RAG]]
+- 灵感碰撞：[[Claude-Agent团队协作]] × [[Andrej-Karpathy]] × [[Wiki与RAG的对比]]
 - 新建：洞见/Insight-分布式Agent与知识孤岛-2026-04-08.md
 - 健康检查：孤儿页 9（含来源/全部4篇+洞见/全部3篇+概念/双链.md），死链 5 处，超长文章 0，空stub 0
 - 更新：_index.md（+1 insights 条目，总文章数27）
@@ -159,7 +159,7 @@
 - 新建：知识管理/自学习复盘模式.md
 - 新建：来源/ai-research-list-2026-04-06.md
 - 更新：Agent工程/CLAUDE-md配置方法论.md（补充 Agent 行为规范 4 条黄金准则，添加 Skills 关系）
-- 更新：Agent工程/Claude-Agent-Teams.md（补充 OpenClaw 多龙虾实践：claw-router/control-center）
+- 更新：Agent工程/Claude-Agent团队协作.md（补充 OpenClaw 多龙虾实践：claw-router/control-center）
 - 更新：知识管理/知识沉淀双轨机制.md（补充自动复盘机制和长期记忆关联）
 
 ## [2026-04-06] ingest | zhangpelf-wiki-compiler-v2.md + karpathy-llm-wiki-pattern.md + farzaa-personal-wiki-skill.md — 触及 10 篇文章（9 新建，1 更新）
@@ -167,7 +167,7 @@
 - 新建：知识管理/个人知识库编译器模式.md
 - 新建：知识管理/LLM知识库三层架构.md
 - 新建：知识管理/做梦机制.md
-- 新建：知识管理/Wiki-vs-RAG.md
+- 新建：知识管理/Wiki与RAG的对比.md
 - 新建：知识管理/幂等防重模式.md
 - 新建：人物/Andrej-Karpathy.md
 - 新建：来源/karpathy-llm-wiki-pattern.md
@@ -184,8 +184,8 @@
 
 ## [2026-04-05] ingest | AI编程.pdf — 触及 4 篇文章
 
-- 新建：Agent工程/Claude-Agent-Teams.md
-- 新建：Agent工程/Claude-Sub-Agents.md
+- 新建：Agent工程/Claude-Agent团队协作.md
+- 新建：Agent工程/Claude子Agent机制.md
 - 新建：Agent工程/CLAUDE-md配置方法论.md
 - 新建：知识管理/知识沉淀双轨机制.md
 
@@ -200,12 +200,12 @@
 
 - git pull --rebase：Already up to date，无冲突
 - 巡逻：raw/ 共 7 个文件，账本记录 7 条（AI编程.pdf vs AI编程.md 视为同一素材），**无遗漏**
-- 灵感碰撞：[[Wiki-vs-RAG]] × [[Andrej-Karpathy]] × [[claude-code-source-study]]
+- 灵感碰撞：[[Wiki与RAG的对比]] × [[Andrej-Karpathy]] × [[claude-code-source-study]]
 - 新建：洞见/Insight-Memex闭环-2026-04-11.md
 - 健康检查：孤儿页 11（洞见/全6篇 + 来源/全5篇），死链 4 处（[[farzaa Personal Wiki Skill]]、[[zhangpelf/wiki-compiler]]、[[实体名]]、[[引用]]），超长文章 0，空stub 0
 - 备注：孤儿页中的 洞见/ 和 来源/ 均属正常结构（sources 被 concepts 双链引用但不被反向链接；insights 是叶子节点），死链4处为历史遗留，建议后续统一清理
 
-## [2026-04-11] ingest | markdown-viewer-skills.md — 触及 2 篇文章
+## [2026-04-11] ingest | Markdown查看器技能.md — 触及 2 篇文章
 
 ## [2026-04-11] ingest | garrytan-gbrain.md — 触及 2 篇文章
 ## [2026-04-11] ingest | garrytan-gstack.md — 触及 2 篇文章
@@ -243,7 +243,7 @@
 
 ## [2026-04-18] ingest | codex-inapp-browser-2026-04-18.md — 触及3篇文章
 
-- 新建：工具与生态/Codex-InApp-Browser.md（Codex 内嵌浏览器 + Comment Mode，截图+DOM捕获+精准上下文注入）
+- 新建：工具与生态/Codex内嵌浏览器.md（Codex 内嵌浏览器 + Comment Mode，截图+DOM捕获+精准上下文注入）
 - 新建：来源/codex-inapp-browser-2026-04-18.md（source 摘要页）
 - 更新：工具与生态/内部系统Agent集成.md（追加浏览器方案两个维度，双链 Codex-InApp-Browser）
 
@@ -251,7 +251,7 @@
 
 - 新建：工具与生态/Codex-全能助手.md（Codex 2026 重大更新全貌：Computer Use/内嵌浏览器/图像生成/90+插件/自动化/记忆/主动建议）
 - 新建：来源/codex-for-almost-everything-2026-04-18.md（source 摘要页）
-- 更新：工具与生态/Codex-InApp-Browser.md（补充官方路线图，关联 Codex-全能助手）
+- 更新：工具与生态/Codex内嵌浏览器.md（补充官方路线图，关联 Codex-全能助手）
 - 更新：知识管理/Agent记忆持久化.md（追加 Codex Memory 预览版作为新实现案例）
 
 ## [2026-04-19] dream | 灵感碰撞 + 健康检查
@@ -261,8 +261,8 @@
 
 ### 第二阶段 — 灵感碰撞
 碰撞文章（3篇不同目录）：
-- Agent工程/Code-Simplifier.md
-- 工具与生态/Codex-InApp-Browser.md  
+- Agent工程/代码简化工具.md
+- 工具与生态/Codex内嵌浏览器.md  
 - 知识管理/个人知识库编译器模式.md
 
 新建 Insight：
@@ -276,12 +276,12 @@
 
 ## [2026-04-19] ingest | repo-analyzer-2026-04-19.md — 触及4篇文章
 
-- 新建：工具与生态/repo-analyzer.md（8阶段工作流+并发sub-agent+Mermaid，Why>What 设计哲学，三种深度模式）
+- 新建：工具与生态/代码仓库分析器.md（8阶段工作流+并发sub-agent+Mermaid，Why>What 设计哲学，三种深度模式）
 - 新建：来源/repo-analyzer-2026-04-19.md（source 摘要页）
 - 更新：工具与生态/OpenClaw-Skill生态.md（高价值单体 Skills 列表追加 repo-analyzer）
 - 更新：Agent工程/Claude-Code源码架构.md（学习路径建议：先用 repo-analyzer 生成架构报告作地图）
 
-## [2026-04-19] ingest | superpowers-prompts-2026-04-19.md — 触及1篇文章（Agent工程/Superpowers.md 新增实操提示词占位节；微信原文待补充）
+## [2026-04-19] ingest | superpowers-prompts-2026-04-19.md — 触及1篇文章（Agent工程/超能力技能集.md 新增实操提示词占位节；微信原文待补充）
 
 ## [2026-04-20] dream | 灵感碰撞: Claude-Code源码架构 × OpenClaw-Agent安全体系 × GStack-虚拟工程团队 — 新建1篇Insight
 ## [2026-04-20] dream | 健康检查: 孤儿页22篇(均为Insight+来源页，属正常)，死链8条，无超长文章，无空stub
@@ -293,15 +293,15 @@
 ## [2026-04-22] dream | 健康检查 — 共58篇文章，孤儿页0篇，死链8条（2条外部项目引用、2条洞见日期后缀不匹配、3条文档内说明性占位、1条管道链接转义），超长文章0篇，空stub 0篇
 
 ## [2026-04-22] ingest | addyosmani-agent-skills-2026-04-22.md — 触及2篇文章
-- 新建：wiki/Agent工程/Agent-Skills-addyosmani.md
-- 更新：wiki/Agent工程/Superpowers.md（补充对比引用）
+- 新建：wiki/Agent工程/Agent技能-addyosmani.md
+- 更新：wiki/Agent工程/超能力技能集.md（补充对比引用）
 
 ## [2026-04-22] ingest | autoresearch-smallnest-2026-04-22.md — 触及1篇文章
-- 新建：wiki/Agent工程/autoresearch.md
+- 新建：wiki/Agent工程/自动调研工具.md
 
 ## [2026-04-22] ingest | autoskills-midudev + skills-manage-iamzhihuix — 触及3篇文章
-- 新建：wiki/工具与生态/autoskills.md
-- 新建：wiki/工具与生态/skills-manage.md
+- 新建：wiki/工具与生态/自动技能生成.md
+- 新建：wiki/工具与生态/技能管理.md
 - 更新：wiki/工具与生态/OpenClaw-Skill生态.md（补充 Skill 安装与管理工具章节）
 
 ## [2026-04-23] dream | 灵感碰撞 — 随机挑选: 工具与生态/GStack-虚拟工程团队 × 人物/Andrej-Karpathy × 安全/OpenClaw-Agent安全体系 — 新建 Insight-知识编译器即安全的最后一公里-2026-04-23.md
@@ -320,7 +320,7 @@
 - **素材巡逻**：raw/ 全部29份已入库，无遗漏
 - **灵感碰撞**：随机选取「Andrej-Karpathy」×「OpenClaw-Agent安全体系」×「AI与商业角色转变」，新建 Insight：握有缰绳者处于价值链上游
 - **健康检查**：
-  - 孤儿页 1 个：Agent工程/autoresearch.md（暂无入链，建议从其他文章添加引用）
+  - 孤儿页 1 个：Agent工程/自动调研工具.md（暂无入链，建议从其他文章添加引用）
   - 死链 6 → 修复 3 个（zhangpelf/wiki-compiler、farzaa Personal Wiki Skill、Claude-Mem转义符），另2个为文档模板示例非真实链接
   - 超长文章：0
   - 空Stub：0
@@ -379,11 +379,11 @@
 - **灵感碰撞**：随机选取 3 篇来自不同目录的文章进行碰撞：
   - `安全/OpenClaw-Agent安全体系.md`
   - `知识管理/GBrain-世界知识脑.md`
-  - `Agent工程/Claude-Code-Game-Studios.md`
+  - `Agent工程/Claude-Code游戏工作室实践.md`
   - **产出**：`洞见/Insight-结构优于内容是Agent系统的底层公理-2026-05-04.md`
 - **健康检查**：
   - 超长文章：`wiki/_log.md`（347行，日志文件本身，正常）
-  - 空Stub：`philosophies/AI与商业角色转变.md`（maturity:stub，19行正文，可接受）、`Agent工程/Code-Simplifier.md`（maturity:stub，22行，可接受）
+  - 空Stub：`philosophies/AI与商业角色转变.md`（maturity:stub，19行正文，可接受）、`Agent工程/代码简化工具.md`（maturity:stub，22行，可接受）
   - 孤儿页面：3 个（来源目录结构性孤儿，建议忽略）：
     - `来源/codex-for-almost-everything-2026-04-18.md`
     - `来源/codex-inapp-browser-2026-04-18.md`
@@ -397,7 +397,7 @@
 - **遗漏素材巡逻**：账本存在 JSON 解析问题（面试官文件名含特殊引号导致 key 匹配失败），经人工验证该文件已于 2026-04-26 入库，mtime 已记录；raw/ 目录无真正遗漏素材，状态正常
 - **灵感碰撞**：随机选取 3 篇来自不同目录的文章进行碰撞：
   - `知识管理/幂等防重模式.md`
-  - `工具与生态/repo-analyzer.md`
+  - `工具与生态/代码仓库分析器.md`
   - `工具与生态/OpenClaw-Skill生态.md`
   - **产出**：`insights/Insight-Skill即幂等知识单元-2026-05-05.md`
   - **核心洞见**：Skill 是知识系统的增量入库单元，应遵守幂等性设计原则；当前生态缺乏 Skill 运行时行为保证规范，随着 Skill 组合进复杂工作流，幂等性缺失会升级为系统性可靠性问题
@@ -406,7 +406,7 @@
   - 空Stub：0 篇
   - 孤儿页面：8 个（均为来源/来源目录，结构性孤儿，正常）
   - 死链：13 处（主要为带路径前缀格式、洞见跨目录引用、模板占位符）
-    - 需关注：`Agent工程/OpenSpec.md` -> `[[AI增强开发三件套]]`；`insights/` 多处跨 insights/洞见 目录引用不一致
+    - 需关注：`Agent工程/OpenSpec规范.md` -> `[[AI增强开发三件套]]`；`insights/` 多处跨 insights/洞见 目录引用不一致
 - **git push**：已同步到 GitHub
 
 ## [2026-05-07] dream | 做梦机制执行报告
@@ -416,7 +416,7 @@
 - **灵感碰撞**：随机选取 3 篇来自不同目录的文章：
   - `知识管理/做梦机制.md`
   - `人物/Andrej-Karpathy.md`
-  - `Agent工程/OpenSpec.md`
+  - `Agent工程/OpenSpec规范.md`
   - **产出**：`insights/Insight-隐式状态显式化是AI协作纪律的底层范式-2026-05-07.md`
   - **核心洞见**：做梦机制、Karpathy知识库方法论、OpenSpec SDD 三者同构——都在用"把隐式状态显式化为可持久化工件"这一底层范式解决 AI 协作失控问题
 - **健康检查**：
@@ -442,7 +442,7 @@
 - 灵感碰撞：Andrej-Karpathy × Coolify × 自学习复盘模式 → 新建 [[Insight-自维护基础设施的认知闭环-2026-05-11]]（insights/）
 - 健康检查：
   - 超长文章：无（全部 ≤150 行）
-  - 空stub：2篇（philosophies/AI与商业角色转变.md、Agent工程/Code-Simplifier.md，均为 maturity:stub 但内容已超5行，无需处理）
+  - 空stub：2篇（philosophies/AI与商业角色转变.md、Agent工程/代码简化工具.md，均为 maturity:stub 但内容已超5行，无需处理）
   - 孤儿页面：32篇（大量为洞见/insights 类文章，已在 _index 补充引用后将消解部分）
   - 死链：11条（LLM-Wiki-Desktop 中 wikilink/wikilinks 为占位示例链接；insights/知识资本化 引用旧洞见名；其余为命名变更遗留，不影响阅读）
 - git push：待执行

@@ -6,7 +6,7 @@ updated: 2026-04-06
 tags: [skills, openclaw, ecosystem, automation, skill-builder, clawhub]
 aliases: [Skills库, OpenClaw Skills, Skill生态, 技能生态, clawhub]
 sources: ["raw/ai-research-list-2026-04-06.md"]
-related: ["[[CLAUDE-md配置方法论]]", "[[OpenClaw-Agent安全体系]]", "[[内部系统Agent集成]]", "[[自学习复盘模式]]", "[[markdown-viewer-skills]]", "[[autoskills]]", "[[skills-manage]]"]
+related: ["[[CLAUDE-md配置方法论]]", "[[OpenClaw-Agent安全体系]]", "[[内部系统Agent集成]]", "[[自学习复盘模式]]", "[[Markdown查看器技能]]", "[[自动技能生成]]", "[[技能管理]]"]
 ---
 
 # OpenClaw Skill 生态
@@ -41,7 +41,7 @@ Skill 是 OpenClaw 的功能扩展单元，本质上是一段描述"如何完成
 - **scoutqa-test**：自动化测试相关
 - **frontend-slides**：生成单文件 HTML 幻灯片，12 种视觉风格，零依赖
 - **geo-seo-claude**：GEO-first SEO 审计，针对 ChatGPT/Claude/Perplexity 优化
-- **[[repo-analyzer]]**（yzddmr6，MIT）：一句话对开源仓库生成深度架构报告；8 阶段工作流 + 并发 sub-agent + Mermaid 图；兼容 Claude Code / Codex / OpenClaw；三种深度模式（Quick/Standard/Deep）
+- **[[代码仓库分析器]]**（yzddmr6，MIT）：一句话对开源仓库生成深度架构报告；8 阶段工作流 + 并发 sub-agent + Mermaid 图；兼容 Claude Code / Codex / OpenClaw；三种深度模式（Quick/Standard/Deep）
 
 ## Skill 自治能力
 
@@ -63,7 +63,7 @@ Skill 是 OpenClaw 的功能扩展单元，本质上是一段描述"如何完成
 
 ## 图表可视化 Skills
 
-[[markdown-viewer-skills]] 是一个专注图表/可视化的 Skills 库（MIT 开源），15 个 Skills 覆盖 PlantUML、Mermaid、Vega、Graphviz 等 7 种渲染引擎，遵循标准 Agent Skills 格式，可作为图表能力模块的参考实现。
+[[Markdown查看器技能]] 是一个专注图表/可视化的 Skills 库（MIT 开源），15 个 Skills 覆盖 PlantUML、Mermaid、Vega、Graphviz 等 7 种渲染引擎，遵循标准 Agent Skills 格式，可作为图表能力模块的参考实现。
 
 ## 视频制作 Skills
 
@@ -71,7 +71,7 @@ Skill 是 OpenClaw 的功能扩展单元，本质上是一段描述"如何完成
 
 ## 全业务领域 Agent 人设库
 
-[[The-Agency-Agents]]（msitarzewski，MIT）是覆盖工程/设计/营销/销售/付费媒体全业务线的 AI Agent 人设集合，原生支持 OpenClaw 安装（`./scripts/install.sh --tool openclaw`）。每个 Agent 有独特人格、工作流和交付物规范，Marketing Division 包含小红书/抖音/微信/微博专家，Engineering Division 含飞书集成开发者和 LLM 成本优化架构师。与 GStack（流程驱动）、CCGS（层级驱动）构成 Agent 团队配置的三种路线。
+[[The-Agency多Agent框架]]（msitarzewski，MIT）是覆盖工程/设计/营销/销售/付费媒体全业务线的 AI Agent 人设集合，原生支持 OpenClaw 安装（`./scripts/install.sh --tool openclaw`）。每个 Agent 有独特人格、工作流和交付物规范，Marketing Division 包含小红书/抖音/微信/微博专家，Engineering Division 含飞书集成开发者和 LLM 成本优化架构师。与 GStack（流程驱动）、CCGS（层级驱动）构成 Agent 团队配置的三种路线。
 
 ## 工程团队 Skills（gstack）
 
@@ -81,9 +81,9 @@ Skill 是 OpenClaw 的功能扩展单元，本质上是一段描述"如何完成
 
 随着 Skills 生态成熟，专门的安装和管理工具开始出现：
 
-- **[[autoskills]]**（midudev，CC BY-NC 4.0）：`npx autoskills` 一行命令，自动扫描项目技术栈（package.json/Gradle/配置文件），从 [skills.sh](https://skills.sh) 安装最匹配的 Skills，并为 Claude Code 自动生成 `CLAUDE.md`。支持 70+ 技术栈检测。
+- **[[自动技能生成]]**（midudev，CC BY-NC 4.0）：`npx autoskills` 一行命令，自动扫描项目技术栈（package.json/Gradle/配置文件），从 [skills.sh](https://skills.sh) 安装最匹配的 Skills，并为 Claude Code 自动生成 `CLAUDE.md`。支持 70+ 技术栈检测。
 
-- **[[skills-manage]]**（iamzhihuix，Apache 2.0）：Tauri 桌面应用，统一管理 27 个 AI 工具平台的 Skills（含 OpenClaw/QClaw/EasyClaw/AutoClaw 等龙虾系列）。以 `~/.agents/skills/` 为中央库，通过符号链接同步到各平台。支持 Marketplace 浏览、GitHub 导入、Collections 批量安装、AI 解释生成。OpenClaw 被单独列为 Lobster 品类，与其他 5 款龙虾系列工具并列。
+- **[[技能管理]]**（iamzhihuix，Apache 2.0）：Tauri 桌面应用，统一管理 27 个 AI 工具平台的 Skills（含 OpenClaw/QClaw/EasyClaw/AutoClaw 等龙虾系列）。以 `~/.agents/skills/` 为中央库，通过符号链接同步到各平台。支持 Marketplace 浏览、GitHub 导入、Collections 批量安装、AI 解释生成。OpenClaw 被单独列为 Lobster 品类，与其他 5 款龙虾系列工具并列。
 
 两者互补：autoskills 用于项目初始化快速配置，skills-manage 用于长期跨平台统一维护。
 

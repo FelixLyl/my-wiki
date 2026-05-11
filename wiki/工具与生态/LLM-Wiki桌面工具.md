@@ -6,7 +6,7 @@ updated: 2026-04-25
 tags: [knowledge-management, llm-wiki, desktop-app, karpathy, knowledge-graph, tauri, obsidian, ingest, rag-alternative]
 aliases: [llm_wiki, nashsu/llm_wiki, LLM Wiki Desktop, llm-wiki-desktop]
 sources: ["raw/nashsu-llm-wiki-desktop-2026-04-25.md"]
-related: ["[[个人知识库编译器模式]]", "[[LLM知识库三层架构]]", "[[Wiki-vs-RAG]]", "[[Andrej-Karpathy]]", "[[幂等防重模式]]", "[[做梦机制]]", "[[GBrain-世界知识脑]]", "[[Claude-Mem]]"]
+related: ["[[个人知识库编译器模式]]", "[[LLM知识库三层架构]]", "[[Wiki与RAG的对比]]", "[[Andrej-Karpathy]]", "[[幂等防重模式]]", "[[做梦机制]]", "[[GBrain-世界知识脑]]", "[[Claude记忆机制]]"]
 ---
 
 # LLM Wiki Desktop（nashsu/llm_wiki）
@@ -15,7 +15,7 @@ nashsu/llm_wiki 是 [[Andrej-Karpathy]] LLM Wiki 模式的完整桌面应用实�
 
 > "A personal knowledge base that builds itself."
 
-核心主张与 RAG 的区别：知识**编译一次、持续维护**，不在每次查询时重新推导。参见 [[Wiki-vs-RAG]]。
+核心主张与 RAG 的区别：知识**编译一次、持续维护**，不在每次查询时重新推导。参见 [[Wiki与RAG的对比]]。
 
 ## 忠实实现的 Karpathy 基础层
 
@@ -98,7 +98,7 @@ Manifest V3 扩展，Mozilla Readability.js 提取正文，Turndown.js HTML→Ma
 |------|------|---------|---------|--------------|------|
 | **llm_wiki** | 桌面 App | ✅ 4信号+Louvain | ✅ 可选 LanceDB | ✅ | 最完整实现 |
 | [[GBrain-世界知识脑]] | Postgres+pgvector | ❌ | ✅ 原生 | ❌ | Garry Tan，brain-agent loop |
-| [[Claude-Mem]] | Claude Code 插件 | ❌ | ✅ Chroma | ❌ | 跨 Session 记忆，生命周期 Hooks |
+| [[Claude记忆机制]] | Claude Code 插件 | ❌ | ✅ Chroma | ❌ | 跨 Session 记忆，生命周期 Hooks |
 | zhangpelf/wiki-compiler | LLM Agent Skill | ❌ | ❌ | ❌ | 最接近 Karpathy 原始形态 |
 | 本 Wiki（小的的知识库） | LLM Agent Skill | ❌（手动双链） | ❌ | ❌ | 主人的私有实现 |
 

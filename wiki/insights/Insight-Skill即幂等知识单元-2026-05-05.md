@@ -2,7 +2,7 @@
 type: insight
 maturity: draft
 date: 2026-05-05
-sources: ["[[幂等防重模式]]", "[[repo-analyzer]]", "[[OpenClaw-Skill生态]]"]
+sources: ["[[幂等防重模式]]", "[[代码仓库分析器]]", "[[OpenClaw-Skill生态]]"]
 tags: [skill, idempotency, knowledge-management, agent-engineering, skill-design]
 ---
 
@@ -13,7 +13,7 @@ tags: [skill, idempotency, knowledge-management, agent-engineering, skill-design
 本文来自三篇文章的灵感碰撞：
 
 - [[幂等防重模式]]：知识库编译的核心约束——同一份素材无论触发多少次，只处理一次
-- [[repo-analyzer]]：8 阶段工作流，通过并行 sub-agent 将大型代码库转化为结构化知识
+- [[代码仓库分析器]]：8 阶段工作流，通过并行 sub-agent 将大型代码库转化为结构化知识
 - [[OpenClaw-Skill生态]]：Skill 是可复用、可分发、可组合的能力模块
 
 ## 核心洞见
@@ -51,6 +51,6 @@ dedup-scope: workspace | project | global
 ## 参见
 
 - [[幂等防重模式]]：LEDGER 账本的工程实现细节
-- [[repo-analyzer]]：副作用写入设计（`~/repo-analyses/` 目录）的具体案例
+- [[代码仓库分析器]]：副作用写入设计（`~/repo-analyses/` 目录）的具体案例
 - [[OpenClaw-Skill生态]]：现有生态工具图谱
 - [[做梦机制]]：另一个对"增量价值产出"有幂等要求的系统

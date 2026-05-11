@@ -2,7 +2,7 @@
 type: insight
 maturity: draft
 date: 2026-04-06
-sources: ["[[Claude-Sub-Agents]]", "[[知识沉淀双轨机制]]", "[[CLAUDE-md配置方法论]]"]
+sources: ["[[Claude子Agent机制]]", "[[知识沉淀双轨机制]]", "[[CLAUDE-md配置方法论]]"]
 tags: [ai-architecture, memory, context-management, insight]
 ---
 
@@ -10,7 +10,7 @@ tags: [ai-architecture, memory, context-management, insight]
 
 ## 灵感来源
 
-将 [[Claude-Sub-Agents]] 中的"上下文隔离"机制、[[知识沉淀双轨机制]] 中的"记忆分层"策略、以及 [[CLAUDE-md配置方法论]] 中的"声明式行为植入"三者并列观察，可以发现它们共同构成了一套完整的 AI 记忆架构——这套架构与人类的认知科学惊人相似。
+将 [[Claude子Agent机制]] 中的"上下文隔离"机制、[[知识沉淀双轨机制]] 中的"记忆分层"策略、以及 [[CLAUDE-md配置方法论]] 中的"声明式行为植入"三者并列观察，可以发现它们共同构成了一套完整的 AI 记忆架构——这套架构与人类的认知科学惊人相似。
 
 ## 洞见
 

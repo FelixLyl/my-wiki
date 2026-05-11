@@ -5,7 +5,7 @@ date: 2026-04-11
 updated: 2026-04-11
 tags: [skills, diagram, visualization, plantuml, mermaid, vega, agent-skills, markdown-viewer]
 aliases: [markdown-viewer/skills, 图表Skills库, AI图表生成, markdown可视化]
-sources: ["raw/markdown-viewer-skills.md"]
+sources: ["raw/Markdown查看器技能.md"]
 related: ["[[OpenClaw-Skill生态]]", "[[AI内容创作工作流]]", "[[个人知识库编译器模式]]"]
 ---
 

@@ -6,7 +6,7 @@ updated: 2026-04-18
 tags: [codex, openai, computer-use, memory, automation, plugin, official-blog]
 aliases: [Codex 全能助手 官方博客]
 sources: ["raw/codex-for-almost-everything-2026-04-18.md"]
-related: ["[[Codex-全能助手]]", "[[Codex-InApp-Browser]]", "[[Agent记忆持久化]]"]
+related: ["[[Codex-全能助手]]", "[[Codex内嵌浏览器]]", "[[Agent记忆持久化]]"]
 ---
 
 # Codex：全能型助手（官方博客，2026-04-18）

@@ -6,7 +6,7 @@ updated: 2026-04-06
 tags: [knowledge-management, llm-engineering, wiki, architecture]
 aliases: [知识库三层架构, Raw-Wiki-Schema, 三层知识架构]
 sources: ["raw/karpathy-llm-wiki-pattern.md", "raw/nashsu-llm-wiki-desktop-2026-04-25.md"]
-related: ["[[个人知识库编译器模式]]", "[[Wiki-vs-RAG]]", "[[CLAUDE-md配置方法论]]", "[[Andrej-Karpathy]]", "[[LLM-Wiki-Desktop]]"]
+related: ["[[个人知识库编译器模式]]", "[[Wiki与RAG的对比]]", "[[CLAUDE-md配置方法论]]", "[[Andrej-Karpathy]]", "[[LLM-Wiki桌面工具]]"]
 ---
 
 # LLM 知识库三层架构
@@ -49,7 +49,7 @@ wiki 中所有内容的目录，每个页面有链接、一行摘要和可选元
 
 ## 第四层扩展：purpose.md（意图层）
 
-[[LLM-Wiki-Desktop]] 在三层架构上新增了 purpose.md，定义知识库的目标、关键问题、研究范围和演进论点。LLM 在每次 ingest 和 query 时读取它，确保行为对准用户意图。
+[[LLM-Wiki桌面工具]] 在三层架构上新增了 purpose.md，定义知识库的目标、关键问题、研究范围和演进论点。LLM 在每次 ingest 和 query 时读取它，确保行为对准用户意图。
 
 这一扩展揭示了原始三层架构的一个盲区：Schema 告诉 LLM "怎么维护"，但没有告诉它"为什么维护/维护的方向"。purpose.md 补充了方向意图这一维度。
 

@@ -6,7 +6,7 @@ updated: 2026-04-18
 tags: [agent, personality, multi-domain, claude-code, openclaw, marketing, engineering, sales, design]
 aliases: [The Agency, agency-agents, AI Agency, 专家Agent库]
 sources: ["raw/agency-agents-2026-04-18.md"]
-related: ["[[GStack-虚拟工程团队]]", "[[Claude-Code-Game-Studios]]", "[[Claude-Agent-Teams]]", "[[OpenClaw-Skill生态]]"]
+related: ["[[GStack-虚拟工程团队]]", "[[Claude-Code游戏工作室实践]]", "[[Claude-Agent团队协作]]", "[[OpenClaw-Skill生态]]"]
 ---
 
 # The Agency — 全业务领域 AI 专家 Agent 集合
@@ -60,7 +60,7 @@ The Agency（msitarzewski/agency-agents）是一个持续增长的 AI Agent 人�
 |------|------|------|
 | **The Agency** | 人格库（水平扩张）| 宽度最大，人格最强，工具兼容最广 |
 | **[[GStack-虚拟工程团队]]** | 流程库（纵深）| 软件工程 sprint 全流程闭环 |
-| **[[Claude-Code-Game-Studios]]** | 垂直层级制 | 游戏开发三层工作室架构 |
+| **[[Claude-Code游戏工作室实践]]** | 垂直层级制 | 游戏开发三层工作室架构 |
 
 三者构成 AI Agent 团队配置的完整谱系：**人格定义 → 流程编排 → 组织层级**。
 

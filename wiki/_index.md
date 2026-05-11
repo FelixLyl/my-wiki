@@ -16,15 +16,15 @@
 
 ### 🤖 Agent工程 (Agent工程/)
 
-- [[Claude-Agent-Teams]] — Claude 多 Agent 协作团队模式，混合模型策略，多龙虾实践
-- [[Claude-Code-Game-Studios]] — 49 Agent + 72 Skills 的游戏工作室配置，三层层级（Directors/Leads/Specialists），含 Godot/Unity/Unreal 引擎支持
-- [[The-Agency-Agents]] — 全业务领域 AI 专家 Agent 人设库（工程/设计/营销/销售），原生支持 OpenClaw，含飞书集成专家和中国市场专家
-- [[OpenSpec]] — Spec-Driven Development 框架，编码前先锁定变更工件（proposal+specs+design+tasks），让 AI coding assistant 不偏离需求，支持 20+ 工具
-- [[Superpowers]] — obra 开源的 AI Coding Agent 软件工程方法论，Skills 自动触发，Subagent-Driven Development，TDD 强制执行，已上架 Anthropic 官方市场
-- [[Agent-Skills-addyosmani]] — Addy Osmani（Google Chrome 工程总监）出品，生产级 AI Coding Agent 工程 Skills，20 个 Skills 覆盖完整开发生命周期，内嵌 Google SWE Book 实践
-- [[autoresearch]] — GitHub Issue 驱动的全自动化开发工具，多 Agent 轮转交叉审核，双轨质量门禁（Build/Test + LLM 评分≥85），全自动 Issue→PR→合并→关闭闭环
-- [[Code-Simplifier]] — Anthropic 官方 Claude Code 插件，自动简化最近修改的代码，聚焦可读性
-- [[Claude-Sub-Agents]] — 动态创建的隔离型子 Agent，处理耗时/脏活任务
+- [[Claude-Agent团队协作]] — Claude 多 Agent 协作团队模式，混合模型策略，多龙虾实践
+- [[Claude-Code游戏工作室实践]] — 49 Agent + 72 Skills 的游戏工作室配置，三层层级（Directors/Leads/Specialists），含 Godot/Unity/Unreal 引擎支持
+- [[The-Agency多Agent框架]] — 全业务领域 AI 专家 Agent 人设库（工程/设计/营销/销售），原生支持 OpenClaw，含飞书集成专家和中国市场专家
+- [[OpenSpec规范]] — Spec-Driven Development 框架，编码前先锁定变更工件（proposal+specs+design+tasks），让 AI coding assistant 不偏离需求，支持 20+ 工具
+- [[超能力技能集]] — obra 开源的 AI Coding Agent 软件工程方法论，Skills 自动触发，Subagent-Driven Development，TDD 强制执行，已上架 Anthropic 官方市场
+- [[Agent技能-addyosmani]] — Addy Osmani（Google Chrome 工程总监）出品，生产级 AI Coding Agent 工程 Skills，20 个 Skills 覆盖完整开发生命周期，内嵌 Google SWE Book 实践
+- [[自动调研工具]] — GitHub Issue 驱动的全自动化开发工具，多 Agent 轮转交叉审核，双轨质量门禁（Build/Test + LLM 评分≥85），全自动 Issue→PR→合并→关闭闭环
+- [[代码简化工具]] — Anthropic 官方 Claude Code 插件，自动简化最近修改的代码，聚焦可读性
+- [[Claude子Agent机制]] — 动态创建的隔离型子 Agent，处理耗时/脏活任务
 - [[CLAUDE-md配置方法论]] — 项目根目录配置文件，植入 AI 的三层思维逻辑；含 Agent 行为规范 4 条黄金准则 + Karpathy 四条编码准则
 - [[Karpathy-LLM编码准则]] — Karpathy 观察 LLM 编码三大缺陷提炼的四条准则：Think Before Coding / Simplicity First / Surgical Changes / Goal-Driven Execution
 - [[Claude-Code源码架构]] — Claude Code 开源源码全栈拆解：AI 核心、工具系统、Agent 编排、安全、终端 UI、记忆
@@ -40,8 +40,8 @@
 - [[做梦机制]] — 空闲时产生增量价值：夜间巡逻 + 灵感碰撞 + 健康检查
 - [[Agent记忆持久化]] — lossless-claw 树状摘要，解决 Agent 跨会话失忆问题
 - [[GBrain-世界知识脑]] — Garry Tan 开源的 AI Agent 世界知识持久化系统，Postgres+pgvector 混合检索，brain-agent loop 每天复利积累
-- [[Claude-Mem]] — Claude Code 专属跨 Session 记忆系统，生命周期 Hooks 自动捕获工具观测值，SQLite+Chroma 混合搜索，渐进式披露，原生支持 OpenClaw
-- [[Wiki-vs-RAG]] — 知识存储模式对比：RAG 无积累，Wiki 复利增长
+- [[Claude记忆机制]] — Claude Code 专属跨 Session 记忆系统，生命周期 Hooks 自动捕获工具观测值，SQLite+Chroma 混合搜索，渐进式披露，原生支持 OpenClaw
+- [[Wiki与RAG的对比]] — 知识存储模式对比：RAG 无积累，Wiki 复利增长
 - [[幂等防重模式]] — 只处理新增/修改文件，增量永远优于全量
 - [[自学习复盘模式]] — self-improving-agent 自动记录错误知识卡片，self-evolving-skill 代码自修复
 
@@ -52,15 +52,15 @@
 - [[n8n]] — 面向技术团队的工作流自动化（400+ 集成，原生 LangChain），AI Agent 集成中间层，Fair-code
 - [[HyperFrames]] — HeyGen 开源的 HTML-to-Video 框架，AI Agent 原生视频渲染 MP4
 - [[HyperFrames]] — HeyGen 开源的 HTML-to-Video 框架，AI Agent 原生，HTML+GSAP 写合成，无头 Chrome 渲染 MP4
-- [[Codex-InApp-Browser]] — OpenAI Codex 内嵌浏览器 + Comment Mode，点击页面元素 → 自动截图 + DOM 捕获 → 精准上下文注入，消除欠规格 Prompt
+- [[Codex内嵌浏览器]] — OpenAI Codex 内嵌浏览器 + Comment Mode，点击页面元素 → 自动截图 + DOM 捕获 → 精准上下文注入，消除欠规格 Prompt
 - [[Codex-全能助手]] — OpenAI Codex 2026 重大更新：Computer Use + 内嵌浏览器 + 记忆 + 自动化 + 90+插件，全流程 Agent 协作伙伴
-- [[repo-analyzer]] — 一句话生成开源项目深度架构报告；8 阶段工作流 + 并发 sub-agent + Mermaid 图；兼容 Claude Code / Codex / OpenClaw
+- [[代码仓库分析器]] — 一句话生成开源项目深度架构报告；8 阶段工作流 + 并发 sub-agent + Mermaid 图；兼容 Claude Code / Codex / OpenClaw
 - [[GStack-虚拟工程团队]] — Garry Tan 的 Claude Code 虚拟工程配置，23 个专家角色 + 8 工具技能，think→plan→build→review→test→ship 完整 sprint 流程
-- [[markdown-viewer-skills]] — 面向 AI Agent 的图表/可视化 Skills 库，15 个 Skills，7 种渲染引擎（PlantUML/Mermaid/Vega/Graphviz 等）
-- [[autoskills]] — `npx autoskills` 一行命令，自动扫描项目技术栈并安装最匹配 Skills，支持 Claude Code CLAUDE.md 自动生成，70+ 技术栈
-- [[skills-manage]] — Tauri 桌面应用，统一管理 27 个 AI 工具平台 Skills（含 OpenClaw 龙虾系列），中央库+符号链接，支持 Marketplace/GitHub 导入
+- [[Markdown查看器技能]] — 面向 AI Agent 的图表/可视化 Skills 库，15 个 Skills，7 种渲染引擎（PlantUML/Mermaid/Vega/Graphviz 等）
+- [[自动技能生成]] — `npx autoskills` 一行命令，自动扫描项目技术栈并安装最匹配 Skills，支持 Claude Code CLAUDE.md 自动生成，70+ 技术栈
+- [[技能管理]] — Tauri 桌面应用，统一管理 27 个 AI 工具平台 Skills（含 OpenClaw 龙虾系列），中央库+符号链接，支持 Marketplace/GitHub 导入
 - [[内部系统Agent集成]] — Swagger 自动生成 Skill / CLI 化 / 浏览器登录态复用
-- [[LLM-Wiki-Desktop]] — nashsu/llm_wiki：Karpathy 模式的完整桌面应用实现，两步 CoT Ingest + 4信号知识图谱 + Louvain 社区检测 + 向量搜索 + Deep Research + Chrome Clipper
+- [[LLM-Wiki桌面工具]] — nashsu/llm_wiki：Karpathy 模式的完整桌面应用实现，两步 CoT Ingest + 4信号知识图谱 + Louvain 社区检测 + 向量搜索 + Deep Research + Chrome Clipper
 - [[Prompt-Caching降本]] — Prompt Caching 降低高达 90% 重复 Token 成本
 - [[Graphify-代码知识图谱]] — 将代码库转化为可查询知识图谱，AST + 语义双轨，支持论文与代码跨模态融合，可集成 Claude Code / Codex
 

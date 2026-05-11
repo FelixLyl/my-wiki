@@ -58,7 +58,7 @@ related: ["[[OpenClaw-Skill生态]]", "[[OpenClaw-Agent安全体系]]", "[[CLAUD
 
 ## 浏览器方案的两个维度
 
-上述浏览器方案解决的是"能进门"（登录态复用）问题。2026-04-18，OpenAI Codex 推出的内嵌浏览器 + Comment Mode 解决了另一个维度——"看得准"（UI 感知精度）：点击页面元素 → 自动截图 + DOM 捕获 → 精准上下文注入，消除欠规格 Prompt。参见 [[Codex-InApp-Browser]]。
+上述浏览器方案解决的是"能进门"（登录态复用）问题。2026-04-18，OpenAI Codex 推出的内嵌浏览器 + Comment Mode 解决了另一个维度——"看得准"（UI 感知精度）：点击页面元素 → 自动截图 + DOM 捕获 → 精准上下文注入，消除欠规格 Prompt。参见 [[Codex内嵌浏览器]]。
 
 两者互补：bb-browser 解决鉴权，Codex 内嵌浏览器解决 UI 感知精度。
 

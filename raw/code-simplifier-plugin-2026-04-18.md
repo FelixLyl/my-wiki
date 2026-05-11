@@ -50,10 +50,10 @@ Agent 主动处理最近修改的代码（自动触发），也可手动触发�
 | Superpowers / code-review | 代码审查（逻辑/安全）| 流程步骤中触发 |
 | GStack / cso | 安全审查 | 手动 |
 
-Code Simplifier 聚焦"可读性"这一单一维度，与 [[Superpowers]] 的 code-review（重逻辑正确性）互补。
+Code Simplifier 聚焦"可读性"这一单一维度，与 [[超能力技能集]] 的 code-review（重逻辑正确性）互补。
 
 ---
 
 ## 战略意义
 
-这是 Anthropic 官方插件市场的一个具体例子，与 [[Superpowers]] 一样，代表了 Claude Code 生态向「插件化」方向演进：专项能力以插件形式发布，按需组合，而非内置在单个 Agent 里。
+这是 Anthropic 官方插件市场的一个具体例子，与 [[超能力技能集]] 一样，代表了 Claude Code 生态向「插件化」方向演进：专项能力以插件形式发布，按需组合，而非内置在单个 Agent 里。

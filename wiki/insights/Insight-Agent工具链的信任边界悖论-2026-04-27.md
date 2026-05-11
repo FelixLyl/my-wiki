@@ -2,19 +2,19 @@
 type: insight
 maturity: draft
 date: 2026-04-27
-sources: ["[[OpenClaw-Agent安全体系]]", "[[markdown-viewer-skills]]", "[[Insight-错误记忆的缓存友好编码-2026-04-09]]"]
+sources: ["[[OpenClaw-Agent安全体系]]", "[[Markdown查看器技能]]", "[[Insight-错误记忆的缓存友好编码-2026-04-09]]"]
 tags: [insight, security, visualization, memory, trust-boundary, agent-toolchain, supply-chain]
 ---
 
 # Agent 工具链的信任边界悖论
 
-[[OpenClaw-Agent安全体系]]、[[markdown-viewer-skills]]、[[Insight-错误记忆的缓存友好编码-2026-04-09]] 三篇看似无关的文章，在"工具链信任"这一维度上意外汇聚：**每一个让 Agent 能力扩展的机制，同时也扩大了信任边界**。
+[[OpenClaw-Agent安全体系]]、[[Markdown查看器技能]]、[[Insight-错误记忆的缓存友好编码-2026-04-09]] 三篇看似无关的文章，在"工具链信任"这一维度上意外汇聚：**每一个让 Agent 能力扩展的机制，同时也扩大了信任边界**。
 
 ## 碰撞点
 
 ### 第一层：扩展即攻击面
 
-[[markdown-viewer-skills]] 描述了 15 个图表 Skills，通过 `npx skills add` 一行命令安装，渲染依赖外部扩展 docu.md。这是一个标准的供应链场景：功能越强大，引入的外部依赖越多，每一条依赖链都是潜在的攻击向量。
+[[Markdown查看器技能]] 描述了 15 个图表 Skills，通过 `npx skills add` 一行命令安装，渲染依赖外部扩展 docu.md。这是一个标准的供应链场景：功能越强大，引入的外部依赖越多，每一条依赖链都是潜在的攻击向量。
 
 [[OpenClaw-Agent安全体系]] 的 skill-vetter 正是为此而设计：安装前扫描网络外发/敏感环境变量/可疑 base64。但问题是，skill-vetter 本身也是一个 Skill，它自己也需要被信任。这就是"守卫的守卫"问题——每一个安全工具都存在同样的供应链风险。
 
@@ -26,7 +26,7 @@ tags: [insight, security, visualization, memory, trust-boundary, agent-toolchain
 
 ### 第三层：可视化是安全的最后一公里
 
-安全体系最难的不是技术，而是让决策者理解风险。[[markdown-viewer-skills]] 中的 `security` Skill 支持 IAM/加密/防火墙/威胁检测/合规审计图，这些图表的价值正在于把抽象的零信任规则转化为可理解的视觉模型。
+安全体系最难的不是技术，而是让决策者理解风险。[[Markdown查看器技能]] 中的 `security` Skill 支持 IAM/加密/防火墙/威胁检测/合规审计图，这些图表的价值正在于把抽象的零信任规则转化为可理解的视觉模型。
 
 但这里产生一个悖论：如果生成安全架构图的 Skills 本身存在安全风险，攻击者可以通过篡改可视化层误导决策者的判断。**展示安全的工具，本身就必须是安全的**。
 

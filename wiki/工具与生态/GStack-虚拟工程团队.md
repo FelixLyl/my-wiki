@@ -6,7 +6,7 @@ updated: 2026-04-26
 tags: [engineering-team, claude-code, skills, ai-coding, garry-tan, gstack, openclaw, product-methodology]
 aliases: [GStack, gstack, 虚拟工程团队, Garry-Tan-Stack]
 sources: ["raw/garrytan-gstack.md", "raw/openspec-superpowers-gstack-2026-04-25.md", "raw/AI 增强开发的三件套：OpenSpec + Superpowers + gstack.md"]
-related: ["[[OpenClaw-Skill生态]]", "[[Claude-Sub-Agents]]", "[[Claude-Agent-Teams]]", "[[GBrain-世界知识脑]]", "[[OpenClaw-Agent安全体系]]", "[[Claude-Code-Game-Studios]]", "[[OpenSpec]]", "[[Superpowers]]"]
+related: ["[[OpenClaw-Skill生态]]", "[[Claude子Agent机制]]", "[[Claude-Agent团队协作]]", "[[GBrain-世界知识脑]]", "[[OpenClaw-Agent安全体系]]", "[[Claude-Code游戏工作室实践]]", "[[OpenSpec规范]]", "[[超能力技能集]]"]
 ---
 
 # GStack：虚拟工程团队
@@ -78,7 +78,7 @@ ClawHub 上有 4 个纯对话版 OpenClaw Skill（无需 Claude Code 进程）�
 
 gstack 与 [Conductor](https://conductor.build)（并行 Claude Code 会话管理器）配合使用时，可同时运行 10-15 个 sprint：一个做规划，一个做评审，一个实现功能，一个测试 staging。流程化结构（think→plan→build→review→test→ship）是并行不混乱的关键——每个 Agent 知道自己在哪个阶段，该停在哪里等待人工决策。
 
-这是 [[Claude-Agent-Teams]] 模式的具体落地：不是一个 Agent 做所有事，而是多个专家 Agent 各管一段流程。
+这是 [[Claude-Agent团队协作]] 模式的具体落地：不是一个 Agent 做所有事，而是多个专家 Agent 各管一段流程。
 
 ## 与 [[OpenClaw-Agent安全体系]] 的关系
 
@@ -102,7 +102,7 @@ git add .claude/ CLAUDE.md && git commit -m "require gstack"
 
 ## 在三件套中的位置
 
-笨小葱的文章将 gstack 与 [[OpenSpec]]、[[Superpowers]] 并称为 AI 增强开发三件套，gstack 负责"谁来做"——角色分工与 sprint 流程，另两者分别管规格（OpenSpec）和执行纪律（Superpowers）。
+笨小葱的文章将 gstack 与 [[OpenSpec规范]]、[[超能力技能集]] 并称为 AI 增强开发三件套，gstack 负责"谁来做"——角色分工与 sprint 流程，另两者分别管规格（OpenSpec）和执行纪律（Superpowers）。
 
 典型组合链：
 ```
@@ -119,6 +119,6 @@ GStack /ship             → 同步、CI、PR 一键交付
 
 三者互补而不重叠：gstack 不强制 TDD（那是 Superpowers），不管规格变更追踪（那是 OpenSpec），专注于**流程结构化和专家视角切换**。
 
-## 同类实现：[[Claude-Code-Game-Studios]]
+## 同类实现：[[Claude-Code游戏工作室实践]]
 
 Donchitos 的 Claude Code Game Studios 是同一模式在游戏开发领域的垂直实现：49 个 Agent、72 个 Slash Command、12 个 Hooks、39 个文档模板，三层工作室层级（Directors → Leads → Specialists），并支持 Godot/Unity/Unreal 三套引擎专家集合。规模更大、自动化程度更高，但领域更窄。

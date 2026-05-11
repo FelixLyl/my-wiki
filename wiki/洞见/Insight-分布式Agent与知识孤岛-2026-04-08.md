@@ -2,18 +2,18 @@
 type: insight
 maturity: draft
 date: 2026-04-08
-sources: ["[[Claude-Agent-Teams]]", "[[Andrej-Karpathy]]", "[[Wiki-vs-RAG]]"]
+sources: ["[[Claude-Agent团队协作]]", "[[Andrej-Karpathy]]", "[[Wiki与RAG的对比]]"]
 tags: [agent, knowledge-management, multi-agent, memory, architecture]
-related: ["[[Agent记忆持久化]]", "[[知识沉淀双轨机制]]", "[[做梦机制]]", "[[Claude-Sub-Agents]]"]
+related: ["[[Agent记忆持久化]]", "[[知识沉淀双轨机制]]", "[[做梦机制]]", "[[Claude子Agent机制]]"]
 ---
 
 # 分布式 Agent 与知识孤岛：多 Agent 协作的隐藏代价
 
-[[Claude-Agent-Teams]] 解决了单 Agent 应对复杂全栈任务效率低的问题，但引入了一个新问题：知识碎片化。
+[[Claude-Agent团队协作]] 解决了单 Agent 应对复杂全栈任务效率低的问题，但引入了一个新问题：知识碎片化。
 
 ## 三篇文章的隐藏关联
 
-[[Andrej-Karpathy]] 指出 LLM 知识库的核心价值在于"持久化的积累"——wiki 里的交叉引用、矛盾标记、综合结论是复利增长的产物。[[Wiki-vs-RAG]] 进一步说明 RAG 每次从头重新发现知识，缺乏积累。
+[[Andrej-Karpathy]] 指出 LLM 知识库的核心价值在于"持久化的积累"——wiki 里的交叉引用、矛盾标记、综合结论是复利增长的产物。[[Wiki与RAG的对比]] 进一步说明 RAG 每次从头重新发现知识，缺乏积累。
 
 而 Agent Teams 恰恰引入了一种结构性的"RAG 化"风险：
 

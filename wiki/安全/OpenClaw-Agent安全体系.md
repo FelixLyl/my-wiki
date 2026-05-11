@@ -6,7 +6,7 @@ updated: 2026-04-06
 tags: [security, openclaw, agent, zero-trust, supply-chain, skill-security, audit]
 aliases: [Agent安全, SecureClaw, OpenClaw安全, 供应链安全, 零信任Agent]
 sources: ["raw/ai-research-list-2026-04-06.md"]
-related: ["[[OpenClaw-Skill生态]]", "[[内部系统Agent集成]]", "[[Claude-Agent-Teams]]"]
+related: ["[[OpenClaw-Skill生态]]", "[[内部系统Agent集成]]", "[[Claude-Agent团队协作]]"]
 ---
 
 # OpenClaw Agent 安全体系

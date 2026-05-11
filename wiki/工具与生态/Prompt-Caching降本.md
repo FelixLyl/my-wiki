@@ -6,7 +6,7 @@ updated: 2026-05-11
 tags: [cost-reduction, prompt-caching, token, llm-engineering, optimization, kv-cache, bedrock, litellm]
 aliases: [Prompt Caching, 提示词缓存, Token降本, 上下文缓存, KV Cache]
 sources: ["raw/ai-research-list-2026-04-06.md", "raw/articles/claude-code-source-study-github.md", "raw/shao-meng-prompt-caching-2026-05-11.md"]
-related: ["[[CLAUDE-md配置方法论]]", "[[Claude-Agent-Teams]]", "[[Agent记忆持久化]]", "[[Claude-Code源码架构]]"]
+related: ["[[CLAUDE-md配置方法论]]", "[[Claude-Agent团队协作]]", "[[Agent记忆持久化]]", "[[Claude-Code源码架构]]"]
 ---
 
 # Prompt Caching 降本
@@ -30,7 +30,7 @@ Prompt Caching 以消息前缀为缓存键。若连续请求的前 N 个 Token �
 
 - **AIClient-2-API**：将 Gemini CLI/Kiro/Qwen Code 等免费大模型封装为本地 OpenAI 兼容接口，支持账号池管理。成本为零，但受限于免费账户配额和稳定性
 - **openclaw-token-optimizer**：调研中，关注其具体优化策略
-- **混合模型策略**（[[Claude-Agent-Teams]]）：高价模型做高价值工作，低价模型做低价值工作
+- **混合模型策略**（[[Claude-Agent团队协作]]）：高价模型做高价值工作，低价模型做低价值工作
 
 三类方案可组合使用：高频核心任务走 Prompt Caching，低优先级任务走免费模型代理，复杂任务启用混合团队策略。
 

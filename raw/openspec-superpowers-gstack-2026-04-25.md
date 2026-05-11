@@ -51,7 +51,7 @@ Best with: Opus 4.5, GPT 5.2（高推理模型）
 ## Superpowers
 
 GitHub: https://github.com/obra/superpowers
-（详见 wiki/Agent工程/Superpowers.md）
+（详见 wiki/Agent工程/超能力技能集.md）
 
 本质：强约束的开发纪律系统。把 TDD、设计优先、代码评审、系统调试封装为强制 skills。
 - Skills 自动触发，不靠手动调用

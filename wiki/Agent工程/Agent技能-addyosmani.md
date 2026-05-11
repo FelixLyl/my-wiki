@@ -6,7 +6,7 @@ updated: 2026-04-22
 tags: [claude-code, skills, engineering, tdd, google-swe, methodology, workflow, production-grade]
 aliases: [addyosmani/agent-skills, agent-skills, Addy-Osmani-Skills]
 sources: ["raw/addyosmani-agent-skills-2026-04-22.md"]
-related: ["[[Superpowers]]", "[[GStack-虚拟工程团队]]", "[[OpenClaw-Skill生态]]", "[[markdown-viewer-skills]]"]
+related: ["[[超能力技能集]]", "[[GStack-虚拟工程团队]]", "[[OpenClaw-Skill生态]]", "[[Markdown查看器技能]]"]
 ---
 
 # Agent-Skills (addyosmani)
@@ -103,11 +103,11 @@ Skills 融入《Software Engineering at Google》和 Google 工程实践指南�
 | Shift Left + feature flags | ci-cd-and-automation |
 | code-as-liability | deprecation-and-migration |
 
-## 与 [[Superpowers]] 的对比
+## 与 [[超能力技能集]] 的对比
 
 两者都是 AI Coding Agent Skills 包，定位有差异：
 
-| 维度 | agent-skills | [[Superpowers]] |
+| 维度 | agent-skills | [[超能力技能集]] |
 |------|-------------|----------------|
 | 覆盖范围 | 完整生命周期 20 Skills | 工程执行 7 Skills |
 | 作者背景 | Google 工程总监 | Prime Radiant 独立开发者 |
@@ -116,7 +116,7 @@ Skills 融入《Software Engineering at Google》和 Google 工程实践指南�
 | 子 Agent 派发 | 无专项 skill | 核心机制（Subagent-Driven Dev） |
 | 参考资料 | 4 份独立 checklist | 无 |
 
-两者互补：agent-skills 提供宽覆盖的工程规范框架，[[Superpowers]] 提供深度的 Agent 派发与执行约束机制。
+两者互补：agent-skills 提供宽覆盖的工程规范框架，[[超能力技能集]] 提供深度的 Agent 派发与执行约束机制。
 
 ## 安装方式
 

@@ -6,7 +6,7 @@ updated: 2026-04-23
 tags: [ai-researcher, llm, deep-learning, tesla, openai, coding-agent, claude-code]
 aliases: [Karpathy, Andrej Karpathy]
 sources: ["raw/karpathy-llm-wiki-pattern.md", "raw/zhangpelf-wiki-compiler-v2.md", "raw/karpathy-skills-forrestchang-2026-04-23.md"]
-related: ["[[个人知识库编译器模式]]", "[[Wiki-vs-RAG]]", "[[LLM知识库三层架构]]", "[[Karpathy-LLM编码准则]]"]
+related: ["[[个人知识库编译器模式]]", "[[Wiki与RAG的对比]]", "[[LLM知识库三层架构]]", "[[Karpathy-LLM编码准则]]"]
 ---
 
 # Andrej Karpathy
@@ -19,7 +19,7 @@ Karpathy 在一篇 Gist 中系统阐述了用 LLM 构建个人知识库的模式
 
 "I rarely touch the wiki directly. It's the domain of the LLM." — Andrej Karpathy
 
-他指出 [[Wiki-vs-RAG]] 的根本差异在于积累：RAG 每次查询都从头重新发现知识，wiki 则是复利增长的持久化产物。这一理念被 [[个人知识库编译器模式|zhangpelf/wiki-compiler]] 等项目 1:1 实现，也影响了 [[来源/farzaa-personal-wiki-skill|farzaa Personal Wiki Skill]] 等变体。
+他指出 [[Wiki与RAG的对比]] 的根本差异在于积累：RAG 每次查询都从头重新发现知识，wiki 则是复利增长的持久化产物。这一理念被 [[个人知识库编译器模式|zhangpelf/wiki-compiler]] 等项目 1:1 实现，也影响了 [[来源/farzaa-personal-wiki-skill|farzaa Personal Wiki Skill]] 等变体。
 
 ## 历史渊源的主张
 

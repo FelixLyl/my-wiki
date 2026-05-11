@@ -167,4 +167,4 @@ cp engineering/*.md ~/.claude/agents/
 
 The Agency 代表了 Agent 人设库的「水平扩张」路线：不追求单领域的深度流程化，而是用统一格式（Markdown + 人格定义）覆盖尽可能多的业务场景，最大化单个仓库对不同角色用户的覆盖率。
 
-结合 [[GStack-虚拟工程团队]] 的纵深和 [[Claude-Code-Game-Studios]] 的垂直深度，三者构成了 AI Agent 团队配置的完整谱系：人格库 → 工程流程 → 垂直领域层级制。
+结合 [[GStack-虚拟工程团队]] 的纵深和 [[Claude-Code游戏工作室实践]] 的垂直深度，三者构成了 AI Agent 团队配置的完整谱系：人格库 → 工程流程 → 垂直领域层级制。

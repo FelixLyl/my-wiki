@@ -6,7 +6,7 @@ updated: 2026-04-26
 tags: [code-analysis, knowledge-graph, claude-code, ast, graphify, ai-coding]
 aliases: [Graphify, 代码知识图谱, Code Knowledge Graph]
 sources: ["raw/graphify-claude-code-kg-2026-04-26.md"]
-related: ["[[Claude-Code源码架构]]", "[[LLM知识库三层架构]]", "[[个人知识库编译器模式]]", "[[LLM-Wiki-Desktop]]", "[[Karpathy-LLM编码准则]]", "[[repo-analyzer]]"]
+related: ["[[Claude-Code源码架构]]", "[[LLM知识库三层架构]]", "[[个人知识库编译器模式]]", "[[LLM-Wiki桌面工具]]", "[[Karpathy-LLM编码准则]]", "[[代码仓库分析器]]"]
 ---
 
 # Graphify：代码库知识图谱
@@ -27,7 +27,7 @@ Karpathy 提出的"扁平 wiki"模式适合个人知识管理，但用于代码�
 | 输出层 | 多格式导出，含 Obsidian 兼容格式 |
 | 查询层 | 自然语言查询接口，供 Claude Code / Codex 调用 |
 
-AST（语法树）捕获结构关系（调用图、依赖树），语义提取捕获意义相似性。两轨并行比单独向量搜索精准，也比单独 AST 分析更具语义弹性。这与 [[LLM-Wiki-Desktop]] 的"4信号知识图谱"设计理念相近。
+AST（语法树）捕获结构关系（调用图、依赖树），语义提取捕获意义相似性。两轨并行比单独向量搜索精准，也比单独 AST 分析更具语义弹性。这与 [[LLM-Wiki桌面工具]] 的"4信号知识图谱"设计理念相近。
 
 ## 与 Claude Code 原生记忆的区别
 

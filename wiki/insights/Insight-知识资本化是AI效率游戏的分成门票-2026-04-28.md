@@ -2,7 +2,7 @@
 type: insight
 maturity: draft
 date: 2026-04-28
-sources: ["[[autoresearch]]", "[[GBrain-世界知识脑]]", "[[AI与商业角色转变]]"]
+sources: ["[[自动调研工具]]", "[[GBrain-世界知识脑]]", "[[AI与商业角色转变]]"]
 tags: [knowledge-capital, multi-agent, ai-economics, gbrain, autoresearch]
 ---
 
@@ -12,7 +12,7 @@ tags: [knowledge-capital, multi-agent, ai-economics, gbrain, autoresearch]
 
 三篇风马牛不相及的文章共同指向同一个问题：
 
-- [[autoresearch]]：多 Agent 轮转交叉审核，把 Code Review 从异步人工流程压缩到分钟级自动循环，工程师从"执行审核"的劳动中解放出来。
+- [[自动调研工具]]：多 Agent 轮转交叉审核，把 Code Review 从异步人工流程压缩到分钟级自动循环，工程师从"执行审核"的劳动中解放出来。
 - [[GBrain-世界知识脑]]：每次对话后持续写入知识脑库，AI 每天变得更聪明，差异随时间复利增长。
 - [[AI与商业角色转变]]："没有 AI 你是牛马，有了 AI 你是更高效的牛马，省下的钱不进你的口袋。"
 

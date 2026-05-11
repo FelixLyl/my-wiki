@@ -6,7 +6,7 @@ updated: 2026-04-18
 tags: [codex, openai, computer-use, memory, automation, plugin, agent-ux, ai-coding, full-stack-agent]
 aliases: [Codex 全能助手, Codex for Almost Everything, Codex 2026]
 sources: ["raw/codex-for-almost-everything-2026-04-18.md"]
-related: ["[[Codex-InApp-Browser]]", "[[Claude-Code源码架构]]", "[[Agent记忆持久化]]", "[[内部系统Agent集成]]", "[[Claude-Mem]]", "[[Superpowers]]"]
+related: ["[[Codex内嵌浏览器]]", "[[Claude-Code源码架构]]", "[[Agent记忆持久化]]", "[[内部系统Agent集成]]", "[[Claude记忆机制]]", "[[超能力技能集]]"]
 ---
 
 # Codex：全能型助手（2026-04-18 重大更新）
@@ -23,7 +23,7 @@ Codex 可通过视觉识别、点击、输入，自主操控电脑上任意应�
 
 ### 2. 内置浏览器 + Comment Mode
 
-在应用内嵌浏览器中直接标注页面，Codex 捕获截图和 DOM 元素作为精准上下文注入对话。详见 [[Codex-InApp-Browser]]。
+在应用内嵌浏览器中直接标注页面，Codex 捕获截图和 DOM 元素作为精准上下文注入对话。详见 [[Codex内嵌浏览器]]。
 
 ### 3. 图像生成（gpt-image-1.5）
 
@@ -39,7 +39,7 @@ Codex 可通过视觉识别、点击、输入，自主操控电脑上任意应�
 - Neon by Databricks（数据库）
 - Remotion（视频）
 - Render（部署）
-- Superpowers（参见 [[Superpowers]]）
+- Superpowers（参见 [[超能力技能集]]）
 
 ### 5. 开发者工作流深化
 

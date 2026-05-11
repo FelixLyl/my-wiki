@@ -6,7 +6,7 @@ updated: 2026-04-26
 tags: [spec-driven-development, ai-coding, openspec, workflow, claude-code, cursor, requirements]
 aliases: [openspec, OpenSpec SDD, Spec-Driven Development]
 sources: ["raw/openspec-superpowers-gstack-2026-04-25.md", "raw/AI 增强开发的三件套：OpenSpec + Superpowers + gstack.md"]
-related: ["[[Superpowers]]", "[[GStack-虚拟工程团队]]", "[[CLAUDE-md配置方法论]]", "[[AI增强开发三件套]]"]
+related: ["[[超能力技能集]]", "[[GStack-虚拟工程团队]]", "[[CLAUDE-md配置方法论]]", "[[AI增强开发三件套]]"]
 ---
 
 # OpenSpec
@@ -72,7 +72,7 @@ openspec/
 ## 职责边界
 
 - OpenSpec **只产出规范文档，不写代码**
-- [[Superpowers]] **只按 tasks.md 执行编码流程**，不修改 OpenSpec 规范
+- [[超能力技能集]] **只按 tasks.md 执行编码流程**，不修改 OpenSpec 规范
 - [[GStack-虚拟工程团队]] **只做验证和交付动作**，不参与需求分析或架构决策
 - 三者之间通过**文件和命令**传递信息，不通过共享内存或隐式状态
 
@@ -89,7 +89,7 @@ openspec init
 
 ## 在三件套中的位置
 
-OpenSpec 解决"做什么"——在 [[Superpowers]] 管执行纪律、[[GStack-虚拟工程团队]] 管角色流程之前，先把需求锁定为可执行的工件。三件套的典型层次：
+OpenSpec 解决"做什么"——在 [[超能力技能集]] 管执行纪律、[[GStack-虚拟工程团队]] 管角色流程之前，先把需求锁定为可执行的工件。三件套的典型层次：
 
 ```
 OpenSpec /opsx:propose → 结构化 tasks

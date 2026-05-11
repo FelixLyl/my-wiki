@@ -2,7 +2,7 @@
 type: insight
 maturity: draft
 date: 2026-05-04
-sources: ["[[OpenClaw-Agent安全体系]]", "[[GBrain-世界知识脑]]", "[[Claude-Code-Game-Studios]]"]
+sources: ["[[OpenClaw-Agent安全体系]]", "[[GBrain-世界知识脑]]", "[[Claude-Code游戏工作室实践]]"]
 tags: [agent, structure, security, knowledge, organization, anti-entropy]
 ---
 
@@ -16,7 +16,7 @@ tags: [agent, structure, security, knowledge, organization, anti-entropy]
 |------|---------|---------|
 | [[OpenClaw-Agent安全体系]] | 如何防止 Agent 误操作 | 把人工审批插入操作路径，不依赖 Agent 自判断 |
 | [[GBrain-世界知识脑]] | 如何让知识不过时 | Compiled Truth 格式强制重写顶部，Timeline 只追加 |
-| [[Claude-Code-Game-Studios]] | 如何让 AI 团队不失控 | 角色分工和层级规则比 Prompt 指令更可靠 |
+| [[Claude-Code游戏工作室实践]] | 如何让 AI 团队不失控 | 角色分工和层级规则比 Prompt 指令更可靠 |
 
 ## 核心洞见
 

@@ -6,7 +6,7 @@ updated: 2026-04-06
 tags: [memory, persistence, openclaw, agent, long-term-memory, token-optimization]
 aliases: [长期记忆, lossless-claw, Agent记忆, 记忆持久化, 对话持久化]
 sources: ["raw/ai-research-list-2026-04-06.md", "raw/articles/claude-code-source-study-github.md"]
-related: ["[[知识沉淀双轨机制]]", "[[自学习复盘模式]]", "[[Prompt-Caching降本]]", "[[个人知识库编译器模式]]", "[[Claude-Code源码架构]]", "[[GBrain-世界知识脑]]", "[[Claude-Mem]]"]
+related: ["[[知识沉淀双轨机制]]", "[[自学习复盘模式]]", "[[Prompt-Caching降本]]", "[[个人知识库编译器模式]]", "[[Claude-Code源码架构]]", "[[GBrain-世界知识脑]]", "[[Claude记忆机制]]"]
 ---
 
 # Agent 记忆持久化
@@ -50,7 +50,7 @@ Claude Code 源码（参见 [[Claude-Code源码架构]]）实现了五层记忆�
 
 ## Claude Code 专属记忆层
 
-[[Claude-Mem]]（thedotmack，AGPL 3.0）是专为 Claude Code 构建的跨 Session 记忆系统，通过生命周期 Hooks 自动捕获工具调用观测值，用 SQLite + Chroma 向量库存储，采用渐进式披露策略按需注入上下文（~10x Token 节省）。原生支持 OpenClaw Gateway 安装。填补了「工具操作历史记忆」这一具体缺口，与 lossless-claw（对话摘要）和 GBrain（世界知识）互补，共同构成完整的 Agent 记忆栈。
+[[Claude记忆机制]]（thedotmack，AGPL 3.0）是专为 Claude Code 构建的跨 Session 记忆系统，通过生命周期 Hooks 自动捕获工具调用观测值，用 SQLite + Chroma 向量库存储，采用渐进式披露策略按需注入上下文（~10x Token 节省）。原生支持 OpenClaw Gateway 安装。填补了「工具操作历史记忆」这一具体缺口，与 lossless-claw（对话摘要）和 GBrain（世界知识）互补，共同构成完整的 Agent 记忆栈。
 
 ## Codex Memory（OpenAI，2026-04-18 预览版）
 

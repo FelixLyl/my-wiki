@@ -2,7 +2,7 @@
 type: insight
 maturity: draft
 date: 2026-04-21
-sources: ["[[GBrain-世界知识脑]]", "[[Claude-Code-Game-Studios]]", "[[OpenClaw-Agent安全体系]]"]
+sources: ["[[GBrain-世界知识脑]]", "[[Claude-Code游戏工作室实践]]", "[[OpenClaw-Agent安全体系]]"]
 tags: [agent, trust, institution, gbrain, ccgs, security, knowledge, organization]
 ---
 

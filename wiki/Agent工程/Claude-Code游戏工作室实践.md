@@ -6,7 +6,7 @@ updated: 2026-04-18
 tags: [claude-code, game-dev, multi-agent, studio, hierarchy, skills, hooks, godot, unity, unreal]
 aliases: [Game Studios, 游戏工作室配置, CCGS]
 sources: ["raw/claude-code-game-studios-2026-04-18.md"]
-related: ["[[GStack-虚拟工程团队]]", "[[Claude-Agent-Teams]]", "[[Claude-Sub-Agents]]", "[[CLAUDE-md配置方法论]]", "[[OpenClaw-Skill生态]]"]
+related: ["[[GStack-虚拟工程团队]]", "[[Claude-Agent团队协作]]", "[[Claude子Agent机制]]", "[[CLAUDE-md配置方法论]]", "[[OpenClaw-Skill生态]]"]
 ---
 
 # Claude Code Game Studios

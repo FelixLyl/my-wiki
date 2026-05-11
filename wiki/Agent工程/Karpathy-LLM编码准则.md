@@ -6,7 +6,7 @@ updated: 2026-04-23
 tags: [claude-code, llm-engineering, coding-agent, karpathy, best-practices, claude-md]
 aliases: [karpathy-skills, Karpathy编码准则, LLM编码黄金准则]
 sources: ["raw/karpathy-skills-forrestchang-2026-04-23.md"]
-related: ["[[Andrej-Karpathy]]", "[[CLAUDE-md配置方法论]]", "[[Agent-Skills-addyosmani]]", "[[Superpowers]]", "[[Code-Simplifier]]"]
+related: ["[[Andrej-Karpathy]]", "[[CLAUDE-md配置方法论]]", "[[Agent技能-addyosmani]]", "[[超能力技能集]]", "[[代码简化工具]]"]
 ---
 
 # Karpathy LLM 编码准则
@@ -82,7 +82,7 @@ LLM 在编码中存在三类结构性问题：
 
 ## 与其他 Skills 的对比
 
-这四条准则与 [[Agent-Skills-addyosmani]] 形成互补关系：
+这四条准则与 [[Agent技能-addyosmani]] 形成互补关系：
 
 | 维度 | Karpathy 准则 | addyosmani/agent-skills |
 |------|-------------|-------------------------|
@@ -91,9 +91,9 @@ LLM 在编码中存在三类结构性问题：
 | 颗粒度 | 原则级（"为什么"） | 工作流级（"怎么做"） |
 | 来源 | Karpathy 直接观察 | Google SWE Book 实践 |
 
-[[Superpowers]] 中的"Subagent-Driven Development"与"Goal-Driven Execution"高度同构：两者都将任务定义为可循环验证的目标，而非命令序列。
+[[超能力技能集]] 中的"Subagent-Driven Development"与"Goal-Driven Execution"高度同构：两者都将任务定义为可循环验证的目标，而非命令序列。
 
-[[Code-Simplifier]] 是"Simplicity First"在工具层的对应实现：Anthropic 官方插件，自动扫描并简化最近修改的代码。
+[[代码简化工具]] 是"Simplicity First"在工具层的对应实现：Anthropic 官方插件，自动扫描并简化最近修改的代码。
 
 ## 安装方式
 

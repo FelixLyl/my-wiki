@@ -2,7 +2,7 @@
 type: insight
 maturity: draft
 date: 2026-05-07
-sources: ["[[做梦机制]]", "[[Andrej-Karpathy]]", "[[OpenSpec]]"]
+sources: ["[[做梦机制]]", "[[Andrej-Karpathy]]", "[[OpenSpec规范]]"]
 tags: [ai-collaboration, knowledge-management, explicitness, workflow-discipline, llm-engineering]
 ---
 
@@ -10,7 +10,7 @@ tags: [ai-collaboration, knowledge-management, explicitness, workflow-discipline
 
 ## 核心洞见
 
-三个表面不相关的系统——[[做梦机制]]、[[Andrej-Karpathy]] 的个人知识库方法论、[[OpenSpec]] 的 Spec-Driven Development——都在解决同一个问题：**AI 的失控来自隐式状态，修复它的唯一办法是把状态显式化为可持久化的工件。**
+三个表面不相关的系统——[[做梦机制]]、[[Andrej-Karpathy]] 的个人知识库方法论、[[OpenSpec规范]] 的 Spec-Driven Development——都在解决同一个问题：**AI 的失控来自隐式状态，修复它的唯一办法是把状态显式化为可持久化的工件。**
 
 ## 三个切面
 
@@ -50,4 +50,4 @@ OpenSpec 的 tasks.md 越细，AI 的执行越可预测；Karpathy wiki 的条�
 
 ## 一个值得追问的问题
 
-如果显式化是核心方法论，那么是否存在一种"元工件"——一份可以描述所有其他工件的工件——能够让整个 AI 协作系统自我描述、自我校验？[[OpenSpec]] 的 specs/ 目录已经在尝试这个方向，[[做梦机制]] 的 LEDGER 文件是另一个局部实现。但两者都还没有形成闭环：工件可以描述系统状态，但不能描述"工件本身是否完整"。
+如果显式化是核心方法论，那么是否存在一种"元工件"——一份可以描述所有其他工件的工件——能够让整个 AI 协作系统自我描述、自我校验？[[OpenSpec规范]] 的 specs/ 目录已经在尝试这个方向，[[做梦机制]] 的 LEDGER 文件是另一个局部实现。但两者都还没有形成闭环：工件可以描述系统状态，但不能描述"工件本身是否完整"。

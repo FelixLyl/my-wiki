@@ -6,7 +6,7 @@ updated: 2026-04-26
 tags: [claude-code, tutorial, powerup, onboarding, slash-commands, mcp, skills, hooks, subagent]
 aliases: [/powerup, powerup, Claude Code Powerup, Claude Code 教程]
 sources: ["raw/面试官："你 Claude Code 用得这么 6？" 我暗喜："我早把 powerup 命令的流程都做了"，他：你牛逼.md"]
-related: ["[[Claude-Code源码架构]]", "[[CLAUDE-md配置方法论]]", "[[Claude-Sub-Agents]]", "[[OpenClaw-Skill生态]]"]
+related: ["[[Claude-Code源码架构]]", "[[CLAUDE-md配置方法论]]", "[[Claude子Agent机制]]", "[[OpenClaw-Skill生态]]"]
 ---
 
 # Claude Code /powerup 教程
@@ -82,7 +82,7 @@ Hook 脚本通过 stdin 接收 JSON（含 tool_input.file_path 等字段），�
 
 ### 08 Multiply yourself：子代理
 
-[[Claude-Sub-Agents]] 的用户向解读。用 `/agents` 创建子代理，每个子代理有独立上下文窗口，与主对话隔离。
+[[Claude子Agent机制]] 的用户向解读。用 `/agents` 创建子代理，每个子代理有独立上下文窗口，与主对话隔离。
 
 两个核心价值：
 1. **独立视角** — 子代理不知道代码是谁写的，审查更客观

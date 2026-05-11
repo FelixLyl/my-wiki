@@ -6,7 +6,7 @@ updated: 2026-04-07
 tags: [claude-code, agent-architecture, source-code, bun, typescript, ink, ai-engineering]
 aliases: [Claude Code Architecture, Claude Code 源码, Claude Code 架构]
 sources: ["raw/articles/claude-code-source-study-github.md"]
-related: ["[[CLAUDE-md配置方法论]]", "[[Prompt-Caching降本]]", "[[Agent记忆持久化]]", "[[Claude-Agent-Teams]]", "[[Claude-Sub-Agents]]", "[[Graphify-代码知识图谱]]", "[[Claude-Code-Powerup教程]]"]
+related: ["[[CLAUDE-md配置方法论]]", "[[Prompt-Caching降本]]", "[[Agent记忆持久化]]", "[[Claude-Agent团队协作]]", "[[Claude子Agent机制]]", "[[Graphify-代码知识图谱]]", "[[Claude-Code-Powerup教程]]"]
 ---
 
 # Claude Code 源码架构
@@ -28,7 +28,7 @@ Claude Code 选择了 Bun + TypeScript + Ink 的组合：
 
 ### 2. 工具与 Agent 层
 
-工具系统基于 `buildTool()` builder 模式，支持三层条件注册。BashTool 是最复杂的单一工具（12400 行），实现了四层安全防线和沙箱执行。命令系统采用六源聚合的斜杠命令架构。Agent 系统支持从单体到多智能体协作（参见 [[Claude-Agent-Teams]]），通过 context 隔离保证子 Agent 独立性（参见 [[Claude-Sub-Agents]]）。内置 Agent 包括 Explore、Plan、Verification 三种设计模式。任务系统定义了 7 种 TaskType，配备并发执行引擎。
+工具系统基于 `buildTool()` builder 模式，支持三层条件注册。BashTool 是最复杂的单一工具（12400 行），实现了四层安全防线和沙箱执行。命令系统采用六源聚合的斜杠命令架构。Agent 系统支持从单体到多智能体协作（参见 [[Claude-Agent团队协作]]），通过 context 隔离保证子 Agent 独立性（参见 [[Claude子Agent机制]]）。内置 Agent 包括 Explore、Plan、Verification 三种设计模式。任务系统定义了 7 种 TaskType，配备并发执行引擎。
 
 ### 3. 安全与配置层
 
@@ -50,4 +50,4 @@ Memory 系统实现五层记忆架构，支持跨会话持久化（参见 [[Agen
 
 这份源码的独特价值在于它是真实生产级产品而非 demo。每个模块的设计决策都经过了大规模用户验证，提供了 AI Agent 工程化的参考标准。
 
-学习路径建议：先用 [[repo-analyzer]] Skill 对仓库运行 Deep 模式分析，生成架构报告作为地图，再针对感兴趣的模块深入阅读源码。
+学习路径建议：先用 [[代码仓库分析器]] Skill 对仓库运行 Deep 模式分析，生成架构报告作为地图，再针对感兴趣的模块深入阅读源码。

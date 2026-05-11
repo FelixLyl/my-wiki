@@ -6,7 +6,7 @@ updated: 2026-04-06
 tags: [knowledge-management, rag, wiki, llm-engineering, information-architecture]
 aliases: [Wiki vs RAG, RAG vs Wiki, 知识存储模式]
 sources: ["raw/karpathy-llm-wiki-pattern.md", "raw/nashsu-llm-wiki-desktop-2026-04-25.md"]
-related: ["[[个人知识库编译器模式]]", "[[LLM知识库三层架构]]", "[[Andrej-Karpathy]]", "[[LLM-Wiki-Desktop]]"]
+related: ["[[个人知识库编译器模式]]", "[[LLM知识库三层架构]]", "[[Andrej-Karpathy]]", "[[LLM-Wiki桌面工具]]"]
 ---
 
 # Wiki vs RAG：两种知识存储模式
@@ -36,7 +36,7 @@ Wiki 模式下，每增加一个来源，每问一个问题，wiki 变得更丰�
 
 ## 混合方案：Wiki + 向量搜索
 
-[[LLM-Wiki-Desktop]] 的实践给出了一个中间路线：以 Wiki 为主干，可选接入向量搜索（LanceDB）作为补充检索层，两者融合后召回率从 58.2% 提升到 71.4%。
+[[LLM-Wiki桌面工具]] 的实践给出了一个中间路线：以 Wiki 为主干，可选接入向量搜索（LanceDB）作为补充检索层，两者融合后召回率从 58.2% 提升到 71.4%。
 
 这表明 Wiki 和 RAG 的对立并非绝对——Wiki 提供积累和结构，向量搜索补充语义跨越关键词盲区。RAG 在纯检索场景的优势可以叠加在 Wiki 的复利基础上。
 

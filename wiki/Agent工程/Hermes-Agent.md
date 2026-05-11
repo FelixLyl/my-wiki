@@ -6,7 +6,7 @@ updated: 2026-04-08
 tags: [agent-framework, hermes, nous-research, open-source, openclaw-competitor]
 aliases: [Hermes Agent, HermesAgent, Nous Research Agent]
 sources: ["raw/dotey-hermes-agent-2026-04-08.md"]
-related: ["[[OpenClaw-Skill生态]]", "[[OpenClaw-Agent安全体系]]", "[[Claude-Agent-Teams]]"]
+related: ["[[OpenClaw-Skill生态]]", "[[OpenClaw-Agent安全体系]]", "[[Claude-Agent团队协作]]"]
 ---
 
 # Hermes Agent

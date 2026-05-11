@@ -103,7 +103,7 @@ Superpowers 的独特性：**不靠人数多取胜，靠自动化流程约束取
 3. 子 Agent 完成后，主 Agent 做两阶段 Review（规格合规 → 代码质量）
 4. Claude 能够自主连续工作「数小时」而不偏离计划
 
-这是 [[Claude-Sub-Agents]] 在工程场景中的高密度实践。
+这是 [[Claude子Agent机制]] 在工程场景中的高密度实践。
 
 ---
 

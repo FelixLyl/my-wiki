@@ -6,7 +6,7 @@ updated: 2026-04-06
 tags: [knowledge-management, llm-engineering, wiki, karpathy]
 aliases: [Karpathy Wiki Gist]
 sources: ["raw/karpathy-llm-wiki-pattern.md"]
-related: ["[[Andrej-Karpathy]]", "[[个人知识库编译器模式]]", "[[Wiki-vs-RAG]]", "[[LLM知识库三层架构]]"]
+related: ["[[Andrej-Karpathy]]", "[[个人知识库编译器模式]]", "[[Wiki与RAG的对比]]", "[[LLM知识库三层架构]]"]
 ---
 
 # 来源摘要：Karpathy — 用 LLM 构建个人知识库的模式
@@ -17,7 +17,7 @@ related: ["[[Andrej-Karpathy]]", "[[个人知识库编译器模式]]", "[[Wiki-v
 
 ## 核心主张
 
-[[Wiki-vs-RAG]]：不要用 RAG 临时检索，而是让 LLM 增量构建和维护持久化 wiki。wiki 是复利增长的产物，每加一个来源，知识库就更丰富。
+[[Wiki与RAG的对比]]：不要用 RAG 临时检索，而是让 LLM 增量构建和维护持久化 wiki。wiki 是复利增长的产物，每加一个来源，知识库就更丰富。
 
 ## 关键概念
 

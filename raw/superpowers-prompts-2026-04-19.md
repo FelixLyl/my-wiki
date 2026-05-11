@@ -19,4 +19,4 @@ URL: https://mp.weixin.qq.com/s/F1g7QRySeAB9cbRwzvN9mw
 
 ## 待补充
 
-原文内容待后续获取后补充到本文件，并更新 wiki/Agent工程/Superpowers.md 的「实操提示词」章节。
+原文内容待后续获取后补充到本文件，并更新 wiki/Agent工程/超能力技能集.md 的「实操提示词」章节。

@@ -6,7 +6,7 @@ updated: 2026-04-06
 tags: [claude-code, agent, multi-agent, llm-engineering, openclaw]
 aliases: [Agent Teams, Claude多Agent协作, 多龙虾协作]
 sources: ["raw/AI编程.pdf", "raw/ai-research-list-2026-04-06.md"]
-related: ["[[Claude-Sub-Agents]]", "[[CLAUDE-md配置方法论]]", "[[知识沉淀双轨机制]]", "[[OpenClaw-Skill生态]]", "[[Claude-Code-Game-Studios]]", "[[GStack-虚拟工程团队]]"]
+related: ["[[Claude子Agent机制]]", "[[CLAUDE-md配置方法论]]", "[[知识沉淀双轨机制]]", "[[OpenClaw-Skill生态]]", "[[Claude-Code游戏工作室实践]]", "[[GStack-虚拟工程团队]]"]
 ---
 
 # Claude Agent Teams
@@ -39,7 +39,7 @@ Claude Agent Teams 是一种在复杂任务中自动组建多 Agent 协作小组
 
 ## 与 Sub Agents 的区别
 
-Agent Teams 是**预先组建**的协作团队，适合已知需要多角色的任务。[[Claude-Sub-Agents]] 是**动态创建**的一次性 Agent，适合执行过程中遇到的隔离型子任务。两者可以嵌套使用。
+Agent Teams 是**预先组建**的协作团队，适合已知需要多角色的任务。[[Claude子Agent机制]] 是**动态创建**的一次性 Agent，适合执行过程中遇到的隔离型子任务。两者可以嵌套使用。
 
 ## OpenClaw 多龙虾实践
 
@@ -51,7 +51,7 @@ Agent Teams 是**预先组建**的协作团队，适合已知需要多角色的�
 
 ## 垂直领域落地案例
 
-[[GStack-虚拟工程团队]]（Garry Tan，通用软件工程，23 个角色）和 [[Claude-Code-Game-Studios]]（游戏开发，49 个角色 + 72 个命令）是 Agent Teams 模式在不同领域的完整落地。两者共同验证了一个结论：**组织结构的编码比角色数量更重要**——清晰的层级、委派规则和质量关卡，比增加 Agent 数量更能提升协作质量。
+[[GStack-虚拟工程团队]]（Garry Tan，通用软件工程，23 个角色）和 [[Claude-Code游戏工作室实践]]（游戏开发，49 个角色 + 72 个命令）是 Agent Teams 模式在不同领域的完整落地。两者共同验证了一个结论：**组织结构的编码比角色数量更重要**——清晰的层级、委派规则和质量关卡，比增加 Agent 数量更能提升协作质量。
 
 ## 配置方式
 

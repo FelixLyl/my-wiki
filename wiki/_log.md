@@ -448,3 +448,5 @@
 - git push：待执行
 
 ## [2026-05-11] ingest | shao-meng-prompt-caching-2026-05-11.md — 触及1篇文章（工具与生态/Prompt-Caching降本.md）
+
+## [2026-05-11] ingest | vincemask-claudemd-8tips-2026-05-11.md — 触及1篇文章（Agent工程/CLAUDE-md配置方法论.md）

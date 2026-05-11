@@ -2,10 +2,10 @@
 type: concept
 maturity: draft
 date: 2026-04-05
-updated: 2026-04-26
-tags: [claude-code, claude-md, llm-engineering, configuration, agent-behavior]
+updated: 2026-05-11
+tags: [claude-code, claude-md, llm-engineering, configuration, agent-behavior, best-practices]
 aliases: [CLAUDE.md, Claude配置文件, claude.md行为规范]
-sources: ["raw/AI编程.pdf", "raw/ai-research-list-2026-04-06.md", "raw/articles/claude-code-source-study-github.md", "raw/karpathy-skills-forrestchang-2026-04-23.md", "raw/AI 增强开发的三件套：OpenSpec + Superpowers + gstack.md"]
+sources: ["raw/AI编程.pdf", "raw/ai-research-list-2026-04-06.md", "raw/articles/claude-code-source-study-github.md", "raw/karpathy-skills-forrestchang-2026-04-23.md", "raw/AI 增强开发的三件套：OpenSpec + Superpowers + gstack.md", "raw/vincemask-claudemd-8tips-2026-05-11.md"]
 related: ["[[Claude-Agent团队协作]]", "[[Claude子Agent机制]]", "[[知识沉淀双轨机制]]", "[[OpenClaw-Skill生态]]", "[[Claude-Code源码架构]]", "[[Karpathy-LLM编码准则]]", "[[OpenSpec规范]]", "[[超能力技能集]]", "[[GStack-虚拟工程团队]]"]
 ---
 
@@ -89,6 +89,14 @@ Claude Code 源码分析（参见 [[Claude-Code源码架构]]）揭示了 CLAUDE
 6. **最短路径优先**：能用一个 skill 解决的，不升级为完整闭环
 
 任务分流建议：只读任务直接处理；轻量任务跳过完整流程直接实现；中任务走 OpenSpec → 简短 brainstorming → 实现 → 验证；大任务走完整闭环含 worktrees + TDD + code-review + /ship + /canary。
+
+## 常见反模式：把 CLAUDE.md 塞满一切
+
+@vincemask（2026-05-07）观察到一个典型初学者错误：把项目历史、技术决策、个人偏好、公司价值观全部塞进 CLAUDE.md，结果 Claude 在 2000 行的上下文里迷失，生成质量反而下降。
+
+核心教训：**CLAUDE.md 的价值不在于信息量，而在于精准度。** 精简、具体、可操作是三个关键词，控制在 200 行以内是实践中经验验证的上限。每一行都应该是 Claude 自己推断不出来、但又影响输出质量的规则。
+
+这与 Karpathy 准则的"Simplicity First"本质相同：能 50 行解决的，禁止写 200 行；没经过失败验证的规则，都是占着 prompt 位置不干活的"理论税"（参见 [[Karpathy-LLM编码准则]]）。
 
 ## 设计哲学
 

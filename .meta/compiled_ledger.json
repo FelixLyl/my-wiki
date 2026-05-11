@@ -287,4 +287,12 @@
       "工具与生态/Prompt-Caching降本.md"
     ]
   }
+,
+  "raw/vincemask-claudemd-8tips-2026-05-11.md": {
+    "mtime": 1778515760,
+    "compiled_at": "2026-05-11",
+    "articles_touched": [
+      "Agent工程/CLAUDE-md配置方法论.md"
+    ]
+  }
 }

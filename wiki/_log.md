@@ -450,3 +450,5 @@
 ## [2026-05-11] ingest | shao-meng-prompt-caching-2026-05-11.md — 触及1篇文章（工具与生态/Prompt-Caching降本.md）
 
 ## [2026-05-11] ingest | vincemask-claudemd-8tips-2026-05-11.md — 触及1篇文章（Agent工程/CLAUDE-md配置方法论.md）
+
+## [2026-05-12] dream | 随机碰撞3篇文章（Coolify × GBrain × CCGS游戏工作室）→ 生成 Insight-自托管知识基础设施的组织化演进；健康检查：孤儿页9篇（全为洞见目录）、死链21条、超长文0篇

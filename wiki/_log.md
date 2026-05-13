@@ -452,3 +452,27 @@
 ## [2026-05-11] ingest | vincemask-claudemd-8tips-2026-05-11.md — 触及1篇文章（Agent工程/CLAUDE-md配置方法论.md）
 
 ## [2026-05-12] dream | 随机碰撞3篇文章（Coolify × GBrain × CCGS游戏工作室）→ 生成 Insight-自托管知识基础设施的组织化演进；健康检查：孤儿页9篇（全为洞见目录）、死链21条、超长文0篇
+
+## [2026-05-13] dream | 做梦机制第 N+1 次运行
+- git pull --rebase：已是最新，无冲突
+- raw/ 遗漏素材：1个（`面试官："你 Claude Code 用得这么 6？"...牛逼.md`）
+  - 已确认：账本中存有该文件条目，但账本 JSON 因文件名含双引号而解析失败，导致 python 误报为未处理
+  - 对应 wiki 文章 Agent工程/Claude-Code-Powerup教程.md 已存在且内容完整，无需重新入库
+  - 建议：下次入库时修复 compiled_ledger.json 格式（将文件名中的双引号转义）
+- 灵感碰撞：Graphify-代码知识图谱 × Claude-Code-Powerup教程 × 知识沉淀双轨机制
+  → 新建 [[Insight-知识拓扑化是AI系统认知升级的结构跃迁-2026-05-13]]（insights/）
+  → 洞见核心：知识存储方式决定AI认知上限；图结构（拓扑推理）vs 扁平文档（线性检索）的结构跃迁
+- 健康检查：
+  - 总文章数：86 篇
+  - 超长文章（>150行）：0 篇
+  - 空 stub（<5行）：0 篇
+  - 孤儿页面：36 个（其中 27 个为 insights/ 目录，6 个为 来源/ 目录，均属结构性孤儿，正常）
+  - 死链：21 条
+    - 真正需要关注：
+      - `[Andrej-Karpathy]` → `[[来源/farzaa-personal-wiki-skill]]`（路径引用格式错误）
+      - `[OpenSpec规范]` → `[[AI增强开发三件套]]`（文章改名导致）
+      - `[Insight-摩擦消除...]` → `[[人物/Andrej-Karpathy]]` × 4（跨目录路径引用错误）
+      - `[个人知识库编译器模式]` → `[[实体名]]`（模板占位符，待清理）
+      - `[做梦机制]` → `[[引用]]`（模板占位符，待清理）
+    - 不需要关注：`[[wikilink]]`/`[[wikilinks]]`（技术术语）；多处 Insight 互引用名称不一致
+- git push：已同步到 GitHub

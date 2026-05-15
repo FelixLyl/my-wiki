@@ -1,5 +1,13 @@
 # Wiki 操作日志
 
+## [2026-05-15] dream | 灵感碰撞 × 健康检查 — 新建 1 篇 insight 文章
+
+- git pull --rebase：无冲突，Already up to date
+- 遗漏素材巡逻：raw/ 35 个文件，账本记录 36 条（含 AI编程.md 重复项）；所有素材均已入库，无遗漏
+- 灵感碰撞：Graphify-代码知识图谱 × 自学习复盘模式 × The-Agency多Agent框架 → 新建「静态人设与动态人格图谱的分野」
+- 健康检查：孤儿页 38 篇（洞见/insights/来源/目录为结构性孤儿，正常）| 真实死链 20 处（路径引用格式问题、wikilink占位符、AI增强开发三件套页面缺失）| 无超长文章（>150行）| 无空 stub
+- git push：推送到 GitHub
+
 ## [2026-05-14] dream | 灵感碰撞 × 健康检查 — 新建 1 篇洞见文章
 
 - git pull --rebase：无冲突，Already up to date

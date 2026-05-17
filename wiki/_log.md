@@ -1,5 +1,13 @@
 # Wiki 操作日志
 
+## [2026-05-17] dream | 素材补档 + 灵感碰撞 × 健康检查 — 新建 1 篇 insight 文章
+
+- git pull --rebase：无冲突，Already up to date
+- 遗漏素材巡逻：发现 1 份遗漏未入库素材「面试官："你 Claude Code 用得这么 6？"…」（小林coding /powerup 教程）；wiki 文章 Claude-Code-Powerup教程.md 已存在且内容完整，补记账本
+- 灵感碰撞：Codex全能助手 × GBrain世界知识脑 × HyperFrames → 新建「有状态积累与无状态复现是Agent工具的两极」(insights/)
+- 健康检查：孤儿页 0 篇 | 死链 21 处（wikilink占位符/路径引用格式/已归档洞见的跨文件引用）| 无超长文章（>150行）| 无空 stub
+- git push：推送到 GitHub
+
 ## [2026-05-15] dream | 灵感碰撞 × 健康检查 — 新建 1 篇 insight 文章
 
 - git pull --rebase：无冲突，Already up to date

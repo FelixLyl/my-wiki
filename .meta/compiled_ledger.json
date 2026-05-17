@@ -1,6 +1,6 @@
 {
   "version": "1.0",
-  "last_updated": "2026-04-26",
+  "last_updated": "2026-05-17",
   "compiled_files": {
     "raw/AI编程.pdf": {
       "mtime": 1775417213,
@@ -294,5 +294,11 @@
     "articles_touched": [
       "Agent工程/CLAUDE-md配置方法论.md"
     ]
-  }
+  },
+    "raw/面试官：“你 Claude Code 用得这么 6？” 我暗喜：“我早把 powerup 命令的流程都做了”，他：你牛逼.md": {
+      "compiled_at": "2026-05-17",
+      "articles_touched": [
+        "Agent工程/Claude-Code-Powerup教程.md"
+      ]
+    }
 }

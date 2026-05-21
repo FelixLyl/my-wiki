@@ -1,5 +1,17 @@
 # Wiki 操作日志
 
+## [2026-05-21] dream | 灵感碰撞 × 健康检查 — 新建 1 篇 insight 文章
+
+- git pull --rebase：无冲突，Already up to date
+- 遗漏素材巡逻：发现 3 个未入库文件（shao-meng-prompt-caching-2026-05-11.md、vincemask-claudemd-8tips-2026-05-11.md、面试官powerup.md）；另发现 ledger JSON 因中文曲引号导致解析错误，已修复
+- 灵感碰撞：[[Agent记忆持久化]] × [[OpenClaw-Skill生态]] × [[zhangpelf-wiki-compiler-v2]] → 新建「记忆技能知识库的三重遗忘率均衡」(insights/)
+  - 洞见核心：记忆层（衰减型）× 技能层（零遗忘）× 知识层（主动蒸馏）三种不同的遗忘率设计是 Agent 认知体系稳定运行的隐性前提；三层均衡被打破时会产生可观测的工程信号
+- 健康检查：
+  - 死链：29 处（涉及路径格式链接、模板示例、跨目录引用问题），建议批量修复路径格式
+  - 孤儿页：6 篇（来源/farzaa、codex-inapp-browser、repo-analyzer、claude-code-source-study、karpathy-llm-wiki-pattern、ai-research-list），来源类文章缺少主体文章入链
+  - 超长文章：无
+  - 空 stub：无
+
 ## [2026-05-20] dream | 灵感碰撞 × 健康检查 — 新建 1 篇 insight 文章
 
 - git pull --rebase：无冲突，Already up to date

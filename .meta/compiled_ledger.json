@@ -270,7 +270,7 @@
         "Agent工程/CLAUDE-md配置方法论.md"
       ]
     },
-    "raw/面试官："你 Claude Code 用得这么 6？" 我暗喜："我早把 powerup 命令的流程都做了"，他：你牛逼.md": {
+    "raw/面试官-powerup.md": {
       "mtime": 1777212487,
       "compiled_at": "2026-04-26",
       "articles_touched": [
@@ -278,16 +278,14 @@
         "Agent工程/Claude-Code源码架构.md"
       ]
     }
-  }
-,
+  },
   "raw/shao-meng-prompt-caching-2026-05-11.md": {
     "mtime": 1778515236,
     "compiled_at": "2026-05-11",
     "articles_touched": [
       "工具与生态/Prompt-Caching降本.md"
     ]
-  }
-,
+  },
   "raw/vincemask-claudemd-8tips-2026-05-11.md": {
     "mtime": 1778515760,
     "compiled_at": "2026-05-11",
@@ -295,10 +293,10 @@
       "Agent工程/CLAUDE-md配置方法论.md"
     ]
   },
-    "raw/面试官：“你 Claude Code 用得这么 6？” 我暗喜：“我早把 powerup 命令的流程都做了”，他：你牛逼.md": {
-      "compiled_at": "2026-05-17",
-      "articles_touched": [
-        "Agent工程/Claude-Code-Powerup教程.md"
-      ]
-    }
+  "raw/面试官：“你 Claude Code 用得这么 6？” 我暗喜：“我早把 powerup 命令的流程都做了”，他：你牛逼.md": {
+    "compiled_at": "2026-05-17",
+    "articles_touched": [
+      "Agent工程/Claude-Code-Powerup教程.md"
+    ]
+  }
 }

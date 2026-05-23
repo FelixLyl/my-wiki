@@ -1,5 +1,18 @@
 # Wiki 操作日志
 
+## [2026-05-23] dream | 灵感碰撞 × 健康检查 — 新建 1 篇 insight 文章
+
+- git pull --rebase：无冲突，Already up to date
+- 遗漏素材巡逻：raw/ 全部 35 个文件均已入账，无遗漏
+- 灵感碰撞：[[Claude-Code游戏工作室实践]] × [[自学习复盘模式]] × [[Codex-全能助手]] → 新建「AI系统免疫闭环的三层缺位」(insights/)
+  - 洞见核心：生物免疫三层（感知/记忆/巡检）映射 AI 系统后，CCGS Hooks + self-improving-agent 知识卡片 + Codex Automation 三层在现有工具中彼此孤立，没有信号通道；打通三层只需约定共同格式，不需要新工具
+- 健康检查：
+  - 死链：30 处（涉及路径格式链接含目录前缀、模板示例占位符 [[wikilink]]、跨目录引用、新建 Insight 中引用了洞见目录中的文章名）；建议批量修复跨目录链接格式
+  - 孤儿页：无（所有非来源/洞见类文章均有入链）
+  - 超长文章：无
+  - 空 stub：无
+  - 总文章数：96 篇
+
 ## [2026-05-21] dream | 灵感碰撞 × 健康检查 — 新建 1 篇 insight 文章
 
 - git pull --rebase：无冲突，Already up to date

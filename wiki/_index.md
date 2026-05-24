@@ -6,11 +6,11 @@
 
 | 指标 | 数量 |
 |------|------|
-| 总文章数 | 97 |
-| 已入库素材 | 35 |
-| 最后入库时间 | 2026-04-26 |
-| 待入库素材 | 3 |
-| 最后做梦时间 | 2026-05-22 |
+| 总文章数 | 98 |
+| 已入库素材 | 36 |
+| 最后入库时间 | 2026-05-24 |
+| 待入库素材 | 0 |
+| 最后做梦时间 | 2026-05-24 |
 
 ## 目录
 
@@ -63,6 +63,7 @@
 - [[LLM-Wiki桌面工具]] — nashsu/llm_wiki：Karpathy 模式的完整桌面应用实现，两步 CoT Ingest + 4信号知识图谱 + Louvain 社区检测 + 向量搜索 + Deep Research + Chrome Clipper
 - [[Prompt-Caching降本]] — Prompt Caching 降低高达 90% 重复 Token 成本
 - [[Graphify-代码知识图谱]] — 将代码库转化为可查询知识图谱，AST + 语义双轨，支持论文与代码跨模态融合，可集成 Claude Code / Codex
+- [[GEOFlow]] — 开源 GEO 内容工程与多站点分发系统，知识库+RAG+AI生成+审核+WordPress/Agent分发全链路，内置 llms.txt/AI爬虫识别，Apache 2.0
 
 ### 🔒 安全 (安全/)
 

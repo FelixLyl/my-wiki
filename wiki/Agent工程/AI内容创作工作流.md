@@ -6,7 +6,7 @@ updated: 2026-04-06
 tags: [content-creation, wechat, seo, youtube, workflow, automation, wewrite]
 aliases: [内容创作, AI写作, 公众号流水线, wewrite, AI内容自动化]
 sources: ["raw/ai-research-list-2026-04-06.md"]
-related: ["[[OpenClaw-Skill生态]]", "[[内部系统Agent集成]]"]
+related: ["[[OpenClaw-Skill生态]]", "[[内部系统Agent集成]]", "[[GEOFlow]]"]
 ---
 
 # AI 内容创作工作流
@@ -49,6 +49,14 @@ MiniMax 开源 Skills 库，聚焦 Office 文档生成（Word/PPT/Excel），具
 **AI-Search-Hub（minsight-ai-info）**：聚合 Gemini/Grok/豆包/元宝等平台原生 AI 搜索，可触达微信公众号、抖音、微博数据，免维护爬虫，直接复用大厂搜索能力。
 
 **multi-search-engine-2-0-1**：聚合 17 个搜索引擎的免费工具，信息覆盖面广。
+
+## GEO 内容工程系统
+
+[[GEOFlow]]（yaojingang，Apache 2.0）是目前最完整的开源 GEO 内容工程系统。区别于上述单点工具，GEOFlow 是端到端的内容运营链路：知识库/素材库 → AI 生成任务 → 审核发布 → 多站点分发，并内置 AI 爬虫识别、llms.txt 生成和数据分析。
+
+技术栈：PHP 8.2+（Laravel）+ PostgreSQL（pgvector）+ Docker Compose。支持 OpenAI 风格和 Gemini 原生两类接口，知识库 RAG 使用 pgvector 向量检索。分发渠道支持 GEOFlow PHP Agent 和 WordPress REST API。
+
+GEOFlow 设计上明确要求"先建设知识库，再建设自动化流程"，不鼓励批量生成低质内容。
 
 ## 工作流设计原则
 

@@ -1,6 +1,6 @@
 {
   "version": "1.0",
-  "last_updated": "2026-05-17",
+  "last_updated": "2026-05-24",
   "compiled_files": {
     "raw/AI编程.pdf": {
       "mtime": 1775417213,
@@ -277,6 +277,15 @@
         "Agent工程/Claude-Code-Powerup教程.md",
         "Agent工程/Claude-Code源码架构.md"
       ]
+    },
+    "https://github.com/yaojingang/GEOFlow": {
+      "source": "https://github.com/yaojingang/GEOFlow",
+      "compiled_at": "2026-05-24",
+      "articles_touched": [
+        "wiki/工具与生态/GEOFlow.md",
+        "wiki/Agent工程/AI内容创作工作流.md"
+      ],
+      "notes": "GEO内容工程与多站点分发系统，新建文章GEOFlow.md，更新AI内容创作工作流.md"
     }
   },
   "raw/shao-meng-prompt-caching-2026-05-11.md": {

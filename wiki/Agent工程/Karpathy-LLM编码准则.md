@@ -6,7 +6,7 @@ updated: 2026-04-23
 tags: [claude-code, llm-engineering, coding-agent, karpathy, best-practices, claude-md]
 aliases: [karpathy-skills, Karpathy编码准则, LLM编码黄金准则]
 sources: ["raw/karpathy-skills-forrestchang-2026-04-23.md"]
-related: ["[[Andrej-Karpathy]]", "[[CLAUDE-md配置方法论]]", "[[Agent技能-addyosmani]]", "[[超能力技能集]]", "[[代码简化工具]]"]
+related: ["[[Andrej-Karpathy]]", "[[CLAUDE-md配置方法论]]", "[[Agent技能-addyosmani]]", "[[超能力技能集]]", "[[代码简化工具]]", "[[Google工程实践-代码审查规范]]"]
 ---
 
 # Karpathy LLM 编码准则

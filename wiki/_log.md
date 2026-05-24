@@ -641,3 +641,5 @@
 - git push：已同步到 GitHub
 
 ## [2026-05-24] ingest | https://github.com/yaojingang/GEOFlow — 触及 2 篇文章（新建 GEOFlow.md，更新 AI内容创作工作流.md）
+
+## [2026-05-24] ingest | https://github.com/google/eng-practices — 触及 2 篇文章（新建 Google工程实践-代码审查规范.md，更新 Karpathy-LLM编码准则.md 反向链接）

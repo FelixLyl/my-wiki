@@ -286,6 +286,15 @@
         "wiki/Agent工程/AI内容创作工作流.md"
       ],
       "notes": "GEO内容工程与多站点分发系统，新建文章GEOFlow.md，更新AI内容创作工作流.md"
+    },
+    "https://github.com/google/eng-practices": {
+      "source": "https://github.com/google/eng-practices",
+      "compiled_at": "2026-05-24",
+      "articles_touched": [
+        "wiki/Agent工程/Google工程实践-代码审查规范.md",
+        "wiki/Agent工程/Karpathy-LLM编码准则.md"
+      ],
+      "notes": "Google代码审查规范，新建文章，更新Karpathy反向链接"
     }
   },
   "raw/shao-meng-prompt-caching-2026-05-11.md": {

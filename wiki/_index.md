@@ -6,8 +6,8 @@
 
 | 指标 | 数量 |
 |------|------|
-| 总文章数 | 99 |
-| 已入库素材 | 37 |
+| 总文章数 | 100 |
+| 已入库素材 | 38 |
 | 最后入库时间 | 2026-05-24 |
 | 待入库素材 | 0 |
 | 最后做梦时间 | 2026-05-24 |
@@ -65,6 +65,7 @@
 - [[Prompt-Caching降本]] — Prompt Caching 降低高达 90% 重复 Token 成本
 - [[Graphify-代码知识图谱]] — 将代码库转化为可查询知识图谱，AST + 语义双轨，支持论文与代码跨模态融合，可集成 Claude Code / Codex
 - [[GEOFlow]] — 开源 GEO 内容工程与多站点分发系统，知识库+RAG+AI生成+审核+WordPress/Agent分发全链路，内置 llms.txt/AI爬虫识别，Apache 2.0
+- [[Understand-Anything]] — 将代码库/知识库/文档转化为交互式知识图谱，多Agent管道+Dashboard+业务域视图+变更影响分析+Karpathy-wiki支持，兼容13个AI编码平台
 
 ### 🔒 安全 (安全/)
 

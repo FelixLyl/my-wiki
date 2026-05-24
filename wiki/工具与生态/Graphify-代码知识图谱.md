@@ -6,7 +6,7 @@ updated: 2026-04-26
 tags: [code-analysis, knowledge-graph, claude-code, ast, graphify, ai-coding]
 aliases: [Graphify, 代码知识图谱, Code Knowledge Graph]
 sources: ["raw/graphify-claude-code-kg-2026-04-26.md"]
-related: ["[[Claude-Code源码架构]]", "[[LLM知识库三层架构]]", "[[个人知识库编译器模式]]", "[[LLM-Wiki桌面工具]]", "[[Karpathy-LLM编码准则]]", "[[代码仓库分析器]]"]
+related: ["[[Claude-Code源码架构]]", "[[LLM知识库三层架构]]", "[[个人知识库编译器模式]]", "[[LLM-Wiki桌面工具]]", "[[Karpathy-LLM编码准则]]", "[[代码仓库分析器]]", "[[Understand-Anything]]"]
 ---
 
 # Graphify：代码库知识图谱

@@ -295,6 +295,15 @@
         "wiki/Agent工程/Karpathy-LLM编码准则.md"
       ],
       "notes": "Google代码审查规范，新建文章，更新Karpathy反向链接"
+    },
+    "https://github.com/Lum1104/Understand-Anything": {
+      "source": "https://github.com/Lum1104/Understand-Anything",
+      "compiled_at": "2026-05-24",
+      "articles_touched": [
+        "wiki/工具与生态/Understand-Anything.md",
+        "wiki/工具与生态/Graphify-代码知识图谱.md"
+      ],
+      "notes": "代码库交互式知识图谱工具，新建文章，更新Graphify反向链接"
     }
   },
   "raw/shao-meng-prompt-caching-2026-05-11.md": {

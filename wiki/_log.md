@@ -645,3 +645,5 @@
 ## [2026-05-24] ingest | https://github.com/google/eng-practices — 触及 2 篇文章（新建 Google工程实践-代码审查规范.md，更新 Karpathy-LLM编码准则.md 反向链接）
 
 ## [2026-05-24] ingest | https://github.com/Lum1104/Understand-Anything — 触及 2 篇文章（新建 Understand-Anything.md，更新 Graphify-代码知识图谱.md 反向链接）
+
+## [2026-05-25] dream | 做梦机制 — 生成 Insight-配置精简与记忆复利的悖论-2026-05-25.md（碰撞：记忆复利论 × CLAUDE.md配置方法论 × Codex全能助手）

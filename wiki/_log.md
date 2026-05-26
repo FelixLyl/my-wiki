@@ -647,3 +647,5 @@
 ## [2026-05-24] ingest | https://github.com/Lum1104/Understand-Anything — 触及 2 篇文章（新建 Understand-Anything.md，更新 Graphify-代码知识图谱.md 反向链接）
 
 ## [2026-05-25] dream | 做梦机制 — 生成 Insight-配置精简与记忆复利的悖论-2026-05-25.md（碰撞：记忆复利论 × CLAUDE.md配置方法论 × Codex全能助手）
+
+## [2026-05-26] dream | 做梦机制 — 生成 Insight-图权限是Sub-Agent上下文隔离的结构补全-2026-05-26.md（碰撞：Claude子Agent机制 × OpenClaw-Agent安全体系 × Graphify-代码知识图谱）

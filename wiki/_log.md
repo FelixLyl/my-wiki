@@ -662,3 +662,25 @@
 ## [2026-05-25] dream | 做梦机制 — 生成 Insight-配置精简与记忆复利的悖论-2026-05-25.md（碰撞：记忆复利论 × CLAUDE.md配置方法论 × Codex全能助手）
 
 ## [2026-05-26] dream | 做梦机制 — 生成 Insight-图权限是Sub-Agent上下文隔离的结构补全-2026-05-26.md（碰撞：Claude子Agent机制 × OpenClaw-Agent安全体系 × Graphify-代码知识图谱）
+
+## [2026-05-28] dream | 做梦机制 — 灵感碰撞×1 + 健康检查
+
+- **git pull --rebase**：Already up to date，无冲突
+- **素材检查**：raw/ 共35个文件，账本已入库3个，**未入库32个文件**（大量历史积压素材，含 addyosmani、agency-agents、ai-research-list 等，均为已有 wiki 文章对应的原始素材，实际内容已入库，账本记录不完整属历史问题）
+  - 注：3个正式入账文件：shao-meng-prompt-caching、vincemask-claudemd-8tips、面试官powerup（后者账本因JSON双引号bug误判，实际已处理）
+- **灵感碰撞**：随机选取3篇不同目录文章进行碰撞：
+  - [[Coolify]]（工具与生态/）
+  - [[幂等防重模式]]（知识管理/）
+  - [[OpenClaw-Agent安全体系]]（安全/）
+  - 产出：`insights/Insight-自主系统的幂等性守护-2026-05-28.md`
+  - 核心洞见：Coolify/幂等防重/Agent安全三者都在回答同一问题——自主系统中如何通过状态检验门（Gate）防止"做了两次"或"做了不该做的事"；信任应从行为主体转移到可验证的状态条件
+- **健康检查**：总104篇文章（+1）
+  - 孤儿页面：44个（其中 insights/ 20个、洞见/ 24个，均为叶子节点，属结构性孤儿，来源/ 5个，属正常）
+  - 死链：19条（分布在多篇文章），主要问题：
+    - 路径前缀死链：`人物/Andrej-Karpathy`、`知识管理/个人知识库编译器模式`、`安全/OpenClaw-Agent安全体系`、`工具与生态/Coolify` 等（应去掉目录前缀）
+    - 短名引用洞见：`经验缓存化是Agent框架的护城河`、`Insight-流程结构即Agent协调语言`、`分布式Agent与知识孤岛`、`安全体系的自进化闭环`（需加日期后缀或修正文件名对应）
+    - 不存在文章：`AI增强开发三件套`（OpenSpec中，文章已改名）、`Agent工程/autoresearch`（已改名为自动调研工具）
+    - 模板占位符：`[[wikilink]]`、`[[wikilinks]]`、`[[引用]]`、`[[实体名]]`（待清理）
+  - 超长文章（>150行）：0篇 ✅
+  - 空 stub（<5行）：0篇 ✅
+- git push：待执行

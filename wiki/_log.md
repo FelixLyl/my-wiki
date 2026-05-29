@@ -1,5 +1,18 @@
 # Wiki 操作日志
 
+## [2026-05-29] dream | 灵感碰撞 × 健康检查 — 新建 1 篇 insight 文章
+
+- git pull --rebase：无冲突，Already up to date
+- 遗漏素材巡逻：发现 **3 个未入库文件**（shao-meng-prompt-caching-2026-05-11.md、vincemask-claudemd-8tips-2026-05-11.md、面试官…牛逼.md）
+- 灵感碰撞：[[OpenClaw-Agent安全体系]] × [[Andrej-Karpathy]] × [[OpenSpec规范]] → 新建「规格即安全边界的外显化」(insights/)
+  - 洞见核心：三个领域指向同一底层——控制AI行为风险的有效路径是在行动前把"允许做什么"写成可读外部工件；Prompt Injection 和 LLM 隐式解读是同一问题的两个侧面；规格文件=安全基础设施；缺少规格工件的系统再强的运行时防护也不完整
+- 健康检查：
+  - 孤儿页：5 篇（来源类文章：ai-research-list、codex-inapp-browser、farzaa-personal-wiki-skill、karpathy-llm-wiki-pattern、repo-analyzer）
+  - 死链：33 条，主要是路径格式不一致（如 `[[来源/xxx]]` vs `[[xxx]]`）、Insight 文件名含日期导致跨引用失配，以及少量模板占位符未替换
+  - 超长文章：0 篇
+  - 空 Stub：0 篇
+- git push：成功（commit 5a1c53f）
+
 ## [2026-05-27] dream | 灵感碰撞 × 健康检查 — 新建 1 篇 insight 文章
 
 - git pull --rebase：无冲突，Already up to date

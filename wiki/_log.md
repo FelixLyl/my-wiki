@@ -1,5 +1,18 @@
 # Wiki 操作日志
 
+## [2026-06-01] dream | 灵感碰撞 × 健康检查 — 新建 1 篇 insight 文章
+
+- git pull --rebase：无冲突，Already up to date
+- 遗漏素材巡逻：发现 **3 个未入库文件**（shao-meng-prompt-caching-2026-05-11.md、vincemask-claudemd-8tips-2026-05-11.md、面试官…牛逼.md），与上次一致，未新增
+- 灵感碰撞：[[Markdown查看器技能]] × [[Claude-Code源码架构]] × [[代码仓库分析器]] → 新建「可视化是理解工具的完整性检验」(insights/)
+  - 洞见核心：三类工具（可视化渲染、架构分析、代码理解）交汇于"可视化是理解深度的可检验代理"——若分析工具输出的 Mermaid 图无法合理渲染，说明分析本身存在结构性不完整；可视化由此从"最后一步美化"升格为"理解质量的回归测试"
+- 健康检查：
+  - 孤儿页：48 篇（Insight类/来源类为主，系统性结构问题，建议逐步在正文文章中添加引用入链）
+  - 死链：36 处（主要来源：带目录前缀的 [[人物/Andrej-Karpathy]] 跨目录引用、wikilink/wikilinks 占位词、部分 Insight 互引用名不一致）
+  - 超长文章（>150行）：0 篇
+  - 空 stub：0 篇
+- 同步：git push origin main ✓
+
 ## [2026-05-31] dream | 灵感碰撞 × 健康检查 — 新建 1 篇 insight 文章
 
 - git pull --rebase：无冲突，Already up to date

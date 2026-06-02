@@ -1,5 +1,20 @@
 # Wiki 操作日志
 
+## [2026-06-02] dream | 灵感碰撞 × 健康检查 — 新建 1 篇 insight 文章
+
+- git pull --rebase：无冲突，Already up to date
+- 遗漏素材巡逻：raw/ 中 **0 个未入库文件**，全部处理完毕 ✅
+- 灵感碰撞：[[philosophies/AI与商业角色转变]] × [[人物/Andrej-Karpathy]] × [[来源/farzaa-personal-wiki-skill]]
+  → 新建「知识资产化是AI时代角色跃迁的唯一出口」(insights/)
+  - 洞见核心：AI时代角色跃迁不是技能升级，而是资产化转型。使用AI完成任务产出可替代；用AI编译自己的判断力为结构化wiki，才能在价值链上占据不可替换的位置
+- 健康检查：
+  - 总文章数：108 篇
+  - 孤儿页面：5 篇（均为来源类：ai-research-list、codex-inapp-browser、farzaa-personal-wiki-skill、karpathy-llm-wiki-pattern、repo-analyzer）
+  - 死链：36 处，涉及 18 篇文章（主要为 Insight 文章内部引用路径不一致、跨目录链接缺少前缀）
+  - 超长文章：0 篇 ✅
+
+
+
 ## [2026-06-01] dream | 灵感碰撞 × 健康检查 — 新建 1 篇 insight 文章
 
 - git pull --rebase：无冲突，Already up to date

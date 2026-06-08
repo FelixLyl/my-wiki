@@ -803,3 +803,8 @@
   - 超长文章（>150行）：0篇 ✅
   - 空stub（<10行）：0篇（2篇stub均≥29行）✅
 - git push：已执行
+
+## [2026-06-08] dream | 灵感碰撞 × 3篇 — 新建 Insight-理解边界的所有权决定角色跃迁的天花板-2026-06-08
+- 碰撞文章：Understand-Anything（工具与生态）× AI与商业角色转变（philosophies）× Agent技能-addyosmani（Agent工程）
+- 健康检查：无死链，无超长文章，无空stub；孤儿页面46个（知识库规模扩大中，孤儿偏多为正常阶段性现象）
+- raw/待入库素材：3个（shao-meng-prompt-caching-2026-05-11.md、vincemask-claudemd-8tips-2026-05-11.md、面试官powerup.md）

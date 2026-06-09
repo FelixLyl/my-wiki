@@ -1,5 +1,14 @@
 # Wiki 操作日志
 
+## [2026-06-09] dream | 灵感碰撞 × 健康检查 — 新建 1 篇 insight 文章
+
+- git pull --rebase：无冲突，Already up to date
+- 素材巡逻：raw/ 35 个文件全部已入账，无遗漏
+- 灵感碰撞：知识沉淀双轨机制 × Graphify代码知识图谱 × 代码简化工具
+- 新建：insights/Insight-代码知识的三向流动-知识沉淀双轨与图谱查询的结构融合-2026-06-09.md
+- 健康检查：总文章数 116；孤儿页面 0；死链 34 条（多为路径格式差异和跨目录引用问题）；无超长文章；无空stub
+- git push：已同步到 GitHub main
+
 ## [2026-06-07] dream | 灵感碰撞 × 健康检查 — 新建 1 篇 insight 文章
 
 - git pull --rebase：无冲突，Already up to date

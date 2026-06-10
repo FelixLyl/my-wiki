@@ -1,5 +1,14 @@
 # Wiki 操作日志
 
+## [2026-06-10] dream | 灵感碰撞 × 健康检查 — 新建 1 篇 insight 文章
+
+- git pull --rebase：无冲突，Already up to date
+- 素材巡逻：raw/ 35 个文件全部已入账，无遗漏
+- 灵感碰撞：AI与商业角色转变 × Coolify × 幂等防重模式
+- 新建：洞见/Insight-幂等积累能力决定AI时代阶级固化速度-2026-06-10.md
+- 健康检查：总文章数 117（含新建insight）；孤儿页面 29（全为洞见/insights类，正常现象）；死链 45 条（多为路径格式差异、跨目录引用和占位示例链接）；无超长文章（>150行）；无空stub
+- git push：已同步到 GitHub main
+
 ## [2026-06-09] dream | 灵感碰撞 × 健康检查 — 新建 1 篇 insight 文章
 
 - git pull --rebase：无冲突，Already up to date

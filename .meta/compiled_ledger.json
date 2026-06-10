@@ -1,6 +1,13 @@
 {
   "version": "1.0",
-  "last_updated": "2026-05-24",
+  "last_updated": "2026-06-10",
+  "dream_log": [
+    {
+      "date": "2026-06-10",
+      "sources": ["philosophies/AI与商业角色转变.md", "工具与生态/Coolify.md", "知识管理/幂等防重模式.md"],
+      "insight": "洞见/Insight-幂等积累能力决定AI时代阶级固化速度-2026-06-10.md"
+    }
+  ],
   "compiled_files": {
     "raw/AI编程.pdf": {
       "mtime": 1775417213,

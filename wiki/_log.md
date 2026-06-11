@@ -826,3 +826,8 @@
 - 碰撞文章：Understand-Anything（工具与生态）× AI与商业角色转变（philosophies）× Agent技能-addyosmani（Agent工程）
 - 健康检查：无死链，无超长文章，无空stub；孤儿页面46个（知识库规模扩大中，孤儿偏多为正常阶段性现象）
 - raw/待入库素材：3个（shao-meng-prompt-caching-2026-05-11.md、vincemask-claudemd-8tips-2026-05-11.md、面试官powerup.md）
+
+## [2026-06-11] dream | 灵感碰撞 × 3篇 — 新建 Insight-健康度不外包原则-2026-06-11
+- 碰撞文章：Coolify（工具与生态）× Google工程实践-代码审查规范（Agent工程）× 做梦机制（知识管理）
+- 健康检查：死链28个（主要为路径格式混用、已删文章引用）；超长文章0篇；空stub 0个；孤儿页52个（Insight类居多，属正常现象）；非Insight孤儿3个（来源目录：ai-research-list、codex-inapp-browser、repo-analyzer）
+- raw/待入库素材：3个（shao-meng-prompt-caching-2026-05-11.md、vincemask-claudemd-8tips-2026-05-11.md、面试官powerup.md），已汇报待主人决策

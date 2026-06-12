@@ -831,3 +831,10 @@
 - 碰撞文章：Coolify（工具与生态）× Google工程实践-代码审查规范（Agent工程）× 做梦机制（知识管理）
 - 健康检查：死链28个（主要为路径格式混用、已删文章引用）；超长文章0篇；空stub 0个；孤儿页52个（Insight类居多，属正常现象）；非Insight孤儿3个（来源目录：ai-research-list、codex-inapp-browser、repo-analyzer）
 - raw/待入库素材：3个（shao-meng-prompt-caching-2026-05-11.md、vincemask-claudemd-8tips-2026-05-11.md、面试官powerup.md），已汇报待主人决策
+
+## [2026-06-12] dream | 灵感碰撞 × 3篇 — 新建 Insight-组织结构的可迁移性决定AI系统的规模天花板-2026-06-12
+- 碰撞文章：Coolify（工具与生态）× 自学习复盘模式（知识管理）× Claude Code游戏工作室实践（Agent工程）
+- 核心洞见：AI系统真正的规模天花板不是算力，而是组织结构的可迁移性——只有把角色、流程约束、自修复机制都编码为可迁移配置文件，系统才能在不依赖人工介入的情况下持续扩展。
+- 健康检查：总文章数119篇；孤儿页面29个（主要为洞见/insights类，属结构性正常）；死链28种（含路径格式混用、历史遗留模板占位符等）；超长文章0篇；空stub 0个
+- raw/待入库素材：3个（shao-meng-prompt-caching-2026-05-11.md、vincemask-claudemd-8tips-2026-05-11.md、面试官powerup.md），已汇报待主人决策
+- git push：已执行

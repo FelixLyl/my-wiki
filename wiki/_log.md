@@ -1,5 +1,14 @@
 # Wiki 操作日志
 
+## [2026-06-13] dream | 灵感碰撞 × 健康检查 — 新建 1 篇 insight 文章
+
+- git pull --rebase：无冲突，Already up to date
+- 素材巡逻：raw/ 发现 3 份遗漏素材（shao-meng-prompt-caching-2026-05-11.md、vincemask-claudemd-8tips-2026-05-11.md、面试官-powerup.md 文件名变体）
+- 灵感碰撞：GBrain-世界知识脑 × Claude-Agent团队协作 × Coolify
+- 新建：insights/Insight-私有认知系统的三层自治架构-2026-06-13.md
+- 健康检查：总文章数 120；孤儿页面 60 篇（全为洞见/insights类，正常现象）；死链 44 处（多为路径格式差异和跨目录引用问题）；无超长文章（>150行）；无空stub
+- git push：已同步到 GitHub main
+
 ## [2026-06-10] dream | 灵感碰撞 × 健康检查 — 新建 1 篇 insight 文章
 
 - git pull --rebase：无冲突，Already up to date

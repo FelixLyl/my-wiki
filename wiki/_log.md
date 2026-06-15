@@ -1,5 +1,14 @@
 # Wiki 操作日志
 
+## [2026-06-15] dream | 灵感碰撞 × 健康检查 — 新建 1 篇 insight 文章
+
+- git pull --rebase：无冲突，Already up to date
+- 素材巡逻：raw/ 35 个文件全部已入账（ledger 含 40 条，多出的 5 条为历史已删除文件记录，正常），无遗漏
+- 灵感碰撞：OpenClaw-Skill生态 × Andrej-Karpathy × 知识沉淀双轨机制
+- 新建：insights/Insight-Skill是知识分发的最小可发布单元-2026-06-15.md
+- 健康检查：总文章数 122；孤儿页面 3（来源类文章，正常）；死链 9 处（含占位符示例链接和路径引用问题）；无超长文章（>150行）；无空stub
+- git push：已同步到 GitHub main
+
 ## [2026-06-13] dream | 灵感碰撞 × 健康检查 — 新建 1 篇 insight 文章
 
 - git pull --rebase：无冲突，Already up to date

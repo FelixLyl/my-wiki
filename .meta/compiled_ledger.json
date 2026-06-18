@@ -1,6 +1,6 @@
 {
   "version": "1.0",
-  "last_updated": "2026-06-17T09:00:00+08:00",
+  "last_updated": "2026-06-18T09:00:00+08:00",
   "dream_log": [
     {
       "date": "2026-06-10",
@@ -25,6 +25,15 @@
       "date": "2026-06-17",
       "action": "dream",
       "notes": "灵感碰撞：repo-analyzer-2026-04-19 × OpenClaw-Skill生态 × OpenClaw-Agent安全体系；新建 insights/Insight-架构透视是Skill供应链信任的前置条件-2026-06-17.md；健康检查完成：45死链（主要为跨目录引用格式问题）、61孤儿页（主要为insights系列未被主文章回链）、0超长文章、0空stub"
+    },
+    {
+      "date": "2026-06-18",
+      "insight": "Insight-知识演化的确定性重放与安全可审计性-2026-06-18.md",
+      "sources": [
+        "HyperFrames",
+        "GBrain-世界知识脑",
+        "OpenClaw-Agent安全体系"
+      ]
     }
   ],
   "compiled_files": {

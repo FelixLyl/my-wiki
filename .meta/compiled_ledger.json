@@ -1,6 +1,6 @@
 {
   "version": "1.0",
-  "last_updated": "2026-06-19T09:00:00+08:00",
+  "last_updated": "2026-06-22T09:00:00+08:00",
   "dream_log": [
     {
       "date": "2026-06-19",
@@ -39,6 +39,11 @@
         "GBrain-世界知识脑",
         "OpenClaw-Agent安全体系"
       ]
+    },
+    {
+      "date": "2026-06-22",
+      "action": "dream",
+      "notes": "灵感碰撞：Coolify × Andrej-Karpathy × Prompt-Caching降本；新建 insights/Insight-基础设施前缀稳定性是知识复利的物理基础-2026-06-22.md；健康检查完成：65孤儿页（61为insights/洞见类，4为来源页正常）、28死链目标/45死链引用（主要为跨目录引用格式问题和部分洞见文章cross-ref路径不一致）、0超长文章、0空stub；遗漏素材：3份（shao-meng-prompt-caching-2026-05-11.md、vincemask-claudemd-8tips-2026-05-11.md、面试官-powerup.md）"
     }
   ],
   "compiled_files": {

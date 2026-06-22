@@ -915,3 +915,16 @@
   - 超长文章（>150行）：0篇 ✅
   - 空stub：0篇 ✅
 - git push：已执行 ✅
+
+## [2026-06-22] dream
+- 来源碰撞：Coolify × Andrej-Karpathy × Prompt-Caching降本
+- 产出：wiki/insights/Insight-基础设施前缀稳定性是知识复利的物理基础-2026-06-22.md
+- 核心洞见：Prompt Caching 的"前缀完全不变才能命中缓存"规则，与 Karpathy wiki 的"稳定前缀+增量追加"架构，与 Coolify 的"基础设施行为不漂移"价值命题，三者底层同构：积累需要稳定的基础层，前缀不变才能产生复利。推论：wiki 的缓存命中率是知识是否真正在沉淀的代理指标
+- 遗漏素材汇报：3份连续4次未处理（shao-meng-prompt-caching-2026-05-11.md、vincemask-claudemd-8tips-2026-05-11.md、面试官-powerup.md），已汇报主人
+- 健康检查：
+  - 总文章数：129篇（+1 insight）
+  - 孤儿页面：65个（其中61个为insights/洞见类，4个为来源页，结构性正常）
+  - 死链：28个死链目标 / 45条死链引用（主要为跨目录引用格式不一致，如 [[人物/Andrej-Karpathy]] 应为 [[Andrej-Karpathy]]，以及部分洞见文章被旧路径格式引用）
+  - 超长文章（>150行）：0篇 ✅
+  - 空stub：0篇 ✅
+- git push：执行中

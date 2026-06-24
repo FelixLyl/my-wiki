@@ -1,5 +1,14 @@
 # Wiki 操作日志
 
+## [2026-06-24] dream | 灵感碰撞 × 健康检查 — 新建 1 篇 insight 文章
+
+- git pull --rebase：无冲突，Already up to date
+- 素材巡逻：raw/ 35 个文件全部已入账，无遗漏（上次记录的3份遗漏已在账本中补录）
+- 灵感碰撞：Wiki与RAG的对比 × AI与商业角色转变 × Andrej-Karpathy
+- 新建：insights/Insight-积累位置决定价值归属-2026-06-24.md
+- 健康检查：总文章数 131；孤儿页面 67 篇（63篇为insights/洞见系列，4篇为来源类文章，均属正常）；死链 29 个目标（含跨目录格式问题 [[人物/Andrej-Karpathy]] 等、示例占位符 [[实体名]][[引用]][[wikilink]]、洞见类交叉引用路径不一致，非真实内容缺失）；无超长文章（>150行）；无空stub
+- git push：已同步到 GitHub main
+
 ## [2026-06-19] dream | 灵感碰撞 × 健康检查 — 新建 1 篇 insight 文章
 
 - git pull --rebase：无冲突，Already up to date

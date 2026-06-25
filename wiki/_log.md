@@ -1,5 +1,14 @@
 # Wiki 操作日志
 
+## [2026-06-25] dream | 灵感碰撞 × 健康检查 — 新建 1 篇 insight 文章
+
+- git pull --rebase：无冲突，Already up to date
+- 素材巡逻：raw/ 34个文件，已入账31个，遗漏3份（shao-meng-prompt-caching-2026-05-11.md、vincemask-claudemd-8tips-2026-05-11.md、面试官-powerup.md），持续挂账待入库
+- 灵感碰撞：Graphify-代码知识图谱 × 自学习复盘模式 × Google工程实践-代码审查规范
+- 新建：insights/Insight-代码审查是知识图谱的结构性纠错机制-2026-06-25.md
+- 健康检查：总文章数 132；孤儿页面 65（63篇为insights/洞见类正常，2篇非洞见孤儿：ai-research-list-2026-04-06、codex-inapp-browser-2026-04-18，均为来源类文章，低优先级）；死链 26个（19个唯一目标，主要为已移动的洞见文章引用路径不一致和[[wikilink]]占位符，非真实内容缺失）；无超长文章（>150行）；无空stub
+- git push：已同步到 GitHub main
+
 ## [2026-06-24] dream | 灵感碰撞 × 健康检查 — 新建 1 篇 insight 文章
 
 - git pull --rebase：无冲突，Already up to date

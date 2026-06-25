@@ -1,379 +1,384 @@
 {
-  "version": "1.0",
-  "last_updated": "2026-06-24T09:00:00+08:00",
-  "dream_log": [
-    {
-      "date": "2026-06-19",
-      "action": "dream",
-      "notes": "灵感碰撞：AI与商业角色转变 × 做梦机制 × Google工程实践-代码审查规范；新建 insights/Insight-渐进角色重构比等待完美时机更有效-2026-06-19.md；健康检查完成：29孤儿页（全为insights/洞见类，正常）、153死链（含大量占位符示例链接，非真实缺失）、0超长文章、0空stub"
+    "version": "1.0",
+    "last_updated": "2026-06-25T09:00:00+08:00",
+    "dream_log": [
+        {
+            "date": "2026-06-19",
+            "action": "dream",
+            "notes": "灵感碰撞：AI与商业角色转变 × 做梦机制 × Google工程实践-代码审查规范；新建 insights/Insight-渐进角色重构比等待完美时机更有效-2026-06-19.md；健康检查完成：29孤儿页（全为insights/洞见类，正常）、153死链（含大量占位符示例链接，非真实缺失）、0超长文章、0空stub"
+        },
+        {
+            "date": "2026-06-10",
+            "sources": [
+                "philosophies/AI与商业角色转变.md",
+                "工具与生态/Coolify.md",
+                "知识管理/幂等防重模式.md"
+            ],
+            "insight": "洞见/Insight-幂等积累能力决定AI时代阶级固化速度-2026-06-10.md"
+        },
+        {
+            "date": "2026-06-13",
+            "action": "dream",
+            "notes": "灵感碰撞：GBrain × Claude-Agent团队协作 × Coolify；新建 insights/Insight-私有认知系统的三层自治架构-2026-06-13.md；健康检查完成"
+        },
+        {
+            "date": "2026-06-16",
+            "action": "dream",
+            "notes": "灵感碰撞：AI与商业角色转变 × Agent记忆持久化 × OpenClaw-Skill生态；新建 洞见/Insight-能力分发权决定AI时代的话语权-2026-06-16.md；健康检查完成：36死链、28孤儿页、0超长文章、2 stub"
+        },
+        {
+            "date": "2026-06-17",
+            "action": "dream",
+            "notes": "灵感碰撞：repo-analyzer-2026-04-19 × OpenClaw-Skill生态 × OpenClaw-Agent安全体系；新建 insights/Insight-架构透视是Skill供应链信任的前置条件-2026-06-17.md；健康检查完成：45死链（主要为跨目录引用格式问题）、61孤儿页（主要为insights系列未被主文章回链）、0超长文章、0空stub"
+        },
+        {
+            "date": "2026-06-18",
+            "insight": "Insight-知识演化的确定性重放与安全可审计性-2026-06-18.md",
+            "sources": [
+                "HyperFrames",
+                "GBrain-世界知识脑",
+                "OpenClaw-Agent安全体系"
+            ]
+        },
+        {
+            "date": "2026-06-22",
+            "action": "dream",
+            "notes": "灵感碰撞：Coolify × Andrej-Karpathy × Prompt-Caching降本；新建 insights/Insight-基础设施前缀稳定性是知识复利的物理基础-2026-06-22.md；健康检查完成：65孤儿页（61为insights/洞见类，4为来源页正常）、28死链目标/45死链引用（主要为跨目录引用格式问题和部分洞见文章cross-ref路径不一致）、0超长文章、0空stub；遗漏素材：3份（shao-meng-prompt-caching-2026-05-11.md、vincemask-claudemd-8tips-2026-05-11.md、面试官-powerup.md）"
+        },
+        {
+            "date": "2026-06-24",
+            "action": "dream",
+            "notes": "灵感碰撞：Wiki与RAG的对比 × AI与商业角色转变 × Andrej-Karpathy；新建 insights/Insight-积累位置决定价值归属-2026-06-24.md；健康检查：67孤儿页（63为insights/洞见类正常）、29死链目标（跨目录格式+占位符+路径不一致，非真实内容缺失）、0超长文章、0空stub；git pull无冲突，待push"
+        },
+        {
+            "date": "2026-06-25",
+            "action": "dream",
+            "notes": "灵感碰撞：Graphify-代码知识图谱 × 自学习复盘模式 × Google工程实践-代码审查规范；新建 insights/Insight-代码审查是知识图谱的结构性纠错机制-2026-06-25.md；健康检查：65孤儿页（63为insights/洞见类正常，2为来源类孤儿：ai-research-list-2026-04-06、codex-inapp-browser-2026-04-18）、26死链（19个唯一目标，主要为已移动洞见文章引用路径不一致+[[wikilink]]占位符，非真实内容缺失）、0超长文章、0空stub；遗漏素材持续3份"
+        }
+    ],
+    "compiled_files": {
+        "raw/AI编程.pdf": {
+            "mtime": 1775417213,
+            "compiled_at": "2026-04-05",
+            "articles_touched": [
+                "Agent工程/Claude-Agent-Teams.md",
+                "Agent工程/Claude-Sub-Agents.md",
+                "Agent工程/CLAUDE-md配置方法论.md",
+                "知识管理/知识沉淀双轨机制.md"
+            ]
+        },
+        "raw/karpathy-llm-wiki-pattern.md": {
+            "mtime": 1775462008,
+            "compiled_at": "2026-04-06",
+            "articles_touched": [
+                "知识管理/个人知识库编译器模式.md",
+                "知识管理/LLM知识库三层架构.md",
+                "知识管理/Wiki-vs-RAG.md",
+                "人物/Andrej-Karpathy.md",
+                "来源/karpathy-llm-wiki-pattern.md"
+            ]
+        },
+        "raw/zhangpelf-wiki-compiler-v2.md": {
+            "mtime": 1775461962,
+            "compiled_at": "2026-04-06",
+            "articles_touched": [
+                "知识管理/个人知识库编译器模式.md",
+                "知识管理/幂等防重模式.md",
+                "知识管理/做梦机制.md",
+                "人物/Andrej-Karpathy.md",
+                "来源/zhangpelf-wiki-compiler-v2.md"
+            ]
+        },
+        "raw/farzaa-personal-wiki-skill.md": {
+            "mtime": 1775462059,
+            "compiled_at": "2026-04-06",
+            "articles_touched": [
+                "知识管理/个人知识库编译器模式.md",
+                "知识管理/幂等防重模式.md",
+                "来源/farzaa-personal-wiki-skill.md"
+            ]
+        },
+        "raw/ai-research-list-2026-04-06.md": {
+            "mtime": 1775470070,
+            "compiled_at": "2026-04-06",
+            "articles_touched": [
+                "安全/OpenClaw-Agent安全体系.md",
+                "工具与生态/Prompt-Caching降本.md",
+                "知识管理/Agent记忆持久化.md",
+                "工具与生态/OpenClaw-Skill生态.md",
+                "工具与生态/内部系统Agent集成.md",
+                "Agent工程/AI内容创作工作流.md",
+                "知识管理/自学习复盘模式.md",
+                "来源/ai-research-list-2026-04-06.md",
+                "Agent工程/CLAUDE-md配置方法论.md",
+                "Agent工程/Claude-Agent-Teams.md",
+                "知识管理/知识沉淀双轨机制.md"
+            ]
+        },
+        "raw/articles/claude-code-source-study-github.md": {
+            "mtime": 1775527880,
+            "compiled_at": "2026-04-07",
+            "articles_touched": [
+                "Agent工程/Claude-Code源码架构.md",
+                "来源/claude-code-source-study.md",
+                "工具与生态/Prompt-Caching降本.md",
+                "知识管理/Agent记忆持久化.md",
+                "Agent工程/CLAUDE-md配置方法论.md"
+            ]
+        },
+        "raw/dotey-hermes-agent-2026-04-08.md": {
+            "mtime": 1775670299,
+            "compiled_at": "2026-04-08",
+            "articles_touched": [
+                "Agent工程/Hermes-Agent.md",
+                "工具与生态/OpenClaw-Skill生态.md"
+            ]
+        },
+        "raw/markdown-viewer-skills.md": {
+            "mtime": 1775912923,
+            "compiled_at": "2026-04-11",
+            "articles_touched": [
+                "工具与生态/markdown-viewer-skills.md",
+                "工具与生态/OpenClaw-Skill生态.md"
+            ]
+        },
+        "raw/garrytan-gbrain.md": {
+            "mtime": 1775913176,
+            "compiled_at": "2026-04-11",
+            "articles_touched": [
+                "知识管理/GBrain-世界知识脑.md",
+                "知识管理/Agent记忆持久化.md"
+            ]
+        },
+        "raw/garrytan-gstack.md": {
+            "mtime": 1775913234,
+            "compiled_at": "2026-04-11",
+            "articles_touched": [
+                "工具与生态/GStack-虚拟工程团队.md",
+                "工具与生态/OpenClaw-Skill生态.md"
+            ]
+        },
+        "raw/hyperframes-heygen-2026-04-18.md": {
+            "mtime": 1776535641,
+            "compiled_at": "2026-04-18",
+            "articles_touched": [
+                "工具与生态/HyperFrames.md",
+                "工具与生态/OpenClaw-Skill生态.md"
+            ]
+        },
+        "raw/claude-code-game-studios-2026-04-18.md": {
+            "mtime": 1776536596,
+            "compiled_at": "2026-04-18",
+            "articles_touched": [
+                "Agent工程/Claude-Code-Game-Studios.md",
+                "工具与生态/GStack-虚拟工程团队.md",
+                "Agent工程/Claude-Agent-Teams.md"
+            ]
+        },
+        "raw/agency-agents-2026-04-18.md": {
+            "mtime": 1776537153,
+            "compiled_at": "2026-04-18",
+            "articles_touched": [
+                "Agent工程/The-Agency-Agents.md",
+                "工具与生态/OpenClaw-Skill生态.md"
+            ]
+        },
+        "raw/superpowers-obra-2026-04-18.md": {
+            "mtime": 1776537449,
+            "compiled_at": "2026-04-18",
+            "articles_touched": [
+                "Agent工程/Superpowers.md",
+                "Agent工程/Claude-Sub-Agents.md"
+            ]
+        },
+        "raw/claude-mem-2026-04-18.md": {
+            "mtime": 1776537655,
+            "compiled_at": "2026-04-18",
+            "articles_touched": [
+                "知识管理/Claude-Mem.md",
+                "知识管理/Agent记忆持久化.md"
+            ]
+        },
+        "raw/coolify-2026-04-18.md": {
+            "mtime": 1776539042,
+            "compiled_at": "2026-04-18",
+            "articles_touched": [
+                "工具与生态/Coolify.md",
+                "工具与生态/内部系统Agent集成.md"
+            ]
+        },
+        "raw/n8n-2026-04-18.md": {
+            "mtime": 1776539064,
+            "compiled_at": "2026-04-18",
+            "articles_touched": [
+                "工具与生态/n8n.md",
+                "工具与生态/内部系统Agent集成.md"
+            ]
+        },
+        "raw/code-simplifier-plugin-2026-04-18.md": {
+            "mtime": 1776539082,
+            "compiled_at": "2026-04-18",
+            "articles_touched": [
+                "Agent工程/Code-Simplifier.md"
+            ]
+        },
+        "raw/codex-inapp-browser-2026-04-18.md": {
+            "mtime": 1776540183,
+            "compiled_at": "2026-04-18",
+            "articles_touched": [
+                "工具与生态/Codex-InApp-Browser.md",
+                "来源/codex-inapp-browser-2026-04-18.md",
+                "工具与生态/内部系统Agent集成.md"
+            ]
+        },
+        "raw/codex-for-almost-everything-2026-04-18.md": {
+            "mtime": 1776540711,
+            "compiled_at": "2026-04-18",
+            "articles_touched": [
+                "工具与生态/Codex-全能助手.md",
+                "来源/codex-for-almost-everything-2026-04-18.md",
+                "工具与生态/Codex-InApp-Browser.md",
+                "知识管理/Agent记忆持久化.md"
+            ]
+        },
+        "raw/AI编程.md": {
+            "mtime": 1775610009.74476,
+            "compiled_at": "2026-04-19",
+            "note": "文件由 AI编程.pdf 重命名而来，内容与已入库文章重叠（Agent工程/Claude-Agent-Teams.md 等），做梦巡逻标记为已知，暂不重复入库",
+            "articles_touched": []
+        },
+        "raw/repo-analyzer-2026-04-19.md": {
+            "mtime": 1776565669,
+            "compiled_at": "2026-04-19",
+            "articles_touched": [
+                "工具与生态/repo-analyzer.md",
+                "来源/repo-analyzer-2026-04-19.md",
+                "工具与生态/OpenClaw-Skill生态.md",
+                "Agent工程/Claude-Code源码架构.md"
+            ]
+        },
+        "raw/superpowers-prompts-2026-04-19.md": {
+            "mtime": 1776585182,
+            "compiled_at": "2026-04-19",
+            "note": "微信文章内容无法直接抓取，仅标题已知。已建占位节并更新 Superpowers.md，待原文内容获取后补充 8 条提示词",
+            "articles_touched": [
+                "Agent工程/Superpowers.md"
+            ]
+        },
+        "raw/addyosmani-agent-skills-2026-04-22.md": {
+            "mtime": 1776871010.860672,
+            "compiled_at": "2026-04-22T15:13:00+08:00"
+        },
+        "raw/autoresearch-smallnest-2026-04-22.md": {
+            "mtime": 1776872046.5056689,
+            "compiled_at": "2026-04-22T15:33:00+08:00"
+        },
+        "raw/autoskills-midudev-2026-04-22.md": {
+            "mtime": 1776872830.8256345,
+            "compiled_at": "2026-04-22T15:46:00+08:00"
+        },
+        "raw/skills-manage-iamzhihuix-2026-04-22.md": {
+            "mtime": 1776872860.3725197,
+            "compiled_at": "2026-04-22T15:46:00+08:00"
+        },
+        "raw/karpathy-skills-forrestchang-2026-04-23.md": {
+            "mtime": 1776964936.6955526,
+            "compiled_at": "2026-04-23T17:30:00+08:00",
+            "articles_touched": [
+                "Agent工程/Karpathy-LLM编码准则.md",
+                "人物/Andrej-Karpathy.md",
+                "Agent工程/CLAUDE-md配置方法论.md"
+            ]
+        },
+        "raw/hytidellegend-ai-worker-2026-04-23.md": {
+            "mtime": 1776964951.3724954,
+            "compiled_at": "2026-04-23T17:30:00+08:00",
+            "articles_touched": [
+                "philosophies/AI与商业角色转变.md"
+            ]
+        },
+        "raw/openspec-superpowers-gstack-2026-04-25.md": {
+            "mtime": 1777091357.871932,
+            "hash": "d5269cc5170a2afa8709336fc5410edf",
+            "compiled_at": "2026-04-25"
+        },
+        "raw/nashsu-llm-wiki-desktop-2026-04-25.md": {
+            "mtime": 1777098314.1623213,
+            "hash": "68c9eea82fcb27d5f7b83fd2335e8883",
+            "compiled_at": "2026-04-25"
+        },
+        "raw/graphify-claude-code-kg-2026-04-26.md": {
+            "mtime": 1777206142.2105677,
+            "size": 2855,
+            "compiled_at": "2026-04-26",
+            "articles_touched": [
+                "工具与生态/Graphify-代码知识图谱.md"
+            ]
+        },
+        "raw/AI 增强开发的三件套：OpenSpec + Superpowers + gstack.md": {
+            "mtime": 1777212486,
+            "compiled_at": "2026-04-26",
+            "articles_touched": [
+                "Agent工程/OpenSpec.md",
+                "Agent工程/Superpowers.md",
+                "工具与生态/GStack-虚拟工程团队.md",
+                "Agent工程/CLAUDE-md配置方法论.md"
+            ]
+        },
+        "raw/面试官-powerup.md": {
+            "mtime": 1777212487,
+            "compiled_at": "2026-04-26",
+            "articles_touched": [
+                "Agent工程/Claude-Code-Powerup教程.md",
+                "Agent工程/Claude-Code源码架构.md"
+            ]
+        },
+        "https://github.com/yaojingang/GEOFlow": {
+            "source": "https://github.com/yaojingang/GEOFlow",
+            "compiled_at": "2026-05-24",
+            "articles_touched": [
+                "wiki/工具与生态/GEOFlow.md",
+                "wiki/Agent工程/AI内容创作工作流.md"
+            ],
+            "notes": "GEO内容工程与多站点分发系统，新建文章GEOFlow.md，更新AI内容创作工作流.md"
+        },
+        "https://github.com/google/eng-practices": {
+            "source": "https://github.com/google/eng-practices",
+            "compiled_at": "2026-05-24",
+            "articles_touched": [
+                "wiki/Agent工程/Google工程实践-代码审查规范.md",
+                "wiki/Agent工程/Karpathy-LLM编码准则.md"
+            ],
+            "notes": "Google代码审查规范，新建文章，更新Karpathy反向链接"
+        },
+        "https://github.com/Lum1104/Understand-Anything": {
+            "source": "https://github.com/Lum1104/Understand-Anything",
+            "compiled_at": "2026-05-24",
+            "articles_touched": [
+                "wiki/工具与生态/Understand-Anything.md",
+                "wiki/工具与生态/Graphify-代码知识图谱.md"
+            ],
+            "notes": "代码库交互式知识图谱工具，新建文章，更新Graphify反向链接"
+        }
     },
-    {
-      "date": "2026-06-10",
-      "sources": [
-        "philosophies/AI与商业角色转变.md",
-        "工具与生态/Coolify.md",
-        "知识管理/幂等防重模式.md"
-      ],
-      "insight": "洞见/Insight-幂等积累能力决定AI时代阶级固化速度-2026-06-10.md"
+    "raw/shao-meng-prompt-caching-2026-05-11.md": {
+        "mtime": 1778515236,
+        "compiled_at": "2026-05-11",
+        "articles_touched": [
+            "工具与生态/Prompt-Caching降本.md"
+        ]
     },
-    {
-      "date": "2026-06-13",
-      "action": "dream",
-      "notes": "灵感碰撞：GBrain × Claude-Agent团队协作 × Coolify；新建 insights/Insight-私有认知系统的三层自治架构-2026-06-13.md；健康检查完成"
+    "raw/vincemask-claudemd-8tips-2026-05-11.md": {
+        "mtime": 1778515760,
+        "compiled_at": "2026-05-11",
+        "articles_touched": [
+            "Agent工程/CLAUDE-md配置方法论.md"
+        ]
     },
-    {
-      "date": "2026-06-16",
-      "action": "dream",
-      "notes": "灵感碰撞：AI与商业角色转变 × Agent记忆持久化 × OpenClaw-Skill生态；新建 洞见/Insight-能力分发权决定AI时代的话语权-2026-06-16.md；健康检查完成：36死链、28孤儿页、0超长文章、2 stub"
-    },
-    {
-      "date": "2026-06-17",
-      "action": "dream",
-      "notes": "灵感碰撞：repo-analyzer-2026-04-19 × OpenClaw-Skill生态 × OpenClaw-Agent安全体系；新建 insights/Insight-架构透视是Skill供应链信任的前置条件-2026-06-17.md；健康检查完成：45死链（主要为跨目录引用格式问题）、61孤儿页（主要为insights系列未被主文章回链）、0超长文章、0空stub"
-    },
-    {
-      "date": "2026-06-18",
-      "insight": "Insight-知识演化的确定性重放与安全可审计性-2026-06-18.md",
-      "sources": [
-        "HyperFrames",
-        "GBrain-世界知识脑",
-        "OpenClaw-Agent安全体系"
-      ]
-    },
-    {
-      "date": "2026-06-22",
-      "action": "dream",
-      "notes": "灵感碰撞：Coolify × Andrej-Karpathy × Prompt-Caching降本；新建 insights/Insight-基础设施前缀稳定性是知识复利的物理基础-2026-06-22.md；健康检查完成：65孤儿页（61为insights/洞见类，4为来源页正常）、28死链目标/45死链引用（主要为跨目录引用格式问题和部分洞见文章cross-ref路径不一致）、0超长文章、0空stub；遗漏素材：3份（shao-meng-prompt-caching-2026-05-11.md、vincemask-claudemd-8tips-2026-05-11.md、面试官-powerup.md）"
-    },
-    {
-      "date": "2026-06-24",
-      "action": "dream",
-      "notes": "灵感碰撞：Wiki与RAG的对比 × AI与商业角色转变 × Andrej-Karpathy；新建 insights/Insight-积累位置决定价值归属-2026-06-24.md；健康检查：67孤儿页（63为insights/洞见类正常）、29死链目标（跨目录格式+占位符+路径不一致，非真实内容缺失）、0超长文章、0空stub；git pull无冲突，待push"
+    "raw/面试官：“你 Claude Code 用得这么 6？” 我暗喜：“我早把 powerup 命令的流程都做了”，他：你牛逼.md": {
+        "compiled_at": "2026-05-17",
+        "articles_touched": [
+            "Agent工程/Claude-Code-Powerup教程.md"
+        ]
     }
-  ],
-  "compiled_files": {
-    "raw/AI编程.pdf": {
-      "mtime": 1775417213,
-      "compiled_at": "2026-04-05",
-      "articles_touched": [
-        "Agent工程/Claude-Agent-Teams.md",
-        "Agent工程/Claude-Sub-Agents.md",
-        "Agent工程/CLAUDE-md配置方法论.md",
-        "知识管理/知识沉淀双轨机制.md"
-      ]
-    },
-    "raw/karpathy-llm-wiki-pattern.md": {
-      "mtime": 1775462008,
-      "compiled_at": "2026-04-06",
-      "articles_touched": [
-        "知识管理/个人知识库编译器模式.md",
-        "知识管理/LLM知识库三层架构.md",
-        "知识管理/Wiki-vs-RAG.md",
-        "人物/Andrej-Karpathy.md",
-        "来源/karpathy-llm-wiki-pattern.md"
-      ]
-    },
-    "raw/zhangpelf-wiki-compiler-v2.md": {
-      "mtime": 1775461962,
-      "compiled_at": "2026-04-06",
-      "articles_touched": [
-        "知识管理/个人知识库编译器模式.md",
-        "知识管理/幂等防重模式.md",
-        "知识管理/做梦机制.md",
-        "人物/Andrej-Karpathy.md",
-        "来源/zhangpelf-wiki-compiler-v2.md"
-      ]
-    },
-    "raw/farzaa-personal-wiki-skill.md": {
-      "mtime": 1775462059,
-      "compiled_at": "2026-04-06",
-      "articles_touched": [
-        "知识管理/个人知识库编译器模式.md",
-        "知识管理/幂等防重模式.md",
-        "来源/farzaa-personal-wiki-skill.md"
-      ]
-    },
-    "raw/ai-research-list-2026-04-06.md": {
-      "mtime": 1775470070,
-      "compiled_at": "2026-04-06",
-      "articles_touched": [
-        "安全/OpenClaw-Agent安全体系.md",
-        "工具与生态/Prompt-Caching降本.md",
-        "知识管理/Agent记忆持久化.md",
-        "工具与生态/OpenClaw-Skill生态.md",
-        "工具与生态/内部系统Agent集成.md",
-        "Agent工程/AI内容创作工作流.md",
-        "知识管理/自学习复盘模式.md",
-        "来源/ai-research-list-2026-04-06.md",
-        "Agent工程/CLAUDE-md配置方法论.md",
-        "Agent工程/Claude-Agent-Teams.md",
-        "知识管理/知识沉淀双轨机制.md"
-      ]
-    },
-    "raw/articles/claude-code-source-study-github.md": {
-      "mtime": 1775527880,
-      "compiled_at": "2026-04-07",
-      "articles_touched": [
-        "Agent工程/Claude-Code源码架构.md",
-        "来源/claude-code-source-study.md",
-        "工具与生态/Prompt-Caching降本.md",
-        "知识管理/Agent记忆持久化.md",
-        "Agent工程/CLAUDE-md配置方法论.md"
-      ]
-    },
-    "raw/dotey-hermes-agent-2026-04-08.md": {
-      "mtime": 1775670299,
-      "compiled_at": "2026-04-08",
-      "articles_touched": [
-        "Agent工程/Hermes-Agent.md",
-        "工具与生态/OpenClaw-Skill生态.md"
-      ]
-    },
-    "raw/markdown-viewer-skills.md": {
-      "mtime": 1775912923,
-      "compiled_at": "2026-04-11",
-      "articles_touched": [
-        "工具与生态/markdown-viewer-skills.md",
-        "工具与生态/OpenClaw-Skill生态.md"
-      ]
-    },
-    "raw/garrytan-gbrain.md": {
-      "mtime": 1775913176,
-      "compiled_at": "2026-04-11",
-      "articles_touched": [
-        "知识管理/GBrain-世界知识脑.md",
-        "知识管理/Agent记忆持久化.md"
-      ]
-    },
-    "raw/garrytan-gstack.md": {
-      "mtime": 1775913234,
-      "compiled_at": "2026-04-11",
-      "articles_touched": [
-        "工具与生态/GStack-虚拟工程团队.md",
-        "工具与生态/OpenClaw-Skill生态.md"
-      ]
-    },
-    "raw/hyperframes-heygen-2026-04-18.md": {
-      "mtime": 1776535641,
-      "compiled_at": "2026-04-18",
-      "articles_touched": [
-        "工具与生态/HyperFrames.md",
-        "工具与生态/OpenClaw-Skill生态.md"
-      ]
-    },
-    "raw/claude-code-game-studios-2026-04-18.md": {
-      "mtime": 1776536596,
-      "compiled_at": "2026-04-18",
-      "articles_touched": [
-        "Agent工程/Claude-Code-Game-Studios.md",
-        "工具与生态/GStack-虚拟工程团队.md",
-        "Agent工程/Claude-Agent-Teams.md"
-      ]
-    },
-    "raw/agency-agents-2026-04-18.md": {
-      "mtime": 1776537153,
-      "compiled_at": "2026-04-18",
-      "articles_touched": [
-        "Agent工程/The-Agency-Agents.md",
-        "工具与生态/OpenClaw-Skill生态.md"
-      ]
-    },
-    "raw/superpowers-obra-2026-04-18.md": {
-      "mtime": 1776537449,
-      "compiled_at": "2026-04-18",
-      "articles_touched": [
-        "Agent工程/Superpowers.md",
-        "Agent工程/Claude-Sub-Agents.md"
-      ]
-    },
-    "raw/claude-mem-2026-04-18.md": {
-      "mtime": 1776537655,
-      "compiled_at": "2026-04-18",
-      "articles_touched": [
-        "知识管理/Claude-Mem.md",
-        "知识管理/Agent记忆持久化.md"
-      ]
-    },
-    "raw/coolify-2026-04-18.md": {
-      "mtime": 1776539042,
-      "compiled_at": "2026-04-18",
-      "articles_touched": [
-        "工具与生态/Coolify.md",
-        "工具与生态/内部系统Agent集成.md"
-      ]
-    },
-    "raw/n8n-2026-04-18.md": {
-      "mtime": 1776539064,
-      "compiled_at": "2026-04-18",
-      "articles_touched": [
-        "工具与生态/n8n.md",
-        "工具与生态/内部系统Agent集成.md"
-      ]
-    },
-    "raw/code-simplifier-plugin-2026-04-18.md": {
-      "mtime": 1776539082,
-      "compiled_at": "2026-04-18",
-      "articles_touched": [
-        "Agent工程/Code-Simplifier.md"
-      ]
-    },
-    "raw/codex-inapp-browser-2026-04-18.md": {
-      "mtime": 1776540183,
-      "compiled_at": "2026-04-18",
-      "articles_touched": [
-        "工具与生态/Codex-InApp-Browser.md",
-        "来源/codex-inapp-browser-2026-04-18.md",
-        "工具与生态/内部系统Agent集成.md"
-      ]
-    },
-    "raw/codex-for-almost-everything-2026-04-18.md": {
-      "mtime": 1776540711,
-      "compiled_at": "2026-04-18",
-      "articles_touched": [
-        "工具与生态/Codex-全能助手.md",
-        "来源/codex-for-almost-everything-2026-04-18.md",
-        "工具与生态/Codex-InApp-Browser.md",
-        "知识管理/Agent记忆持久化.md"
-      ]
-    },
-    "raw/AI编程.md": {
-      "mtime": 1775610009.74476,
-      "compiled_at": "2026-04-19",
-      "note": "文件由 AI编程.pdf 重命名而来，内容与已入库文章重叠（Agent工程/Claude-Agent-Teams.md 等），做梦巡逻标记为已知，暂不重复入库",
-      "articles_touched": []
-    },
-    "raw/repo-analyzer-2026-04-19.md": {
-      "mtime": 1776565669,
-      "compiled_at": "2026-04-19",
-      "articles_touched": [
-        "工具与生态/repo-analyzer.md",
-        "来源/repo-analyzer-2026-04-19.md",
-        "工具与生态/OpenClaw-Skill生态.md",
-        "Agent工程/Claude-Code源码架构.md"
-      ]
-    },
-    "raw/superpowers-prompts-2026-04-19.md": {
-      "mtime": 1776585182,
-      "compiled_at": "2026-04-19",
-      "note": "微信文章内容无法直接抓取，仅标题已知。已建占位节并更新 Superpowers.md，待原文内容获取后补充 8 条提示词",
-      "articles_touched": [
-        "Agent工程/Superpowers.md"
-      ]
-    },
-    "raw/addyosmani-agent-skills-2026-04-22.md": {
-      "mtime": 1776871010.860672,
-      "compiled_at": "2026-04-22T15:13:00+08:00"
-    },
-    "raw/autoresearch-smallnest-2026-04-22.md": {
-      "mtime": 1776872046.5056689,
-      "compiled_at": "2026-04-22T15:33:00+08:00"
-    },
-    "raw/autoskills-midudev-2026-04-22.md": {
-      "mtime": 1776872830.8256345,
-      "compiled_at": "2026-04-22T15:46:00+08:00"
-    },
-    "raw/skills-manage-iamzhihuix-2026-04-22.md": {
-      "mtime": 1776872860.3725197,
-      "compiled_at": "2026-04-22T15:46:00+08:00"
-    },
-    "raw/karpathy-skills-forrestchang-2026-04-23.md": {
-      "mtime": 1776964936.6955526,
-      "compiled_at": "2026-04-23T17:30:00+08:00",
-      "articles_touched": [
-        "Agent工程/Karpathy-LLM编码准则.md",
-        "人物/Andrej-Karpathy.md",
-        "Agent工程/CLAUDE-md配置方法论.md"
-      ]
-    },
-    "raw/hytidellegend-ai-worker-2026-04-23.md": {
-      "mtime": 1776964951.3724954,
-      "compiled_at": "2026-04-23T17:30:00+08:00",
-      "articles_touched": [
-        "philosophies/AI与商业角色转变.md"
-      ]
-    },
-    "raw/openspec-superpowers-gstack-2026-04-25.md": {
-      "mtime": 1777091357.871932,
-      "hash": "d5269cc5170a2afa8709336fc5410edf",
-      "compiled_at": "2026-04-25"
-    },
-    "raw/nashsu-llm-wiki-desktop-2026-04-25.md": {
-      "mtime": 1777098314.1623213,
-      "hash": "68c9eea82fcb27d5f7b83fd2335e8883",
-      "compiled_at": "2026-04-25"
-    },
-    "raw/graphify-claude-code-kg-2026-04-26.md": {
-      "mtime": 1777206142.2105677,
-      "size": 2855,
-      "compiled_at": "2026-04-26",
-      "articles_touched": [
-        "工具与生态/Graphify-代码知识图谱.md"
-      ]
-    },
-    "raw/AI 增强开发的三件套：OpenSpec + Superpowers + gstack.md": {
-      "mtime": 1777212486,
-      "compiled_at": "2026-04-26",
-      "articles_touched": [
-        "Agent工程/OpenSpec.md",
-        "Agent工程/Superpowers.md",
-        "工具与生态/GStack-虚拟工程团队.md",
-        "Agent工程/CLAUDE-md配置方法论.md"
-      ]
-    },
-    "raw/面试官-powerup.md": {
-      "mtime": 1777212487,
-      "compiled_at": "2026-04-26",
-      "articles_touched": [
-        "Agent工程/Claude-Code-Powerup教程.md",
-        "Agent工程/Claude-Code源码架构.md"
-      ]
-    },
-    "https://github.com/yaojingang/GEOFlow": {
-      "source": "https://github.com/yaojingang/GEOFlow",
-      "compiled_at": "2026-05-24",
-      "articles_touched": [
-        "wiki/工具与生态/GEOFlow.md",
-        "wiki/Agent工程/AI内容创作工作流.md"
-      ],
-      "notes": "GEO内容工程与多站点分发系统，新建文章GEOFlow.md，更新AI内容创作工作流.md"
-    },
-    "https://github.com/google/eng-practices": {
-      "source": "https://github.com/google/eng-practices",
-      "compiled_at": "2026-05-24",
-      "articles_touched": [
-        "wiki/Agent工程/Google工程实践-代码审查规范.md",
-        "wiki/Agent工程/Karpathy-LLM编码准则.md"
-      ],
-      "notes": "Google代码审查规范，新建文章，更新Karpathy反向链接"
-    },
-    "https://github.com/Lum1104/Understand-Anything": {
-      "source": "https://github.com/Lum1104/Understand-Anything",
-      "compiled_at": "2026-05-24",
-      "articles_touched": [
-        "wiki/工具与生态/Understand-Anything.md",
-        "wiki/工具与生态/Graphify-代码知识图谱.md"
-      ],
-      "notes": "代码库交互式知识图谱工具，新建文章，更新Graphify反向链接"
-    }
-  },
-  "raw/shao-meng-prompt-caching-2026-05-11.md": {
-    "mtime": 1778515236,
-    "compiled_at": "2026-05-11",
-    "articles_touched": [
-      "工具与生态/Prompt-Caching降本.md"
-    ]
-  },
-  "raw/vincemask-claudemd-8tips-2026-05-11.md": {
-    "mtime": 1778515760,
-    "compiled_at": "2026-05-11",
-    "articles_touched": [
-      "Agent工程/CLAUDE-md配置方法论.md"
-    ]
-  },
-  "raw/面试官：“你 Claude Code 用得这么 6？” 我暗喜：“我早把 powerup 命令的流程都做了”，他：你牛逼.md": {
-    "compiled_at": "2026-05-17",
-    "articles_touched": [
-      "Agent工程/Claude-Code-Powerup教程.md"
-    ]
-  }
 }

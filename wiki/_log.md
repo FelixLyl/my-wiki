@@ -1,5 +1,14 @@
 # Wiki 操作日志
 
+## [2026-06-27] dream | 灵感碰撞 × 健康检查 — 新建 1 篇 insight 文章
+
+- git pull --rebase：无冲突，Already up to date
+- 素材巡逻：raw/ 35 个文件，已入账 32 个，遗漏 3 份（shao-meng-prompt-caching-2026-05-11.md、vincemask-claudemd-8tips-2026-05-11.md、面试官-powerup.md），持续挂账待入库
+- 灵感碰撞：HyperFrames × 做梦机制 × AI与商业角色转变
+- 新建：insights/Insight-格式主权是价值链位置的隐性决定因素-2026-06-27.md
+- 健康检查：总文章数 134；孤儿页面 2 篇（来源类，低优先级：ai-research-list、codex-inapp-browser）；死链 9 条（含 [[wikilink]] 占位符、跨目录引用不一致、示例占位符，非真实内容缺失）；无超长文章（>150行）；无空stub
+- git push：已同步到 GitHub main
+
 ## [2026-06-26] dream | 灵感碰撞 × 健康检查 — 新建 1 篇 insight 文章
 
 - git pull --rebase：无冲突，Already up to date

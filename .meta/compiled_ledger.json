@@ -1,7 +1,12 @@
 {
     "version": "1.0",
-    "last_updated": "2026-06-26T01:00:00+08:00",
+    "last_updated": "2026-06-28T09:00:00+08:00",
     "dream_log": [
+        {
+            "date": "2026-06-28",
+            "action": "dream",
+            "notes": "灵感碰撞：AI与商业角色转变 × HyperFrames × Claude-Code游戏工作室实践；新建 insights/Insight-母语化工具降低人类角色议价权的速度-2026-06-28.md；健康检查完成：137篇文章，38孤儿页（35为insights/洞见类正常，1为来源类低优先级），36死链（25个唯一目标，主要为占位符和引用路径不一致，非真实缺失），0超长文章，0空stub"
+        },
         {
             "date": "2026-06-19",
             "action": "dream",

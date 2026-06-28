@@ -1,5 +1,14 @@
 # Wiki 操作日志
 
+## [2026-06-28] dream | 灵感碰撞 × 健康检查 — 新建 1 篇 insight 文章
+
+- git pull --rebase：无冲突，Already up to date
+- 素材巡逻：raw/ 35 个文件，已入账均已覆盖（_index.md 和 ledger 均无遗漏），无新增待处理素材
+- 灵感碰撞：AI与商业角色转变 × HyperFrames × Claude-Code游戏工作室实践
+- 新建：insights/Insight-母语化工具降低人类角色议价权的速度-2026-06-28.md
+- 健康检查：总文章数 137；孤儿页面 38（35篇为insights/洞见类正常，来源类孤儿 1 篇：codex-inapp-browser-2026-04-18，低优先级）；死链 36 个（25个唯一目标，主要为占位符[[wikilink]][[xxx]]、已移动洞见文章引用路径不一致、示例[[实体名]]，非真实内容缺失）；无超长文章（>150行）；无空stub（2个stub均有足够内容）
+- git push：已同步到 GitHub main
+
 ## [2026-06-27] dream | 灵感碰撞 × 健康检查 — 新建 1 篇 insight 文章
 
 - git pull --rebase：无冲突，Already up to date

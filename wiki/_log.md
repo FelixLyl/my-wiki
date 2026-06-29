@@ -983,3 +983,9 @@
   - 超长文章（>150行）：0篇 ✅
   - 空stub：0篇 ✅
 - git push：执行中
+
+## [2026-06-29] dream | 做梦机制执行
+- git pull --rebase: 已是最新，无冲突
+- 遗漏素材检查: 发现3份未入库 (shao-meng-prompt-caching-2026-05-11.md, vincemask-claudemd-8tips-2026-05-11.md, 面试官Claude Code.md)
+- 灵感碰撞: n8n + OpenClaw-Agent安全体系 + Karpathy-LLM编码准则 → 新建 Insight-自主系统的阻断点设计-2026-06-29.md
+- 健康检查: 总文章136篇，孤儿页39（均在洞见/来源目录，属正常），死链36处，超长文章0篇

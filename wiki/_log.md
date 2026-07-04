@@ -1019,3 +1019,10 @@
 - 灵感碰撞: AI与商业角色转变 × GEOFlow × 自学习复盘模式 → 新建 insights/Insight-成为信源是突破AI角色固化的具体路径-2026-07-02.md
 - 健康检查: 总文章139篇，孤儿页73（均在insights/洞见/来源目录，属正常），死链37条（主要为跨目录路径引用格式不一致+少量占位符），超长文章0篇，空stub 0篇
 - git push: 执行中
+
+## 2026-07-04 dream
+- git pull --rebase: 已是最新，无冲突
+- 遗漏素材检查: raw/ 中34份文件，发现3份未入库素材（shao-meng-prompt-caching-2026-05-11.md、vincemask-claudemd-8tips-2026-05-11.md、面试官powerup.md）
+- 灵感碰撞: OpenClaw-Agent安全体系 × Graphify-代码知识图谱 × claude-code-source-study → 新建 insights/Insight-Agent行为图谱是安全审计的结构底座-2026-07-04.md
+- 健康检查: 总文章141篇，孤儿页42（均在insights/洞见/来源目录，属正常），死链22份文件中存在（主要为路径格式问题和跨目录引用），超长文章1篇（_log.md本身），空stub 0篇
+- git push: 执行中

@@ -1,5 +1,14 @@
 # Wiki 操作日志
 
+## [2026-07-06] dream | 灵感碰撞 × 健康检查 — 新建 1 篇 insight 文章
+
+- git pull --rebase：无冲突，Already up to date
+- 素材巡逻：raw/ 文件 35 个（不含 articles 子目录 1 个），已入账 32 个，**遗漏 3 份持续挂账**（shao-meng-prompt-caching-2026-05-11.md、vincemask-claudemd-8tips-2026-05-11.md、面试官-powerup.md）——待主人决定是否入库
+- 灵感碰撞：The-Agency多Agent框架 × Andrej-Karpathy × AI与商业角色转变
+- 新建：insights/Insight-角色设计权是AI价值链的顶点-2026-07-06.md
+- 健康检查：总文章数 144；孤儿页面 5（来源类 4 篇 + projects/PCA备考计划 1 篇）；死链 27 处（主要为占位符链接、洞见文章跨目录引用不一致，非真实内容缺失）；无超长文章（>150行）；stub 2 篇（AI与商业角色转变、代码简化工具，内容均 >5 行）
+- git push：已同步到 GitHub main
+
 ## [2026-07-03] dream | 灵感碰撞 × 健康检查 — 新建 1 篇 insight 文章
 
 - git pull --rebase：无冲突，Already up to date
